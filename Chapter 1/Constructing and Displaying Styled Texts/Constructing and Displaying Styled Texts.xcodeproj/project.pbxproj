@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D13A3D31777631800E5F058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13A3D21777631800E5F058 /* Foundation.framework */; };
+		9D13A3D51777631800E5F058 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13A3D41777631800E5F058 /* CoreGraphics.framework */; };
+		9D13A3D71777631800E5F058 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13A3D61777631800E5F058 /* UIKit.framework */; };
+		9D13A3DD1777631800E5F058 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D13A3DB1777631800E5F058 /* InfoPlist.strings */; };
+		9D13A3DF1777631800E5F058 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D13A3DE1777631800E5F058 /* main.m */; };
+		9D13A3E31777631800E5F058 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D13A3E21777631800E5F058 /* AppDelegate.m */; };
+		9D13A3E61777631800E5F058 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D13A3E41777631800E5F058 /* Main_iPhone.storyboard */; };
+		9D13A3E91777631800E5F058 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D13A3E71777631800E5F058 /* Main_iPad.storyboard */; };
+		9D13A3EC1777631800E5F058 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D13A3EB1777631800E5F058 /* ViewController.m */; };
+		9D13A3EE1777631800E5F058 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D13A3ED1777631800E5F058 /* Images.xcassets */; };
+		9D13A3F51777631800E5F058 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13A3F41777631800E5F058 /* XCTest.framework */; };
+		9D13A3F61777631800E5F058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13A3D21777631800E5F058 /* Foundation.framework */; };
+		9D13A3F71777631800E5F058 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13A3D61777631800E5F058 /* UIKit.framework */; };
+		9D13A3FF1777631800E5F058 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D13A3FD1777631800E5F058 /* InfoPlist.strings */; };
+		9D13A4011777631800E5F058 /* Constructing_and_Displaying_Styled_TextsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D13A4001777631800E5F058 /* Constructing_and_Displaying_Styled_TextsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D13A3F81777631800E5F058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D13A3C71777631800E5F058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D13A3CE1777631800E5F058;
+			remoteInfo = "Constructing and Displaying Styled Texts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D13A3CF1777631800E5F058 /* Constructing and Displaying Styled Texts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Constructing and Displaying Styled Texts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D13A3D21777631800E5F058 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D13A3D41777631800E5F058 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D13A3D61777631800E5F058 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D13A3DA1777631800E5F058 /* Constructing and Displaying Styled Texts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Constructing and Displaying Styled Texts-Info.plist"; sourceTree = "<group>"; };
+		9D13A3DC1777631800E5F058 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D13A3DE1777631800E5F058 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D13A3E01777631800E5F058 /* Constructing and Displaying Styled Texts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Constructing and Displaying Styled Texts-Prefix.pch"; sourceTree = "<group>"; };
+		9D13A3E11777631800E5F058 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D13A3E21777631800E5F058 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D13A3E51777631800E5F058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9D13A3E81777631800E5F058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9D13A3EA1777631800E5F058 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D13A3EB1777631800E5F058 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D13A3ED1777631800E5F058 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D13A3F31777631800E5F058 /* Constructing and Displaying Styled TextsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Constructing and Displaying Styled TextsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D13A3F41777631800E5F058 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D13A3FC1777631800E5F058 /* Constructing and Displaying Styled TextsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Constructing and Displaying Styled TextsTests-Info.plist"; sourceTree = "<group>"; };
+		9D13A3FE1777631800E5F058 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D13A4001777631800E5F058 /* Constructing_and_Displaying_Styled_TextsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constructing_and_Displaying_Styled_TextsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D13A3CC1777631800E5F058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D13A3D51777631800E5F058 /* CoreGraphics.framework in Frameworks */,
+				9D13A3D71777631800E5F058 /* UIKit.framework in Frameworks */,
+				9D13A3D31777631800E5F058 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D13A3F01777631800E5F058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D13A3F51777631800E5F058 /* XCTest.framework in Frameworks */,
+				9D13A3F71777631800E5F058 /* UIKit.framework in Frameworks */,
+				9D13A3F61777631800E5F058 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D13A3C61777631800E5F058 = {
+			isa = PBXGroup;
+			children = (
+				9D13A3D81777631800E5F058 /* Constructing and Displaying Styled Texts */,
+				9D13A3FA1777631800E5F058 /* Constructing and Displaying Styled TextsTests */,
+				9D13A3D11777631800E5F058 /* Frameworks */,
+				9D13A3D01777631800E5F058 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D13A3D01777631800E5F058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D13A3CF1777631800E5F058 /* Constructing and Displaying Styled Texts.app */,
+				9D13A3F31777631800E5F058 /* Constructing and Displaying Styled TextsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D13A3D11777631800E5F058 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D13A3D21777631800E5F058 /* Foundation.framework */,
+				9D13A3D41777631800E5F058 /* CoreGraphics.framework */,
+				9D13A3D61777631800E5F058 /* UIKit.framework */,
+				9D13A3F41777631800E5F058 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D13A3D81777631800E5F058 /* Constructing and Displaying Styled Texts */ = {
+			isa = PBXGroup;
+			children = (
+				9D13A3E11777631800E5F058 /* AppDelegate.h */,
+				9D13A3E21777631800E5F058 /* AppDelegate.m */,
+				9D13A3E41777631800E5F058 /* Main_iPhone.storyboard */,
+				9D13A3E71777631800E5F058 /* Main_iPad.storyboard */,
+				9D13A3EA1777631800E5F058 /* ViewController.h */,
+				9D13A3EB1777631800E5F058 /* ViewController.m */,
+				9D13A3ED1777631800E5F058 /* Images.xcassets */,
+				9D13A3D91777631800E5F058 /* Supporting Files */,
+			);
+			path = "Constructing and Displaying Styled Texts";
+			sourceTree = "<group>";
+		};
+		9D13A3D91777631800E5F058 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D13A3DA1777631800E5F058 /* Constructing and Displaying Styled Texts-Info.plist */,
+				9D13A3DB1777631800E5F058 /* InfoPlist.strings */,
+				9D13A3DE1777631800E5F058 /* main.m */,
+				9D13A3E01777631800E5F058 /* Constructing and Displaying Styled Texts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D13A3FA1777631800E5F058 /* Constructing and Displaying Styled TextsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D13A4001777631800E5F058 /* Constructing_and_Displaying_Styled_TextsTests.m */,
+				9D13A3FB1777631800E5F058 /* Supporting Files */,
+			);
+			path = "Constructing and Displaying Styled TextsTests";
+			sourceTree = "<group>";
+		};
+		9D13A3FB1777631800E5F058 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D13A3FC1777631800E5F058 /* Constructing and Displaying Styled TextsTests-Info.plist */,
+				9D13A3FD1777631800E5F058 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D13A3CE1777631800E5F058 /* Constructing and Displaying Styled Texts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D13A4041777631800E5F058 /* Build configuration list for PBXNativeTarget "Constructing and Displaying Styled Texts" */;
+			buildPhases = (
+				9D13A3CB1777631800E5F058 /* Sources */,
+				9D13A3CC1777631800E5F058 /* Frameworks */,
+				9D13A3CD1777631800E5F058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Constructing and Displaying Styled Texts";
+			productName = "Constructing and Displaying Styled Texts";
+			productReference = 9D13A3CF1777631800E5F058 /* Constructing and Displaying Styled Texts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D13A3F21777631800E5F058 /* Constructing and Displaying Styled TextsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D13A4071777631800E5F058 /* Build configuration list for PBXNativeTarget "Constructing and Displaying Styled TextsTests" */;
+			buildPhases = (
+				9D13A3EF1777631800E5F058 /* Sources */,
+				9D13A3F01777631800E5F058 /* Frameworks */,
+				9D13A3F11777631800E5F058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D13A3F91777631800E5F058 /* PBXTargetDependency */,
+			);
+			name = "Constructing and Displaying Styled TextsTests";
+			productName = "Constructing and Displaying Styled TextsTests";
+			productReference = 9D13A3F31777631800E5F058 /* Constructing and Displaying Styled TextsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D13A3C71777631800E5F058 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9D13A3F21777631800E5F058 = {
+						TestTargetID = 9D13A3CE1777631800E5F058;
+					};
+				};
+			};
+			buildConfigurationList = 9D13A3CA1777631800E5F058 /* Build configuration list for PBXProject "Constructing and Displaying Styled Texts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D13A3C61777631800E5F058;
+			productRefGroup = 9D13A3D01777631800E5F058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D13A3CE1777631800E5F058 /* Constructing and Displaying Styled Texts */,
+				9D13A3F21777631800E5F058 /* Constructing and Displaying Styled TextsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D13A3CD1777631800E5F058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D13A3E91777631800E5F058 /* Main_iPad.storyboard in Resources */,
+				9D13A3EE1777631800E5F058 /* Images.xcassets in Resources */,
+				9D13A3E61777631800E5F058 /* Main_iPhone.storyboard in Resources */,
+				9D13A3DD1777631800E5F058 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D13A3F11777631800E5F058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D13A3FF1777631800E5F058 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D13A3CB1777631800E5F058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D13A3EC1777631800E5F058 /* ViewController.m in Sources */,
+				9D13A3E31777631800E5F058 /* AppDelegate.m in Sources */,
+				9D13A3DF1777631800E5F058 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D13A3EF1777631800E5F058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D13A4011777631800E5F058 /* Constructing_and_Displaying_Styled_TextsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D13A3F91777631800E5F058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D13A3CE1777631800E5F058 /* Constructing and Displaying Styled Texts */;
+			targetProxy = 9D13A3F81777631800E5F058 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D13A3DB1777631800E5F058 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D13A3DC1777631800E5F058 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D13A3E41777631800E5F058 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D13A3E51777631800E5F058 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9D13A3E71777631800E5F058 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D13A3E81777631800E5F058 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9D13A3FD1777631800E5F058 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D13A3FE1777631800E5F058 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D13A4021777631800E5F058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D13A4031777631800E5F058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D13A4051777631800E5F058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Constructing and Displaying Styled Texts/Constructing and Displaying Styled Texts-Prefix.pch";
+				INFOPLIST_FILE = "Constructing and Displaying Styled Texts/Constructing and Displaying Styled Texts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D13A4061777631800E5F058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Constructing and Displaying Styled Texts/Constructing and Displaying Styled Texts-Prefix.pch";
+				INFOPLIST_FILE = "Constructing and Displaying Styled Texts/Constructing and Displaying Styled Texts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D13A4081777631800E5F058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Constructing and Displaying Styled Texts.app/Constructing and Displaying Styled Texts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Constructing and Displaying Styled Texts/Constructing and Displaying Styled Texts-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Constructing and Displaying Styled TextsTests/Constructing and Displaying Styled TextsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9D13A4091777631800E5F058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Constructing and Displaying Styled Texts.app/Constructing and Displaying Styled Texts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Constructing and Displaying Styled Texts/Constructing and Displaying Styled Texts-Prefix.pch";
+				INFOPLIST_FILE = "Constructing and Displaying Styled TextsTests/Constructing and Displaying Styled TextsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D13A3CA1777631800E5F058 /* Build configuration list for PBXProject "Constructing and Displaying Styled Texts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D13A4021777631800E5F058 /* Debug */,
+				9D13A4031777631800E5F058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D13A4041777631800E5F058 /* Build configuration list for PBXNativeTarget "Constructing and Displaying Styled Texts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D13A4051777631800E5F058 /* Debug */,
+				9D13A4061777631800E5F058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D13A4071777631800E5F058 /* Build configuration list for PBXNativeTarget "Constructing and Displaying Styled TextsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D13A4081777631800E5F058 /* Debug */,
+				9D13A4091777631800E5F058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D13A3C71777631800E5F058 /* Project object */;
+}

@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D14AF451779E720006588DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D14AF441779E720006588DE /* Foundation.framework */; };
+		9D14AF471779E720006588DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D14AF461779E720006588DE /* CoreGraphics.framework */; };
+		9D14AF491779E720006588DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D14AF481779E720006588DE /* UIKit.framework */; };
+		9D14AF4F1779E720006588DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D14AF4D1779E720006588DE /* InfoPlist.strings */; };
+		9D14AF511779E720006588DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D14AF501779E720006588DE /* main.m */; };
+		9D14AF551779E720006588DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D14AF541779E720006588DE /* AppDelegate.m */; };
+		9D14AF581779E720006588DE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D14AF561779E720006588DE /* Main_iPhone.storyboard */; };
+		9D14AF5B1779E720006588DE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D14AF591779E720006588DE /* Main_iPad.storyboard */; };
+		9D14AF5E1779E720006588DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D14AF5D1779E720006588DE /* ViewController.m */; };
+		9D14AF601779E720006588DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D14AF5F1779E720006588DE /* Images.xcassets */; };
+		9D14AF671779E721006588DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D14AF661779E721006588DE /* XCTest.framework */; };
+		9D14AF681779E721006588DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D14AF441779E720006588DE /* Foundation.framework */; };
+		9D14AF691779E721006588DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D14AF481779E720006588DE /* UIKit.framework */; };
+		9D14AF711779E721006588DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D14AF6F1779E721006588DE /* InfoPlist.strings */; };
+		9D14AF731779E721006588DE /* Storing_Videos_in_the_Photo_LibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D14AF721779E721006588DE /* Storing_Videos_in_the_Photo_LibraryTests.m */; };
+		9D14AF7D1779E72C006588DE /* MyVideo.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 9D14AF7C1779E72C006588DE /* MyVideo.MOV */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D14AF6A1779E721006588DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D14AF391779E720006588DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D14AF401779E720006588DE;
+			remoteInfo = "Storing Videos in the Photo Library";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D14AF411779E720006588DE /* Storing Videos in the Photo Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storing Videos in the Photo Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D14AF441779E720006588DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D14AF461779E720006588DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D14AF481779E720006588DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D14AF4C1779E720006588DE /* Storing Videos in the Photo Library-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Storing Videos in the Photo Library-Info.plist"; sourceTree = "<group>"; };
+		9D14AF4E1779E720006588DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D14AF501779E720006588DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D14AF521779E720006588DE /* Storing Videos in the Photo Library-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Storing Videos in the Photo Library-Prefix.pch"; sourceTree = "<group>"; };
+		9D14AF531779E720006588DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D14AF541779E720006588DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D14AF571779E720006588DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9D14AF5A1779E720006588DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9D14AF5C1779E720006588DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D14AF5D1779E720006588DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D14AF5F1779E720006588DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D14AF651779E721006588DE /* Storing Videos in the Photo LibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storing Videos in the Photo LibraryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D14AF661779E721006588DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D14AF6E1779E721006588DE /* Storing Videos in the Photo LibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Storing Videos in the Photo LibraryTests-Info.plist"; sourceTree = "<group>"; };
+		9D14AF701779E721006588DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D14AF721779E721006588DE /* Storing_Videos_in_the_Photo_LibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Storing_Videos_in_the_Photo_LibraryTests.m; sourceTree = "<group>"; };
+		9D14AF7C1779E72C006588DE /* MyVideo.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = MyVideo.MOV; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D14AF3E1779E720006588DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D14AF471779E720006588DE /* CoreGraphics.framework in Frameworks */,
+				9D14AF491779E720006588DE /* UIKit.framework in Frameworks */,
+				9D14AF451779E720006588DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D14AF621779E721006588DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D14AF671779E721006588DE /* XCTest.framework in Frameworks */,
+				9D14AF691779E721006588DE /* UIKit.framework in Frameworks */,
+				9D14AF681779E721006588DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D14AF381779E720006588DE = {
+			isa = PBXGroup;
+			children = (
+				9D14AF4A1779E720006588DE /* Storing Videos in the Photo Library */,
+				9D14AF6C1779E721006588DE /* Storing Videos in the Photo LibraryTests */,
+				9D14AF431779E720006588DE /* Frameworks */,
+				9D14AF421779E720006588DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D14AF421779E720006588DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D14AF411779E720006588DE /* Storing Videos in the Photo Library.app */,
+				9D14AF651779E721006588DE /* Storing Videos in the Photo LibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D14AF431779E720006588DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D14AF441779E720006588DE /* Foundation.framework */,
+				9D14AF461779E720006588DE /* CoreGraphics.framework */,
+				9D14AF481779E720006588DE /* UIKit.framework */,
+				9D14AF661779E721006588DE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D14AF4A1779E720006588DE /* Storing Videos in the Photo Library */ = {
+			isa = PBXGroup;
+			children = (
+				9D14AF7C1779E72C006588DE /* MyVideo.MOV */,
+				9D14AF531779E720006588DE /* AppDelegate.h */,
+				9D14AF541779E720006588DE /* AppDelegate.m */,
+				9D14AF561779E720006588DE /* Main_iPhone.storyboard */,
+				9D14AF591779E720006588DE /* Main_iPad.storyboard */,
+				9D14AF5C1779E720006588DE /* ViewController.h */,
+				9D14AF5D1779E720006588DE /* ViewController.m */,
+				9D14AF5F1779E720006588DE /* Images.xcassets */,
+				9D14AF4B1779E720006588DE /* Supporting Files */,
+			);
+			path = "Storing Videos in the Photo Library";
+			sourceTree = "<group>";
+		};
+		9D14AF4B1779E720006588DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D14AF4C1779E720006588DE /* Storing Videos in the Photo Library-Info.plist */,
+				9D14AF4D1779E720006588DE /* InfoPlist.strings */,
+				9D14AF501779E720006588DE /* main.m */,
+				9D14AF521779E720006588DE /* Storing Videos in the Photo Library-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D14AF6C1779E721006588DE /* Storing Videos in the Photo LibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D14AF721779E721006588DE /* Storing_Videos_in_the_Photo_LibraryTests.m */,
+				9D14AF6D1779E721006588DE /* Supporting Files */,
+			);
+			path = "Storing Videos in the Photo LibraryTests";
+			sourceTree = "<group>";
+		};
+		9D14AF6D1779E721006588DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D14AF6E1779E721006588DE /* Storing Videos in the Photo LibraryTests-Info.plist */,
+				9D14AF6F1779E721006588DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D14AF401779E720006588DE /* Storing Videos in the Photo Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D14AF761779E721006588DE /* Build configuration list for PBXNativeTarget "Storing Videos in the Photo Library" */;
+			buildPhases = (
+				9D14AF3D1779E720006588DE /* Sources */,
+				9D14AF3E1779E720006588DE /* Frameworks */,
+				9D14AF3F1779E720006588DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Storing Videos in the Photo Library";
+			productName = "Storing Videos in the Photo Library";
+			productReference = 9D14AF411779E720006588DE /* Storing Videos in the Photo Library.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D14AF641779E721006588DE /* Storing Videos in the Photo LibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D14AF791779E721006588DE /* Build configuration list for PBXNativeTarget "Storing Videos in the Photo LibraryTests" */;
+			buildPhases = (
+				9D14AF611779E721006588DE /* Sources */,
+				9D14AF621779E721006588DE /* Frameworks */,
+				9D14AF631779E721006588DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D14AF6B1779E721006588DE /* PBXTargetDependency */,
+			);
+			name = "Storing Videos in the Photo LibraryTests";
+			productName = "Storing Videos in the Photo LibraryTests";
+			productReference = 9D14AF651779E721006588DE /* Storing Videos in the Photo LibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D14AF391779E720006588DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9D14AF641779E721006588DE = {
+						TestTargetID = 9D14AF401779E720006588DE;
+					};
+				};
+			};
+			buildConfigurationList = 9D14AF3C1779E720006588DE /* Build configuration list for PBXProject "Storing Videos in the Photo Library" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D14AF381779E720006588DE;
+			productRefGroup = 9D14AF421779E720006588DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D14AF401779E720006588DE /* Storing Videos in the Photo Library */,
+				9D14AF641779E721006588DE /* Storing Videos in the Photo LibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D14AF3F1779E720006588DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D14AF5B1779E720006588DE /* Main_iPad.storyboard in Resources */,
+				9D14AF601779E720006588DE /* Images.xcassets in Resources */,
+				9D14AF7D1779E72C006588DE /* MyVideo.MOV in Resources */,
+				9D14AF581779E720006588DE /* Main_iPhone.storyboard in Resources */,
+				9D14AF4F1779E720006588DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D14AF631779E721006588DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D14AF711779E721006588DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D14AF3D1779E720006588DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D14AF5E1779E720006588DE /* ViewController.m in Sources */,
+				9D14AF551779E720006588DE /* AppDelegate.m in Sources */,
+				9D14AF511779E720006588DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D14AF611779E721006588DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D14AF731779E721006588DE /* Storing_Videos_in_the_Photo_LibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D14AF6B1779E721006588DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D14AF401779E720006588DE /* Storing Videos in the Photo Library */;
+			targetProxy = 9D14AF6A1779E721006588DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D14AF4D1779E720006588DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D14AF4E1779E720006588DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D14AF561779E720006588DE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D14AF571779E720006588DE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9D14AF591779E720006588DE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D14AF5A1779E720006588DE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9D14AF6F1779E721006588DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D14AF701779E721006588DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D14AF741779E721006588DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D14AF751779E721006588DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D14AF771779E721006588DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Storing Videos in the Photo Library/Storing Videos in the Photo Library-Prefix.pch";
+				INFOPLIST_FILE = "Storing Videos in the Photo Library/Storing Videos in the Photo Library-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D14AF781779E721006588DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Storing Videos in the Photo Library/Storing Videos in the Photo Library-Prefix.pch";
+				INFOPLIST_FILE = "Storing Videos in the Photo Library/Storing Videos in the Photo Library-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D14AF7A1779E721006588DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Storing Videos in the Photo Library.app/Storing Videos in the Photo Library";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Storing Videos in the Photo Library/Storing Videos in the Photo Library-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Storing Videos in the Photo LibraryTests/Storing Videos in the Photo LibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9D14AF7B1779E721006588DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Storing Videos in the Photo Library.app/Storing Videos in the Photo Library";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Storing Videos in the Photo Library/Storing Videos in the Photo Library-Prefix.pch";
+				INFOPLIST_FILE = "Storing Videos in the Photo LibraryTests/Storing Videos in the Photo LibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D14AF3C1779E720006588DE /* Build configuration list for PBXProject "Storing Videos in the Photo Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D14AF741779E721006588DE /* Debug */,
+				9D14AF751779E721006588DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D14AF761779E721006588DE /* Build configuration list for PBXNativeTarget "Storing Videos in the Photo Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D14AF771779E721006588DE /* Debug */,
+				9D14AF781779E721006588DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D14AF791779E721006588DE /* Build configuration list for PBXNativeTarget "Storing Videos in the Photo LibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D14AF7A1779E721006588DE /* Debug */,
+				9D14AF7B1779E721006588DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D14AF391779E720006588DE /* Project object */;
+}

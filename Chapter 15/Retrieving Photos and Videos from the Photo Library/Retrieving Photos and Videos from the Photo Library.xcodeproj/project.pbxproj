@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D14AF8B1779E8E3006588DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D14AF8A1779E8E3006588DE /* Foundation.framework */; };
+		9D14AF8D1779E8E3006588DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D14AF8C1779E8E3006588DE /* CoreGraphics.framework */; };
+		9D14AF8F1779E8E3006588DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D14AF8E1779E8E3006588DE /* UIKit.framework */; };
+		9D14AF951779E8E3006588DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D14AF931779E8E3006588DE /* InfoPlist.strings */; };
+		9D14AF971779E8E3006588DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D14AF961779E8E3006588DE /* main.m */; };
+		9D14AF9B1779E8E3006588DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D14AF9A1779E8E3006588DE /* AppDelegate.m */; };
+		9D14AF9E1779E8E3006588DE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D14AF9C1779E8E3006588DE /* Main_iPhone.storyboard */; };
+		9D14AFA11779E8E3006588DE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D14AF9F1779E8E3006588DE /* Main_iPad.storyboard */; };
+		9D14AFA41779E8E3006588DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D14AFA31779E8E3006588DE /* ViewController.m */; };
+		9D14AFA61779E8E3006588DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D14AFA51779E8E3006588DE /* Images.xcassets */; };
+		9D14AFAD1779E8E3006588DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D14AFAC1779E8E3006588DE /* XCTest.framework */; };
+		9D14AFAE1779E8E3006588DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D14AF8A1779E8E3006588DE /* Foundation.framework */; };
+		9D14AFAF1779E8E3006588DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D14AF8E1779E8E3006588DE /* UIKit.framework */; };
+		9D14AFB71779E8E3006588DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D14AFB51779E8E3006588DE /* InfoPlist.strings */; };
+		9D14AFB91779E8E3006588DE /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D14AFB81779E8E3006588DE /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D14AFB01779E8E3006588DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D14AF7F1779E8E3006588DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D14AF861779E8E3006588DE;
+			remoteInfo = "Retrieving Photos and Videos from the Photo Library";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D14AF871779E8E3006588DE /* Retrieving Photos and Videos from the Photo Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retrieving Photos and Videos from the Photo Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D14AF8A1779E8E3006588DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D14AF8C1779E8E3006588DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D14AF8E1779E8E3006588DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D14AF921779E8E3006588DE /* Retrieving Photos and Videos from the Photo Library-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Retrieving Photos and Videos from the Photo Library-Info.plist"; sourceTree = "<group>"; };
+		9D14AF941779E8E3006588DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D14AF961779E8E3006588DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D14AF981779E8E3006588DE /* Retrieving Photos and Videos from the Photo Library-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Retrieving Photos and Videos from the Photo Library-Prefix.pch"; sourceTree = "<group>"; };
+		9D14AF991779E8E3006588DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D14AF9A1779E8E3006588DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D14AF9D1779E8E3006588DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9D14AFA01779E8E3006588DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9D14AFA21779E8E3006588DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D14AFA31779E8E3006588DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D14AFA51779E8E3006588DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D14AFAB1779E8E3006588DE /* Retrieving Photos and Videos from the Photo LibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retrieving Photos and Videos from the Photo LibraryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D14AFAC1779E8E3006588DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D14AFB41779E8E3006588DE /* Retrieving Photos and Videos from the Photo LibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Retrieving Photos and Videos from the Photo LibraryTests-Info.plist"; sourceTree = "<group>"; };
+		9D14AFB61779E8E3006588DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D14AFB81779E8E3006588DE /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Retrieving_Photos_and_Videos_from_the_Photo_LibraryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D14AF841779E8E3006588DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D14AF8D1779E8E3006588DE /* CoreGraphics.framework in Frameworks */,
+				9D14AF8F1779E8E3006588DE /* UIKit.framework in Frameworks */,
+				9D14AF8B1779E8E3006588DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D14AFA81779E8E3006588DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D14AFAD1779E8E3006588DE /* XCTest.framework in Frameworks */,
+				9D14AFAF1779E8E3006588DE /* UIKit.framework in Frameworks */,
+				9D14AFAE1779E8E3006588DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D14AF7E1779E8E3006588DE = {
+			isa = PBXGroup;
+			children = (
+				9D14AF901779E8E3006588DE /* Retrieving Photos and Videos from the Photo Library */,
+				9D14AFB21779E8E3006588DE /* Retrieving Photos and Videos from the Photo LibraryTests */,
+				9D14AF891779E8E3006588DE /* Frameworks */,
+				9D14AF881779E8E3006588DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D14AF881779E8E3006588DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D14AF871779E8E3006588DE /* Retrieving Photos and Videos from the Photo Library.app */,
+				9D14AFAB1779E8E3006588DE /* Retrieving Photos and Videos from the Photo LibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D14AF891779E8E3006588DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D14AF8A1779E8E3006588DE /* Foundation.framework */,
+				9D14AF8C1779E8E3006588DE /* CoreGraphics.framework */,
+				9D14AF8E1779E8E3006588DE /* UIKit.framework */,
+				9D14AFAC1779E8E3006588DE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D14AF901779E8E3006588DE /* Retrieving Photos and Videos from the Photo Library */ = {
+			isa = PBXGroup;
+			children = (
+				9D14AF991779E8E3006588DE /* AppDelegate.h */,
+				9D14AF9A1779E8E3006588DE /* AppDelegate.m */,
+				9D14AF9C1779E8E3006588DE /* Main_iPhone.storyboard */,
+				9D14AF9F1779E8E3006588DE /* Main_iPad.storyboard */,
+				9D14AFA21779E8E3006588DE /* ViewController.h */,
+				9D14AFA31779E8E3006588DE /* ViewController.m */,
+				9D14AFA51779E8E3006588DE /* Images.xcassets */,
+				9D14AF911779E8E3006588DE /* Supporting Files */,
+			);
+			path = "Retrieving Photos and Videos from the Photo Library";
+			sourceTree = "<group>";
+		};
+		9D14AF911779E8E3006588DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D14AF921779E8E3006588DE /* Retrieving Photos and Videos from the Photo Library-Info.plist */,
+				9D14AF931779E8E3006588DE /* InfoPlist.strings */,
+				9D14AF961779E8E3006588DE /* main.m */,
+				9D14AF981779E8E3006588DE /* Retrieving Photos and Videos from the Photo Library-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D14AFB21779E8E3006588DE /* Retrieving Photos and Videos from the Photo LibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D14AFB81779E8E3006588DE /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryTests.m */,
+				9D14AFB31779E8E3006588DE /* Supporting Files */,
+			);
+			path = "Retrieving Photos and Videos from the Photo LibraryTests";
+			sourceTree = "<group>";
+		};
+		9D14AFB31779E8E3006588DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D14AFB41779E8E3006588DE /* Retrieving Photos and Videos from the Photo LibraryTests-Info.plist */,
+				9D14AFB51779E8E3006588DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D14AF861779E8E3006588DE /* Retrieving Photos and Videos from the Photo Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D14AFBC1779E8E3006588DE /* Build configuration list for PBXNativeTarget "Retrieving Photos and Videos from the Photo Library" */;
+			buildPhases = (
+				9D14AF831779E8E3006588DE /* Sources */,
+				9D14AF841779E8E3006588DE /* Frameworks */,
+				9D14AF851779E8E3006588DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Retrieving Photos and Videos from the Photo Library";
+			productName = "Retrieving Photos and Videos from the Photo Library";
+			productReference = 9D14AF871779E8E3006588DE /* Retrieving Photos and Videos from the Photo Library.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D14AFAA1779E8E3006588DE /* Retrieving Photos and Videos from the Photo LibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D14AFBF1779E8E3006588DE /* Build configuration list for PBXNativeTarget "Retrieving Photos and Videos from the Photo LibraryTests" */;
+			buildPhases = (
+				9D14AFA71779E8E3006588DE /* Sources */,
+				9D14AFA81779E8E3006588DE /* Frameworks */,
+				9D14AFA91779E8E3006588DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D14AFB11779E8E3006588DE /* PBXTargetDependency */,
+			);
+			name = "Retrieving Photos and Videos from the Photo LibraryTests";
+			productName = "Retrieving Photos and Videos from the Photo LibraryTests";
+			productReference = 9D14AFAB1779E8E3006588DE /* Retrieving Photos and Videos from the Photo LibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D14AF7F1779E8E3006588DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9D14AFAA1779E8E3006588DE = {
+						TestTargetID = 9D14AF861779E8E3006588DE;
+					};
+				};
+			};
+			buildConfigurationList = 9D14AF821779E8E3006588DE /* Build configuration list for PBXProject "Retrieving Photos and Videos from the Photo Library" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D14AF7E1779E8E3006588DE;
+			productRefGroup = 9D14AF881779E8E3006588DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D14AF861779E8E3006588DE /* Retrieving Photos and Videos from the Photo Library */,
+				9D14AFAA1779E8E3006588DE /* Retrieving Photos and Videos from the Photo LibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D14AF851779E8E3006588DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D14AFA11779E8E3006588DE /* Main_iPad.storyboard in Resources */,
+				9D14AFA61779E8E3006588DE /* Images.xcassets in Resources */,
+				9D14AF9E1779E8E3006588DE /* Main_iPhone.storyboard in Resources */,
+				9D14AF951779E8E3006588DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D14AFA91779E8E3006588DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D14AFB71779E8E3006588DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D14AF831779E8E3006588DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D14AFA41779E8E3006588DE /* ViewController.m in Sources */,
+				9D14AF9B1779E8E3006588DE /* AppDelegate.m in Sources */,
+				9D14AF971779E8E3006588DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D14AFA71779E8E3006588DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D14AFB91779E8E3006588DE /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D14AFB11779E8E3006588DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D14AF861779E8E3006588DE /* Retrieving Photos and Videos from the Photo Library */;
+			targetProxy = 9D14AFB01779E8E3006588DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D14AF931779E8E3006588DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D14AF941779E8E3006588DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D14AF9C1779E8E3006588DE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D14AF9D1779E8E3006588DE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9D14AF9F1779E8E3006588DE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D14AFA01779E8E3006588DE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9D14AFB51779E8E3006588DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D14AFB61779E8E3006588DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D14AFBA1779E8E3006588DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D14AFBB1779E8E3006588DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D14AFBD1779E8E3006588DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrieving Photos and Videos from the Photo Library/Retrieving Photos and Videos from the Photo Library-Prefix.pch";
+				INFOPLIST_FILE = "Retrieving Photos and Videos from the Photo Library/Retrieving Photos and Videos from the Photo Library-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D14AFBE1779E8E3006588DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrieving Photos and Videos from the Photo Library/Retrieving Photos and Videos from the Photo Library-Prefix.pch";
+				INFOPLIST_FILE = "Retrieving Photos and Videos from the Photo Library/Retrieving Photos and Videos from the Photo Library-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D14AFC01779E8E3006588DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Retrieving Photos and Videos from the Photo Library.app/Retrieving Photos and Videos from the Photo Library";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrieving Photos and Videos from the Photo Library/Retrieving Photos and Videos from the Photo Library-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Retrieving Photos and Videos from the Photo LibraryTests/Retrieving Photos and Videos from the Photo LibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9D14AFC11779E8E3006588DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Retrieving Photos and Videos from the Photo Library.app/Retrieving Photos and Videos from the Photo Library";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrieving Photos and Videos from the Photo Library/Retrieving Photos and Videos from the Photo Library-Prefix.pch";
+				INFOPLIST_FILE = "Retrieving Photos and Videos from the Photo LibraryTests/Retrieving Photos and Videos from the Photo LibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D14AF821779E8E3006588DE /* Build configuration list for PBXProject "Retrieving Photos and Videos from the Photo Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D14AFBA1779E8E3006588DE /* Debug */,
+				9D14AFBB1779E8E3006588DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D14AFBC1779E8E3006588DE /* Build configuration list for PBXNativeTarget "Retrieving Photos and Videos from the Photo Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D14AFBD1779E8E3006588DE /* Debug */,
+				9D14AFBE1779E8E3006588DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D14AFBF1779E8E3006588DE /* Build configuration list for PBXNativeTarget "Retrieving Photos and Videos from the Photo LibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D14AFC01779E8E3006588DE /* Debug */,
+				9D14AFC11779E8E3006588DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D14AF7F1779E8E3006588DE /* Project object */;
+}

@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D82AEE4177F4CF70076C4C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D82AEE3177F4CF70076C4C1 /* Foundation.framework */; };
+		9D82AEE6177F4CF70076C4C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D82AEE5177F4CF70076C4C1 /* CoreGraphics.framework */; };
+		9D82AEE8177F4CF70076C4C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D82AEE7177F4CF70076C4C1 /* UIKit.framework */; };
+		9D82AEEE177F4CF70076C4C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D82AEEC177F4CF70076C4C1 /* InfoPlist.strings */; };
+		9D82AEF0177F4CF70076C4C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D82AEEF177F4CF70076C4C1 /* main.m */; };
+		9D82AEF4177F4CF70076C4C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D82AEF3177F4CF70076C4C1 /* AppDelegate.m */; };
+		9D82AEF7177F4CF70076C4C1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D82AEF5177F4CF70076C4C1 /* Main_iPhone.storyboard */; };
+		9D82AEFA177F4CF70076C4C1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D82AEF8177F4CF70076C4C1 /* Main_iPad.storyboard */; };
+		9D82AEFD177F4CF70076C4C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D82AEFC177F4CF70076C4C1 /* ViewController.m */; };
+		9D82AEFF177F4CF70076C4C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D82AEFE177F4CF70076C4C1 /* Images.xcassets */; };
+		9D82AF06177F4CF70076C4C1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D82AF05177F4CF70076C4C1 /* XCTest.framework */; };
+		9D82AF07177F4CF70076C4C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D82AEE3177F4CF70076C4C1 /* Foundation.framework */; };
+		9D82AF08177F4CF70076C4C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D82AEE7177F4CF70076C4C1 /* UIKit.framework */; };
+		9D82AF10177F4CF70076C4C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D82AF0E177F4CF70076C4C1 /* InfoPlist.strings */; };
+		9D82AF12177F4CF70076C4C1 /* Introducing_Custom_Segue_Transitions_to_Your_StoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D82AF11177F4CF70076C4C1 /* Introducing_Custom_Segue_Transitions_to_Your_StoryboardTests.m */; };
+		9D82AF1D177F4D030076C4C1 /* MySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D82AF1C177F4D030076C4C1 /* MySegue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D82AF09177F4CF70076C4C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D82AED8177F4CF70076C4C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D82AEDF177F4CF70076C4C1;
+			remoteInfo = "Introducing Custom Segue Transitions to Your Storyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D82AEE0177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Introducing Custom Segue Transitions to Your Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D82AEE3177F4CF70076C4C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D82AEE5177F4CF70076C4C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D82AEE7177F4CF70076C4C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D82AEEB177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your Storyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Introducing Custom Segue Transitions to Your Storyboard-Info.plist"; sourceTree = "<group>"; };
+		9D82AEED177F4CF70076C4C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D82AEEF177F4CF70076C4C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D82AEF1177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your Storyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Introducing Custom Segue Transitions to Your Storyboard-Prefix.pch"; sourceTree = "<group>"; };
+		9D82AEF2177F4CF70076C4C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D82AEF3177F4CF70076C4C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D82AEF6177F4CF70076C4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9D82AEF9177F4CF70076C4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9D82AEFB177F4CF70076C4C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D82AEFC177F4CF70076C4C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D82AEFE177F4CF70076C4C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D82AF04177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your StoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Introducing Custom Segue Transitions to Your StoryboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D82AF05177F4CF70076C4C1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D82AF0D177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your StoryboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Introducing Custom Segue Transitions to Your StoryboardTests-Info.plist"; sourceTree = "<group>"; };
+		9D82AF0F177F4CF70076C4C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D82AF11177F4CF70076C4C1 /* Introducing_Custom_Segue_Transitions_to_Your_StoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Introducing_Custom_Segue_Transitions_to_Your_StoryboardTests.m; sourceTree = "<group>"; };
+		9D82AF1B177F4D030076C4C1 /* MySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySegue.h; sourceTree = "<group>"; };
+		9D82AF1C177F4D030076C4C1 /* MySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySegue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D82AEDD177F4CF70076C4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D82AEE6177F4CF70076C4C1 /* CoreGraphics.framework in Frameworks */,
+				9D82AEE8177F4CF70076C4C1 /* UIKit.framework in Frameworks */,
+				9D82AEE4177F4CF70076C4C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D82AF01177F4CF70076C4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D82AF06177F4CF70076C4C1 /* XCTest.framework in Frameworks */,
+				9D82AF08177F4CF70076C4C1 /* UIKit.framework in Frameworks */,
+				9D82AF07177F4CF70076C4C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D82AED7177F4CF70076C4C1 = {
+			isa = PBXGroup;
+			children = (
+				9D82AEE9177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your Storyboard */,
+				9D82AF0B177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your StoryboardTests */,
+				9D82AEE2177F4CF70076C4C1 /* Frameworks */,
+				9D82AEE1177F4CF70076C4C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D82AEE1177F4CF70076C4C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D82AEE0177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your Storyboard.app */,
+				9D82AF04177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your StoryboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D82AEE2177F4CF70076C4C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D82AEE3177F4CF70076C4C1 /* Foundation.framework */,
+				9D82AEE5177F4CF70076C4C1 /* CoreGraphics.framework */,
+				9D82AEE7177F4CF70076C4C1 /* UIKit.framework */,
+				9D82AF05177F4CF70076C4C1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D82AEE9177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9D82AEF2177F4CF70076C4C1 /* AppDelegate.h */,
+				9D82AEF3177F4CF70076C4C1 /* AppDelegate.m */,
+				9D82AEF5177F4CF70076C4C1 /* Main_iPhone.storyboard */,
+				9D82AEF8177F4CF70076C4C1 /* Main_iPad.storyboard */,
+				9D82AEFB177F4CF70076C4C1 /* ViewController.h */,
+				9D82AEFC177F4CF70076C4C1 /* ViewController.m */,
+				9D82AF1B177F4D030076C4C1 /* MySegue.h */,
+				9D82AF1C177F4D030076C4C1 /* MySegue.m */,
+				9D82AEFE177F4CF70076C4C1 /* Images.xcassets */,
+				9D82AEEA177F4CF70076C4C1 /* Supporting Files */,
+			);
+			path = "Introducing Custom Segue Transitions to Your Storyboard";
+			sourceTree = "<group>";
+		};
+		9D82AEEA177F4CF70076C4C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D82AEEB177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your Storyboard-Info.plist */,
+				9D82AEEC177F4CF70076C4C1 /* InfoPlist.strings */,
+				9D82AEEF177F4CF70076C4C1 /* main.m */,
+				9D82AEF1177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your Storyboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D82AF0B177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your StoryboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D82AF11177F4CF70076C4C1 /* Introducing_Custom_Segue_Transitions_to_Your_StoryboardTests.m */,
+				9D82AF0C177F4CF70076C4C1 /* Supporting Files */,
+			);
+			path = "Introducing Custom Segue Transitions to Your StoryboardTests";
+			sourceTree = "<group>";
+		};
+		9D82AF0C177F4CF70076C4C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D82AF0D177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your StoryboardTests-Info.plist */,
+				9D82AF0E177F4CF70076C4C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D82AEDF177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your Storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D82AF15177F4CF70076C4C1 /* Build configuration list for PBXNativeTarget "Introducing Custom Segue Transitions to Your Storyboard" */;
+			buildPhases = (
+				9D82AEDC177F4CF70076C4C1 /* Sources */,
+				9D82AEDD177F4CF70076C4C1 /* Frameworks */,
+				9D82AEDE177F4CF70076C4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Introducing Custom Segue Transitions to Your Storyboard";
+			productName = "Introducing Custom Segue Transitions to Your Storyboard";
+			productReference = 9D82AEE0177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your Storyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D82AF03177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your StoryboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D82AF18177F4CF70076C4C1 /* Build configuration list for PBXNativeTarget "Introducing Custom Segue Transitions to Your StoryboardTests" */;
+			buildPhases = (
+				9D82AF00177F4CF70076C4C1 /* Sources */,
+				9D82AF01177F4CF70076C4C1 /* Frameworks */,
+				9D82AF02177F4CF70076C4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D82AF0A177F4CF70076C4C1 /* PBXTargetDependency */,
+			);
+			name = "Introducing Custom Segue Transitions to Your StoryboardTests";
+			productName = "Introducing Custom Segue Transitions to Your StoryboardTests";
+			productReference = 9D82AF04177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your StoryboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D82AED8177F4CF70076C4C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9D82AF03177F4CF70076C4C1 = {
+						TestTargetID = 9D82AEDF177F4CF70076C4C1;
+					};
+				};
+			};
+			buildConfigurationList = 9D82AEDB177F4CF70076C4C1 /* Build configuration list for PBXProject "Introducing Custom Segue Transitions to Your Storyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D82AED7177F4CF70076C4C1;
+			productRefGroup = 9D82AEE1177F4CF70076C4C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D82AEDF177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your Storyboard */,
+				9D82AF03177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your StoryboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D82AEDE177F4CF70076C4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D82AEFA177F4CF70076C4C1 /* Main_iPad.storyboard in Resources */,
+				9D82AEFF177F4CF70076C4C1 /* Images.xcassets in Resources */,
+				9D82AEF7177F4CF70076C4C1 /* Main_iPhone.storyboard in Resources */,
+				9D82AEEE177F4CF70076C4C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D82AF02177F4CF70076C4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D82AF10177F4CF70076C4C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D82AEDC177F4CF70076C4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D82AEFD177F4CF70076C4C1 /* ViewController.m in Sources */,
+				9D82AEF4177F4CF70076C4C1 /* AppDelegate.m in Sources */,
+				9D82AEF0177F4CF70076C4C1 /* main.m in Sources */,
+				9D82AF1D177F4D030076C4C1 /* MySegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D82AF00177F4CF70076C4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D82AF12177F4CF70076C4C1 /* Introducing_Custom_Segue_Transitions_to_Your_StoryboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D82AF0A177F4CF70076C4C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D82AEDF177F4CF70076C4C1 /* Introducing Custom Segue Transitions to Your Storyboard */;
+			targetProxy = 9D82AF09177F4CF70076C4C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D82AEEC177F4CF70076C4C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D82AEED177F4CF70076C4C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D82AEF5177F4CF70076C4C1 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D82AEF6177F4CF70076C4C1 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9D82AEF8177F4CF70076C4C1 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D82AEF9177F4CF70076C4C1 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9D82AF0E177F4CF70076C4C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D82AF0F177F4CF70076C4C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D82AF13177F4CF70076C4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D82AF14177F4CF70076C4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D82AF16177F4CF70076C4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Introducing Custom Segue Transitions to Your Storyboard/Introducing Custom Segue Transitions to Your Storyboard-Prefix.pch";
+				INFOPLIST_FILE = "Introducing Custom Segue Transitions to Your Storyboard/Introducing Custom Segue Transitions to Your Storyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D82AF17177F4CF70076C4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Introducing Custom Segue Transitions to Your Storyboard/Introducing Custom Segue Transitions to Your Storyboard-Prefix.pch";
+				INFOPLIST_FILE = "Introducing Custom Segue Transitions to Your Storyboard/Introducing Custom Segue Transitions to Your Storyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D82AF19177F4CF70076C4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Introducing Custom Segue Transitions to Your Storyboard.app/Introducing Custom Segue Transitions to Your Storyboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Introducing Custom Segue Transitions to Your Storyboard/Introducing Custom Segue Transitions to Your Storyboard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Introducing Custom Segue Transitions to Your StoryboardTests/Introducing Custom Segue Transitions to Your StoryboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9D82AF1A177F4CF70076C4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Introducing Custom Segue Transitions to Your Storyboard.app/Introducing Custom Segue Transitions to Your Storyboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Introducing Custom Segue Transitions to Your Storyboard/Introducing Custom Segue Transitions to Your Storyboard-Prefix.pch";
+				INFOPLIST_FILE = "Introducing Custom Segue Transitions to Your StoryboardTests/Introducing Custom Segue Transitions to Your StoryboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D82AEDB177F4CF70076C4C1 /* Build configuration list for PBXProject "Introducing Custom Segue Transitions to Your Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D82AF13177F4CF70076C4C1 /* Debug */,
+				9D82AF14177F4CF70076C4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D82AF15177F4CF70076C4C1 /* Build configuration list for PBXNativeTarget "Introducing Custom Segue Transitions to Your Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D82AF16177F4CF70076C4C1 /* Debug */,
+				9D82AF17177F4CF70076C4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D82AF18177F4CF70076C4C1 /* Build configuration list for PBXNativeTarget "Introducing Custom Segue Transitions to Your StoryboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D82AF19177F4CF70076C4C1 /* Debug */,
+				9D82AF1A177F4CF70076C4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D82AED8177F4CF70076C4C1 /* Project object */;
+}

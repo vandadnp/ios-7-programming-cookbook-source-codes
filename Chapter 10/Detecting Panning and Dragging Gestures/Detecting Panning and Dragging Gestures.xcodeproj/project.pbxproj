@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D68217E1778DDFD0094DE04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D68217D1778DDFD0094DE04 /* Foundation.framework */; };
+		9D6821801778DDFD0094DE04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D68217F1778DDFD0094DE04 /* CoreGraphics.framework */; };
+		9D6821821778DDFD0094DE04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6821811778DDFD0094DE04 /* UIKit.framework */; };
+		9D6821881778DDFD0094DE04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D6821861778DDFD0094DE04 /* InfoPlist.strings */; };
+		9D68218A1778DDFD0094DE04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6821891778DDFD0094DE04 /* main.m */; };
+		9D68218E1778DDFD0094DE04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D68218D1778DDFD0094DE04 /* AppDelegate.m */; };
+		9D6821911778DDFD0094DE04 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D68218F1778DDFD0094DE04 /* Main_iPhone.storyboard */; };
+		9D6821941778DDFD0094DE04 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6821921778DDFD0094DE04 /* Main_iPad.storyboard */; };
+		9D6821971778DDFD0094DE04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6821961778DDFD0094DE04 /* ViewController.m */; };
+		9D6821991778DDFD0094DE04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6821981778DDFD0094DE04 /* Images.xcassets */; };
+		9D6821A01778DDFD0094DE04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D68219F1778DDFD0094DE04 /* XCTest.framework */; };
+		9D6821A11778DDFD0094DE04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D68217D1778DDFD0094DE04 /* Foundation.framework */; };
+		9D6821A21778DDFD0094DE04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6821811778DDFD0094DE04 /* UIKit.framework */; };
+		9D6821AA1778DDFD0094DE04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D6821A81778DDFD0094DE04 /* InfoPlist.strings */; };
+		9D6821AC1778DDFD0094DE04 /* Detecting_Panning_and_Dragging_GesturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6821AB1778DDFD0094DE04 /* Detecting_Panning_and_Dragging_GesturesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D6821A31778DDFD0094DE04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D6821721778DDFD0094DE04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D6821791778DDFD0094DE04;
+			remoteInfo = "Detecting Panning and Dragging Gestures";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D68217A1778DDFD0094DE04 /* Detecting Panning and Dragging Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detecting Panning and Dragging Gestures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D68217D1778DDFD0094DE04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D68217F1778DDFD0094DE04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D6821811778DDFD0094DE04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D6821851778DDFD0094DE04 /* Detecting Panning and Dragging Gestures-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Detecting Panning and Dragging Gestures-Info.plist"; sourceTree = "<group>"; };
+		9D6821871778DDFD0094DE04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D6821891778DDFD0094DE04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D68218B1778DDFD0094DE04 /* Detecting Panning and Dragging Gestures-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Detecting Panning and Dragging Gestures-Prefix.pch"; sourceTree = "<group>"; };
+		9D68218C1778DDFD0094DE04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D68218D1778DDFD0094DE04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D6821901778DDFD0094DE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9D6821931778DDFD0094DE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9D6821951778DDFD0094DE04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D6821961778DDFD0094DE04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D6821981778DDFD0094DE04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D68219E1778DDFD0094DE04 /* Detecting Panning and Dragging GesturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Detecting Panning and Dragging GesturesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D68219F1778DDFD0094DE04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D6821A71778DDFD0094DE04 /* Detecting Panning and Dragging GesturesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Detecting Panning and Dragging GesturesTests-Info.plist"; sourceTree = "<group>"; };
+		9D6821A91778DDFD0094DE04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D6821AB1778DDFD0094DE04 /* Detecting_Panning_and_Dragging_GesturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Detecting_Panning_and_Dragging_GesturesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D6821771778DDFD0094DE04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6821801778DDFD0094DE04 /* CoreGraphics.framework in Frameworks */,
+				9D6821821778DDFD0094DE04 /* UIKit.framework in Frameworks */,
+				9D68217E1778DDFD0094DE04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D68219B1778DDFD0094DE04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6821A01778DDFD0094DE04 /* XCTest.framework in Frameworks */,
+				9D6821A21778DDFD0094DE04 /* UIKit.framework in Frameworks */,
+				9D6821A11778DDFD0094DE04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D6821711778DDFD0094DE04 = {
+			isa = PBXGroup;
+			children = (
+				9D6821831778DDFD0094DE04 /* Detecting Panning and Dragging Gestures */,
+				9D6821A51778DDFD0094DE04 /* Detecting Panning and Dragging GesturesTests */,
+				9D68217C1778DDFD0094DE04 /* Frameworks */,
+				9D68217B1778DDFD0094DE04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D68217B1778DDFD0094DE04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D68217A1778DDFD0094DE04 /* Detecting Panning and Dragging Gestures.app */,
+				9D68219E1778DDFD0094DE04 /* Detecting Panning and Dragging GesturesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D68217C1778DDFD0094DE04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D68217D1778DDFD0094DE04 /* Foundation.framework */,
+				9D68217F1778DDFD0094DE04 /* CoreGraphics.framework */,
+				9D6821811778DDFD0094DE04 /* UIKit.framework */,
+				9D68219F1778DDFD0094DE04 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D6821831778DDFD0094DE04 /* Detecting Panning and Dragging Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				9D68218C1778DDFD0094DE04 /* AppDelegate.h */,
+				9D68218D1778DDFD0094DE04 /* AppDelegate.m */,
+				9D68218F1778DDFD0094DE04 /* Main_iPhone.storyboard */,
+				9D6821921778DDFD0094DE04 /* Main_iPad.storyboard */,
+				9D6821951778DDFD0094DE04 /* ViewController.h */,
+				9D6821961778DDFD0094DE04 /* ViewController.m */,
+				9D6821981778DDFD0094DE04 /* Images.xcassets */,
+				9D6821841778DDFD0094DE04 /* Supporting Files */,
+			);
+			path = "Detecting Panning and Dragging Gestures";
+			sourceTree = "<group>";
+		};
+		9D6821841778DDFD0094DE04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D6821851778DDFD0094DE04 /* Detecting Panning and Dragging Gestures-Info.plist */,
+				9D6821861778DDFD0094DE04 /* InfoPlist.strings */,
+				9D6821891778DDFD0094DE04 /* main.m */,
+				9D68218B1778DDFD0094DE04 /* Detecting Panning and Dragging Gestures-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D6821A51778DDFD0094DE04 /* Detecting Panning and Dragging GesturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D6821AB1778DDFD0094DE04 /* Detecting_Panning_and_Dragging_GesturesTests.m */,
+				9D6821A61778DDFD0094DE04 /* Supporting Files */,
+			);
+			path = "Detecting Panning and Dragging GesturesTests";
+			sourceTree = "<group>";
+		};
+		9D6821A61778DDFD0094DE04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D6821A71778DDFD0094DE04 /* Detecting Panning and Dragging GesturesTests-Info.plist */,
+				9D6821A81778DDFD0094DE04 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D6821791778DDFD0094DE04 /* Detecting Panning and Dragging Gestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D6821AF1778DDFD0094DE04 /* Build configuration list for PBXNativeTarget "Detecting Panning and Dragging Gestures" */;
+			buildPhases = (
+				9D6821761778DDFD0094DE04 /* Sources */,
+				9D6821771778DDFD0094DE04 /* Frameworks */,
+				9D6821781778DDFD0094DE04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Detecting Panning and Dragging Gestures";
+			productName = "Detecting Panning and Dragging Gestures";
+			productReference = 9D68217A1778DDFD0094DE04 /* Detecting Panning and Dragging Gestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D68219D1778DDFD0094DE04 /* Detecting Panning and Dragging GesturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D6821B21778DDFD0094DE04 /* Build configuration list for PBXNativeTarget "Detecting Panning and Dragging GesturesTests" */;
+			buildPhases = (
+				9D68219A1778DDFD0094DE04 /* Sources */,
+				9D68219B1778DDFD0094DE04 /* Frameworks */,
+				9D68219C1778DDFD0094DE04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D6821A41778DDFD0094DE04 /* PBXTargetDependency */,
+			);
+			name = "Detecting Panning and Dragging GesturesTests";
+			productName = "Detecting Panning and Dragging GesturesTests";
+			productReference = 9D68219E1778DDFD0094DE04 /* Detecting Panning and Dragging GesturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D6821721778DDFD0094DE04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9D68219D1778DDFD0094DE04 = {
+						TestTargetID = 9D6821791778DDFD0094DE04;
+					};
+				};
+			};
+			buildConfigurationList = 9D6821751778DDFD0094DE04 /* Build configuration list for PBXProject "Detecting Panning and Dragging Gestures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D6821711778DDFD0094DE04;
+			productRefGroup = 9D68217B1778DDFD0094DE04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D6821791778DDFD0094DE04 /* Detecting Panning and Dragging Gestures */,
+				9D68219D1778DDFD0094DE04 /* Detecting Panning and Dragging GesturesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D6821781778DDFD0094DE04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6821941778DDFD0094DE04 /* Main_iPad.storyboard in Resources */,
+				9D6821991778DDFD0094DE04 /* Images.xcassets in Resources */,
+				9D6821911778DDFD0094DE04 /* Main_iPhone.storyboard in Resources */,
+				9D6821881778DDFD0094DE04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D68219C1778DDFD0094DE04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6821AA1778DDFD0094DE04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D6821761778DDFD0094DE04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6821971778DDFD0094DE04 /* ViewController.m in Sources */,
+				9D68218E1778DDFD0094DE04 /* AppDelegate.m in Sources */,
+				9D68218A1778DDFD0094DE04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D68219A1778DDFD0094DE04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6821AC1778DDFD0094DE04 /* Detecting_Panning_and_Dragging_GesturesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D6821A41778DDFD0094DE04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D6821791778DDFD0094DE04 /* Detecting Panning and Dragging Gestures */;
+			targetProxy = 9D6821A31778DDFD0094DE04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D6821861778DDFD0094DE04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D6821871778DDFD0094DE04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D68218F1778DDFD0094DE04 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D6821901778DDFD0094DE04 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9D6821921778DDFD0094DE04 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D6821931778DDFD0094DE04 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9D6821A81778DDFD0094DE04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D6821A91778DDFD0094DE04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D6821AD1778DDFD0094DE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D6821AE1778DDFD0094DE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D6821B01778DDFD0094DE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting Panning and Dragging Gestures/Detecting Panning and Dragging Gestures-Prefix.pch";
+				INFOPLIST_FILE = "Detecting Panning and Dragging Gestures/Detecting Panning and Dragging Gestures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D6821B11778DDFD0094DE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting Panning and Dragging Gestures/Detecting Panning and Dragging Gestures-Prefix.pch";
+				INFOPLIST_FILE = "Detecting Panning and Dragging Gestures/Detecting Panning and Dragging Gestures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D6821B31778DDFD0094DE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Detecting Panning and Dragging Gestures.app/Detecting Panning and Dragging Gestures";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting Panning and Dragging Gestures/Detecting Panning and Dragging Gestures-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Detecting Panning and Dragging GesturesTests/Detecting Panning and Dragging GesturesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9D6821B41778DDFD0094DE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Detecting Panning and Dragging Gestures.app/Detecting Panning and Dragging Gestures";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting Panning and Dragging Gestures/Detecting Panning and Dragging Gestures-Prefix.pch";
+				INFOPLIST_FILE = "Detecting Panning and Dragging GesturesTests/Detecting Panning and Dragging GesturesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D6821751778DDFD0094DE04 /* Build configuration list for PBXProject "Detecting Panning and Dragging Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6821AD1778DDFD0094DE04 /* Debug */,
+				9D6821AE1778DDFD0094DE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D6821AF1778DDFD0094DE04 /* Build configuration list for PBXNativeTarget "Detecting Panning and Dragging Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6821B01778DDFD0094DE04 /* Debug */,
+				9D6821B11778DDFD0094DE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D6821B21778DDFD0094DE04 /* Build configuration list for PBXNativeTarget "Detecting Panning and Dragging GesturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6821B31778DDFD0094DE04 /* Debug */,
+				9D6821B41778DDFD0094DE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D6821721778DDFD0094DE04 /* Project object */;
+}

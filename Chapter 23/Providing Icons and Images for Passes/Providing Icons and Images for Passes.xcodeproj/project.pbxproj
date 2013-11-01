@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D81E4841779A7FF00010B04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D81E4831779A7FF00010B04 /* Foundation.framework */; };
+		9D81E4861779A7FF00010B04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D81E4851779A7FF00010B04 /* CoreGraphics.framework */; };
+		9D81E4881779A7FF00010B04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D81E4871779A7FF00010B04 /* UIKit.framework */; };
+		9D81E48E1779A7FF00010B04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D81E48C1779A7FF00010B04 /* InfoPlist.strings */; };
+		9D81E4901779A7FF00010B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D81E48F1779A7FF00010B04 /* main.m */; };
+		9D81E4941779A7FF00010B04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D81E4931779A7FF00010B04 /* AppDelegate.m */; };
+		9D81E4961779A7FF00010B04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D81E4951779A7FF00010B04 /* Images.xcassets */; };
+		9D81E49D1779A7FF00010B04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D81E49C1779A7FF00010B04 /* XCTest.framework */; };
+		9D81E49E1779A7FF00010B04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D81E4831779A7FF00010B04 /* Foundation.framework */; };
+		9D81E49F1779A7FF00010B04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D81E4871779A7FF00010B04 /* UIKit.framework */; };
+		9D81E4A71779A7FF00010B04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D81E4A51779A7FF00010B04 /* InfoPlist.strings */; };
+		9D81E4A91779A7FF00010B04 /* Providing_Icons_and_Images_for_PassesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D81E4A81779A7FF00010B04 /* Providing_Icons_and_Images_for_PassesTests.m */; };
+		9D81E4BD1779A80F00010B04 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D81E4B31779A80F00010B04 /* background.png */; };
+		9D81E4BE1779A80F00010B04 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D81E4B41779A80F00010B04 /* background@2x.png */; };
+		9D81E4BF1779A80F00010B04 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D81E4B51779A80F00010B04 /* icon.png */; };
+		9D81E4C01779A80F00010B04 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D81E4B61779A80F00010B04 /* icon@2x.png */; };
+		9D81E4C11779A80F00010B04 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D81E4B71779A80F00010B04 /* logo.png */; };
+		9D81E4C21779A80F00010B04 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D81E4B81779A80F00010B04 /* logo@2x.png */; };
+		9D81E4C31779A80F00010B04 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D81E4B91779A80F00010B04 /* manifest.json */; };
+		9D81E4C41779A80F00010B04 /* pass.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D81E4BA1779A80F00010B04 /* pass.json */; };
+		9D81E4C51779A80F00010B04 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D81E4BB1779A80F00010B04 /* thumbnail.png */; };
+		9D81E4C61779A80F00010B04 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D81E4BC1779A80F00010B04 /* thumbnail@2x.png */; };
+		9D81E4C81779A90100010B04 /* background-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D81E4C71779A90100010B04 /* background-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D81E4A01779A7FF00010B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D81E4781779A7FF00010B04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D81E47F1779A7FF00010B04;
+			remoteInfo = "Providing Icons and Images for Passes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D81E4801779A7FF00010B04 /* Providing Icons and Images for Passes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Providing Icons and Images for Passes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D81E4831779A7FF00010B04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D81E4851779A7FF00010B04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D81E4871779A7FF00010B04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D81E48B1779A7FF00010B04 /* Providing Icons and Images for Passes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Providing Icons and Images for Passes-Info.plist"; sourceTree = "<group>"; };
+		9D81E48D1779A7FF00010B04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D81E48F1779A7FF00010B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D81E4911779A7FF00010B04 /* Providing Icons and Images for Passes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Providing Icons and Images for Passes-Prefix.pch"; sourceTree = "<group>"; };
+		9D81E4921779A7FF00010B04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D81E4931779A7FF00010B04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D81E4951779A7FF00010B04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D81E49B1779A7FF00010B04 /* Providing Icons and Images for PassesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Providing Icons and Images for PassesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D81E49C1779A7FF00010B04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D81E4A41779A7FF00010B04 /* Providing Icons and Images for PassesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Providing Icons and Images for PassesTests-Info.plist"; sourceTree = "<group>"; };
+		9D81E4A61779A7FF00010B04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D81E4A81779A7FF00010B04 /* Providing_Icons_and_Images_for_PassesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Providing_Icons_and_Images_for_PassesTests.m; sourceTree = "<group>"; };
+		9D81E4B31779A80F00010B04 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		9D81E4B41779A80F00010B04 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		9D81E4B51779A80F00010B04 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		9D81E4B61779A80F00010B04 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		9D81E4B71779A80F00010B04 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		9D81E4B81779A80F00010B04 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		9D81E4B91779A80F00010B04 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		9D81E4BA1779A80F00010B04 /* pass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass.json; sourceTree = "<group>"; };
+		9D81E4BB1779A80F00010B04 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		9D81E4BC1779A80F00010B04 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+		9D81E4C71779A90100010B04 /* background-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D81E47D1779A7FF00010B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D81E4861779A7FF00010B04 /* CoreGraphics.framework in Frameworks */,
+				9D81E4881779A7FF00010B04 /* UIKit.framework in Frameworks */,
+				9D81E4841779A7FF00010B04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D81E4981779A7FF00010B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D81E49D1779A7FF00010B04 /* XCTest.framework in Frameworks */,
+				9D81E49F1779A7FF00010B04 /* UIKit.framework in Frameworks */,
+				9D81E49E1779A7FF00010B04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D81E4771779A7FF00010B04 = {
+			isa = PBXGroup;
+			children = (
+				9D81E4891779A7FF00010B04 /* Providing Icons and Images for Passes */,
+				9D81E4A21779A7FF00010B04 /* Providing Icons and Images for PassesTests */,
+				9D81E4821779A7FF00010B04 /* Frameworks */,
+				9D81E4811779A7FF00010B04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D81E4811779A7FF00010B04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D81E4801779A7FF00010B04 /* Providing Icons and Images for Passes.app */,
+				9D81E49B1779A7FF00010B04 /* Providing Icons and Images for PassesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D81E4821779A7FF00010B04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D81E4831779A7FF00010B04 /* Foundation.framework */,
+				9D81E4851779A7FF00010B04 /* CoreGraphics.framework */,
+				9D81E4871779A7FF00010B04 /* UIKit.framework */,
+				9D81E49C1779A7FF00010B04 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D81E4891779A7FF00010B04 /* Providing Icons and Images for Passes */ = {
+			isa = PBXGroup;
+			children = (
+				9D81E4B21779A80F00010B04 /* pass */,
+				9D81E4921779A7FF00010B04 /* AppDelegate.h */,
+				9D81E4931779A7FF00010B04 /* AppDelegate.m */,
+				9D81E4951779A7FF00010B04 /* Images.xcassets */,
+				9D81E48A1779A7FF00010B04 /* Supporting Files */,
+			);
+			path = "Providing Icons and Images for Passes";
+			sourceTree = "<group>";
+		};
+		9D81E48A1779A7FF00010B04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D81E48B1779A7FF00010B04 /* Providing Icons and Images for Passes-Info.plist */,
+				9D81E48C1779A7FF00010B04 /* InfoPlist.strings */,
+				9D81E48F1779A7FF00010B04 /* main.m */,
+				9D81E4911779A7FF00010B04 /* Providing Icons and Images for Passes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D81E4A21779A7FF00010B04 /* Providing Icons and Images for PassesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D81E4A81779A7FF00010B04 /* Providing_Icons_and_Images_for_PassesTests.m */,
+				9D81E4A31779A7FF00010B04 /* Supporting Files */,
+			);
+			path = "Providing Icons and Images for PassesTests";
+			sourceTree = "<group>";
+		};
+		9D81E4A31779A7FF00010B04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D81E4A41779A7FF00010B04 /* Providing Icons and Images for PassesTests-Info.plist */,
+				9D81E4A51779A7FF00010B04 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D81E4B21779A80F00010B04 /* pass */ = {
+			isa = PBXGroup;
+			children = (
+				9D81E4B31779A80F00010B04 /* background.png */,
+				9D81E4B41779A80F00010B04 /* background@2x.png */,
+				9D81E4C71779A90100010B04 /* background-568h@2x.png */,
+				9D81E4B51779A80F00010B04 /* icon.png */,
+				9D81E4B61779A80F00010B04 /* icon@2x.png */,
+				9D81E4B71779A80F00010B04 /* logo.png */,
+				9D81E4B81779A80F00010B04 /* logo@2x.png */,
+				9D81E4B91779A80F00010B04 /* manifest.json */,
+				9D81E4BA1779A80F00010B04 /* pass.json */,
+				9D81E4BB1779A80F00010B04 /* thumbnail.png */,
+				9D81E4BC1779A80F00010B04 /* thumbnail@2x.png */,
+			);
+			path = pass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D81E47F1779A7FF00010B04 /* Providing Icons and Images for Passes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D81E4AC1779A7FF00010B04 /* Build configuration list for PBXNativeTarget "Providing Icons and Images for Passes" */;
+			buildPhases = (
+				9D81E47C1779A7FF00010B04 /* Sources */,
+				9D81E47D1779A7FF00010B04 /* Frameworks */,
+				9D81E47E1779A7FF00010B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Providing Icons and Images for Passes";
+			productName = "Providing Icons and Images for Passes";
+			productReference = 9D81E4801779A7FF00010B04 /* Providing Icons and Images for Passes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D81E49A1779A7FF00010B04 /* Providing Icons and Images for PassesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D81E4AF1779A7FF00010B04 /* Build configuration list for PBXNativeTarget "Providing Icons and Images for PassesTests" */;
+			buildPhases = (
+				9D81E4971779A7FF00010B04 /* Sources */,
+				9D81E4981779A7FF00010B04 /* Frameworks */,
+				9D81E4991779A7FF00010B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D81E4A11779A7FF00010B04 /* PBXTargetDependency */,
+			);
+			name = "Providing Icons and Images for PassesTests";
+			productName = "Providing Icons and Images for PassesTests";
+			productReference = 9D81E49B1779A7FF00010B04 /* Providing Icons and Images for PassesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D81E4781779A7FF00010B04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9D81E49A1779A7FF00010B04 = {
+						TestTargetID = 9D81E47F1779A7FF00010B04;
+					};
+				};
+			};
+			buildConfigurationList = 9D81E47B1779A7FF00010B04 /* Build configuration list for PBXProject "Providing Icons and Images for Passes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D81E4771779A7FF00010B04;
+			productRefGroup = 9D81E4811779A7FF00010B04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D81E47F1779A7FF00010B04 /* Providing Icons and Images for Passes */,
+				9D81E49A1779A7FF00010B04 /* Providing Icons and Images for PassesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D81E47E1779A7FF00010B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D81E4C41779A80F00010B04 /* pass.json in Resources */,
+				9D81E48E1779A7FF00010B04 /* InfoPlist.strings in Resources */,
+				9D81E4C51779A80F00010B04 /* thumbnail.png in Resources */,
+				9D81E4C21779A80F00010B04 /* logo@2x.png in Resources */,
+				9D81E4BF1779A80F00010B04 /* icon.png in Resources */,
+				9D81E4C61779A80F00010B04 /* thumbnail@2x.png in Resources */,
+				9D81E4BD1779A80F00010B04 /* background.png in Resources */,
+				9D81E4C81779A90100010B04 /* background-568h@2x.png in Resources */,
+				9D81E4C31779A80F00010B04 /* manifest.json in Resources */,
+				9D81E4BE1779A80F00010B04 /* background@2x.png in Resources */,
+				9D81E4C11779A80F00010B04 /* logo.png in Resources */,
+				9D81E4961779A7FF00010B04 /* Images.xcassets in Resources */,
+				9D81E4C01779A80F00010B04 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D81E4991779A7FF00010B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D81E4A71779A7FF00010B04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D81E47C1779A7FF00010B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D81E4941779A7FF00010B04 /* AppDelegate.m in Sources */,
+				9D81E4901779A7FF00010B04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D81E4971779A7FF00010B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D81E4A91779A7FF00010B04 /* Providing_Icons_and_Images_for_PassesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D81E4A11779A7FF00010B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D81E47F1779A7FF00010B04 /* Providing Icons and Images for Passes */;
+			targetProxy = 9D81E4A01779A7FF00010B04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D81E48C1779A7FF00010B04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D81E48D1779A7FF00010B04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D81E4A51779A7FF00010B04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D81E4A61779A7FF00010B04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D81E4AA1779A7FF00010B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D81E4AB1779A7FF00010B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D81E4AD1779A7FF00010B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Providing Icons and Images for Passes/Providing Icons and Images for Passes-Prefix.pch";
+				INFOPLIST_FILE = "Providing Icons and Images for Passes/Providing Icons and Images for Passes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D81E4AE1779A7FF00010B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Providing Icons and Images for Passes/Providing Icons and Images for Passes-Prefix.pch";
+				INFOPLIST_FILE = "Providing Icons and Images for Passes/Providing Icons and Images for Passes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D81E4B01779A7FF00010B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Providing Icons and Images for Passes.app/Providing Icons and Images for Passes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Providing Icons and Images for Passes/Providing Icons and Images for Passes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Providing Icons and Images for PassesTests/Providing Icons and Images for PassesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9D81E4B11779A7FF00010B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Providing Icons and Images for Passes.app/Providing Icons and Images for Passes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Providing Icons and Images for Passes/Providing Icons and Images for Passes-Prefix.pch";
+				INFOPLIST_FILE = "Providing Icons and Images for PassesTests/Providing Icons and Images for PassesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D81E47B1779A7FF00010B04 /* Build configuration list for PBXProject "Providing Icons and Images for Passes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D81E4AA1779A7FF00010B04 /* Debug */,
+				9D81E4AB1779A7FF00010B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D81E4AC1779A7FF00010B04 /* Build configuration list for PBXNativeTarget "Providing Icons and Images for Passes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D81E4AD1779A7FF00010B04 /* Debug */,
+				9D81E4AE1779A7FF00010B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D81E4AF1779A7FF00010B04 /* Build configuration list for PBXNativeTarget "Providing Icons and Images for PassesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D81E4B01779A7FF00010B04 /* Debug */,
+				9D81E4B11779A7FF00010B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D81E4781779A7FF00010B04 /* Project object */;
+}

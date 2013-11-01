@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DE7AFB617789C310067E207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7AFB517789C310067E207 /* Foundation.framework */; };
+		9DE7AFB817789C310067E207 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7AFB717789C310067E207 /* CoreGraphics.framework */; };
+		9DE7AFBA17789C310067E207 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7AFB917789C310067E207 /* UIKit.framework */; };
+		9DE7AFC017789C310067E207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7AFBE17789C310067E207 /* InfoPlist.strings */; };
+		9DE7AFC217789C310067E207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7AFC117789C310067E207 /* main.m */; };
+		9DE7AFC617789C310067E207 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7AFC517789C310067E207 /* AppDelegate.m */; };
+		9DE7AFC817789C310067E207 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7AFC717789C310067E207 /* Images.xcassets */; };
+		9DE7AFCF17789C310067E207 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7AFCE17789C310067E207 /* XCTest.framework */; };
+		9DE7AFD017789C310067E207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7AFB517789C310067E207 /* Foundation.framework */; };
+		9DE7AFD117789C310067E207 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7AFB917789C310067E207 /* UIKit.framework */; };
+		9DE7AFD917789C310067E207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7AFD717789C310067E207 /* InfoPlist.strings */; };
+		9DE7AFDB17789C310067E207 /* Parsing_XML_with_NSXMLParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7AFDA17789C310067E207 /* Parsing_XML_with_NSXMLParserTests.m */; };
+		9DE7AFE717789C400067E207 /* MyXML.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7AFE417789C400067E207 /* MyXML.xml */; };
+		9DE7AFE817789C400067E207 /* XMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7AFE617789C400067E207 /* XMLElement.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DE7AFD217789C310067E207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE7AFAA17789C310067E207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DE7AFB117789C310067E207;
+			remoteInfo = "Parsing XML with NSXMLParser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DE7AFB217789C310067E207 /* Parsing XML with NSXMLParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parsing XML with NSXMLParser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE7AFB517789C310067E207 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DE7AFB717789C310067E207 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DE7AFB917789C310067E207 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DE7AFBD17789C310067E207 /* Parsing XML with NSXMLParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Parsing XML with NSXMLParser-Info.plist"; sourceTree = "<group>"; };
+		9DE7AFBF17789C310067E207 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DE7AFC117789C310067E207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DE7AFC317789C310067E207 /* Parsing XML with NSXMLParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Parsing XML with NSXMLParser-Prefix.pch"; sourceTree = "<group>"; };
+		9DE7AFC417789C310067E207 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DE7AFC517789C310067E207 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DE7AFC717789C310067E207 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9DE7AFCD17789C310067E207 /* Parsing XML with NSXMLParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parsing XML with NSXMLParserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE7AFCE17789C310067E207 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9DE7AFD617789C310067E207 /* Parsing XML with NSXMLParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Parsing XML with NSXMLParserTests-Info.plist"; sourceTree = "<group>"; };
+		9DE7AFD817789C310067E207 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DE7AFDA17789C310067E207 /* Parsing_XML_with_NSXMLParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parsing_XML_with_NSXMLParserTests.m; sourceTree = "<group>"; };
+		9DE7AFE417789C400067E207 /* MyXML.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MyXML.xml; sourceTree = "<group>"; };
+		9DE7AFE517789C400067E207 /* XMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLElement.h; sourceTree = "<group>"; };
+		9DE7AFE617789C400067E207 /* XMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLElement.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DE7AFAF17789C310067E207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7AFB817789C310067E207 /* CoreGraphics.framework in Frameworks */,
+				9DE7AFBA17789C310067E207 /* UIKit.framework in Frameworks */,
+				9DE7AFB617789C310067E207 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE7AFCA17789C310067E207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7AFCF17789C310067E207 /* XCTest.framework in Frameworks */,
+				9DE7AFD117789C310067E207 /* UIKit.framework in Frameworks */,
+				9DE7AFD017789C310067E207 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DE7AFA917789C310067E207 = {
+			isa = PBXGroup;
+			children = (
+				9DE7AFBB17789C310067E207 /* Parsing XML with NSXMLParser */,
+				9DE7AFD417789C310067E207 /* Parsing XML with NSXMLParserTests */,
+				9DE7AFB417789C310067E207 /* Frameworks */,
+				9DE7AFB317789C310067E207 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DE7AFB317789C310067E207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7AFB217789C310067E207 /* Parsing XML with NSXMLParser.app */,
+				9DE7AFCD17789C310067E207 /* Parsing XML with NSXMLParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DE7AFB417789C310067E207 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7AFB517789C310067E207 /* Foundation.framework */,
+				9DE7AFB717789C310067E207 /* CoreGraphics.framework */,
+				9DE7AFB917789C310067E207 /* UIKit.framework */,
+				9DE7AFCE17789C310067E207 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DE7AFBB17789C310067E207 /* Parsing XML with NSXMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7AFE417789C400067E207 /* MyXML.xml */,
+				9DE7AFE517789C400067E207 /* XMLElement.h */,
+				9DE7AFE617789C400067E207 /* XMLElement.m */,
+				9DE7AFC417789C310067E207 /* AppDelegate.h */,
+				9DE7AFC517789C310067E207 /* AppDelegate.m */,
+				9DE7AFC717789C310067E207 /* Images.xcassets */,
+				9DE7AFBC17789C310067E207 /* Supporting Files */,
+			);
+			path = "Parsing XML with NSXMLParser";
+			sourceTree = "<group>";
+		};
+		9DE7AFBC17789C310067E207 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7AFBD17789C310067E207 /* Parsing XML with NSXMLParser-Info.plist */,
+				9DE7AFBE17789C310067E207 /* InfoPlist.strings */,
+				9DE7AFC117789C310067E207 /* main.m */,
+				9DE7AFC317789C310067E207 /* Parsing XML with NSXMLParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DE7AFD417789C310067E207 /* Parsing XML with NSXMLParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7AFDA17789C310067E207 /* Parsing_XML_with_NSXMLParserTests.m */,
+				9DE7AFD517789C310067E207 /* Supporting Files */,
+			);
+			path = "Parsing XML with NSXMLParserTests";
+			sourceTree = "<group>";
+		};
+		9DE7AFD517789C310067E207 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7AFD617789C310067E207 /* Parsing XML with NSXMLParserTests-Info.plist */,
+				9DE7AFD717789C310067E207 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DE7AFB117789C310067E207 /* Parsing XML with NSXMLParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE7AFDE17789C320067E207 /* Build configuration list for PBXNativeTarget "Parsing XML with NSXMLParser" */;
+			buildPhases = (
+				9DE7AFAE17789C310067E207 /* Sources */,
+				9DE7AFAF17789C310067E207 /* Frameworks */,
+				9DE7AFB017789C310067E207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parsing XML with NSXMLParser";
+			productName = "Parsing XML with NSXMLParser";
+			productReference = 9DE7AFB217789C310067E207 /* Parsing XML with NSXMLParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DE7AFCC17789C310067E207 /* Parsing XML with NSXMLParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE7AFE117789C320067E207 /* Build configuration list for PBXNativeTarget "Parsing XML with NSXMLParserTests" */;
+			buildPhases = (
+				9DE7AFC917789C310067E207 /* Sources */,
+				9DE7AFCA17789C310067E207 /* Frameworks */,
+				9DE7AFCB17789C310067E207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DE7AFD317789C310067E207 /* PBXTargetDependency */,
+			);
+			name = "Parsing XML with NSXMLParserTests";
+			productName = "Parsing XML with NSXMLParserTests";
+			productReference = 9DE7AFCD17789C310067E207 /* Parsing XML with NSXMLParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DE7AFAA17789C310067E207 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9DE7AFCC17789C310067E207 = {
+						TestTargetID = 9DE7AFB117789C310067E207;
+					};
+				};
+			};
+			buildConfigurationList = 9DE7AFAD17789C310067E207 /* Build configuration list for PBXProject "Parsing XML with NSXMLParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DE7AFA917789C310067E207;
+			productRefGroup = 9DE7AFB317789C310067E207 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DE7AFB117789C310067E207 /* Parsing XML with NSXMLParser */,
+				9DE7AFCC17789C310067E207 /* Parsing XML with NSXMLParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DE7AFB017789C310067E207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7AFE717789C400067E207 /* MyXML.xml in Resources */,
+				9DE7AFC017789C310067E207 /* InfoPlist.strings in Resources */,
+				9DE7AFC817789C310067E207 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE7AFCB17789C310067E207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7AFD917789C310067E207 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DE7AFAE17789C310067E207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7AFC617789C310067E207 /* AppDelegate.m in Sources */,
+				9DE7AFC217789C310067E207 /* main.m in Sources */,
+				9DE7AFE817789C400067E207 /* XMLElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE7AFC917789C310067E207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7AFDB17789C310067E207 /* Parsing_XML_with_NSXMLParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DE7AFD317789C310067E207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DE7AFB117789C310067E207 /* Parsing XML with NSXMLParser */;
+			targetProxy = 9DE7AFD217789C310067E207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DE7AFBE17789C310067E207 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE7AFBF17789C310067E207 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DE7AFD717789C310067E207 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE7AFD817789C310067E207 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DE7AFDC17789C320067E207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DE7AFDD17789C320067E207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DE7AFDF17789C320067E207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parsing XML with NSXMLParser/Parsing XML with NSXMLParser-Prefix.pch";
+				INFOPLIST_FILE = "Parsing XML with NSXMLParser/Parsing XML with NSXMLParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DE7AFE017789C320067E207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parsing XML with NSXMLParser/Parsing XML with NSXMLParser-Prefix.pch";
+				INFOPLIST_FILE = "Parsing XML with NSXMLParser/Parsing XML with NSXMLParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9DE7AFE217789C320067E207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Parsing XML with NSXMLParser.app/Parsing XML with NSXMLParser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parsing XML with NSXMLParser/Parsing XML with NSXMLParser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Parsing XML with NSXMLParserTests/Parsing XML with NSXMLParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9DE7AFE317789C320067E207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Parsing XML with NSXMLParser.app/Parsing XML with NSXMLParser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parsing XML with NSXMLParser/Parsing XML with NSXMLParser-Prefix.pch";
+				INFOPLIST_FILE = "Parsing XML with NSXMLParserTests/Parsing XML with NSXMLParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DE7AFAD17789C310067E207 /* Build configuration list for PBXProject "Parsing XML with NSXMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE7AFDC17789C320067E207 /* Debug */,
+				9DE7AFDD17789C320067E207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DE7AFDE17789C320067E207 /* Build configuration list for PBXNativeTarget "Parsing XML with NSXMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE7AFDF17789C320067E207 /* Debug */,
+				9DE7AFE017789C320067E207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DE7AFE117789C320067E207 /* Build configuration list for PBXNativeTarget "Parsing XML with NSXMLParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE7AFE217789C320067E207 /* Debug */,
+				9DE7AFE317789C320067E207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DE7AFAA17789C310067E207 /* Project object */;
+}

@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D029F071778E52C004E533F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D029F061778E52C004E533F /* Foundation.framework */; };
+		9D029F091778E52C004E533F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D029F081778E52C004E533F /* CoreGraphics.framework */; };
+		9D029F0B1778E52C004E533F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D029F0A1778E52C004E533F /* UIKit.framework */; };
+		9D029F111778E52C004E533F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D029F0F1778E52C004E533F /* InfoPlist.strings */; };
+		9D029F131778E52C004E533F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D029F121778E52C004E533F /* main.m */; };
+		9D029F171778E52C004E533F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D029F161778E52C004E533F /* AppDelegate.m */; };
+		9D029F191778E52C004E533F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D029F181778E52C004E533F /* Images.xcassets */; };
+		9D029F201778E52C004E533F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D029F1F1778E52C004E533F /* XCTest.framework */; };
+		9D029F211778E52C004E533F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D029F061778E52C004E533F /* Foundation.framework */; };
+		9D029F221778E52C004E533F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D029F0A1778E52C004E533F /* UIKit.framework */; };
+		9D029F2A1778E52C004E533F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D029F281778E52C004E533F /* InfoPlist.strings */; };
+		9D029F2C1778E52C004E533F /* Detecting_the_Availability_of_a_GyroscopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D029F2B1778E52C004E533F /* Detecting_the_Availability_of_a_GyroscopeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D029F231778E52C004E533F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D029EFB1778E52C004E533F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D029F021778E52C004E533F;
+			remoteInfo = "Detecting the Availability of a Gyroscope";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D029F031778E52C004E533F /* Detecting the Availability of a Gyroscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detecting the Availability of a Gyroscope.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D029F061778E52C004E533F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D029F081778E52C004E533F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D029F0A1778E52C004E533F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D029F0E1778E52C004E533F /* Detecting the Availability of a Gyroscope-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Detecting the Availability of a Gyroscope-Info.plist"; sourceTree = "<group>"; };
+		9D029F101778E52C004E533F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D029F121778E52C004E533F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D029F141778E52C004E533F /* Detecting the Availability of a Gyroscope-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Detecting the Availability of a Gyroscope-Prefix.pch"; sourceTree = "<group>"; };
+		9D029F151778E52C004E533F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D029F161778E52C004E533F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D029F181778E52C004E533F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D029F1E1778E52C004E533F /* Detecting the Availability of a GyroscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Detecting the Availability of a GyroscopeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D029F1F1778E52C004E533F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D029F271778E52C004E533F /* Detecting the Availability of a GyroscopeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Detecting the Availability of a GyroscopeTests-Info.plist"; sourceTree = "<group>"; };
+		9D029F291778E52C004E533F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D029F2B1778E52C004E533F /* Detecting_the_Availability_of_a_GyroscopeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Detecting_the_Availability_of_a_GyroscopeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D029F001778E52C004E533F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D029F091778E52C004E533F /* CoreGraphics.framework in Frameworks */,
+				9D029F0B1778E52C004E533F /* UIKit.framework in Frameworks */,
+				9D029F071778E52C004E533F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D029F1B1778E52C004E533F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D029F201778E52C004E533F /* XCTest.framework in Frameworks */,
+				9D029F221778E52C004E533F /* UIKit.framework in Frameworks */,
+				9D029F211778E52C004E533F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D029EFA1778E52C004E533F = {
+			isa = PBXGroup;
+			children = (
+				9D029F0C1778E52C004E533F /* Detecting the Availability of a Gyroscope */,
+				9D029F251778E52C004E533F /* Detecting the Availability of a GyroscopeTests */,
+				9D029F051778E52C004E533F /* Frameworks */,
+				9D029F041778E52C004E533F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D029F041778E52C004E533F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D029F031778E52C004E533F /* Detecting the Availability of a Gyroscope.app */,
+				9D029F1E1778E52C004E533F /* Detecting the Availability of a GyroscopeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D029F051778E52C004E533F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D029F061778E52C004E533F /* Foundation.framework */,
+				9D029F081778E52C004E533F /* CoreGraphics.framework */,
+				9D029F0A1778E52C004E533F /* UIKit.framework */,
+				9D029F1F1778E52C004E533F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D029F0C1778E52C004E533F /* Detecting the Availability of a Gyroscope */ = {
+			isa = PBXGroup;
+			children = (
+				9D029F151778E52C004E533F /* AppDelegate.h */,
+				9D029F161778E52C004E533F /* AppDelegate.m */,
+				9D029F181778E52C004E533F /* Images.xcassets */,
+				9D029F0D1778E52C004E533F /* Supporting Files */,
+			);
+			path = "Detecting the Availability of a Gyroscope";
+			sourceTree = "<group>";
+		};
+		9D029F0D1778E52C004E533F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D029F0E1778E52C004E533F /* Detecting the Availability of a Gyroscope-Info.plist */,
+				9D029F0F1778E52C004E533F /* InfoPlist.strings */,
+				9D029F121778E52C004E533F /* main.m */,
+				9D029F141778E52C004E533F /* Detecting the Availability of a Gyroscope-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D029F251778E52C004E533F /* Detecting the Availability of a GyroscopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D029F2B1778E52C004E533F /* Detecting_the_Availability_of_a_GyroscopeTests.m */,
+				9D029F261778E52C004E533F /* Supporting Files */,
+			);
+			path = "Detecting the Availability of a GyroscopeTests";
+			sourceTree = "<group>";
+		};
+		9D029F261778E52C004E533F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D029F271778E52C004E533F /* Detecting the Availability of a GyroscopeTests-Info.plist */,
+				9D029F281778E52C004E533F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D029F021778E52C004E533F /* Detecting the Availability of a Gyroscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D029F2F1778E52C004E533F /* Build configuration list for PBXNativeTarget "Detecting the Availability of a Gyroscope" */;
+			buildPhases = (
+				9D029EFF1778E52C004E533F /* Sources */,
+				9D029F001778E52C004E533F /* Frameworks */,
+				9D029F011778E52C004E533F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Detecting the Availability of a Gyroscope";
+			productName = "Detecting the Availability of a Gyroscope";
+			productReference = 9D029F031778E52C004E533F /* Detecting the Availability of a Gyroscope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D029F1D1778E52C004E533F /* Detecting the Availability of a GyroscopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D029F321778E52C004E533F /* Build configuration list for PBXNativeTarget "Detecting the Availability of a GyroscopeTests" */;
+			buildPhases = (
+				9D029F1A1778E52C004E533F /* Sources */,
+				9D029F1B1778E52C004E533F /* Frameworks */,
+				9D029F1C1778E52C004E533F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D029F241778E52C004E533F /* PBXTargetDependency */,
+			);
+			name = "Detecting the Availability of a GyroscopeTests";
+			productName = "Detecting the Availability of a GyroscopeTests";
+			productReference = 9D029F1E1778E52C004E533F /* Detecting the Availability of a GyroscopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D029EFB1778E52C004E533F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9D029F1D1778E52C004E533F = {
+						TestTargetID = 9D029F021778E52C004E533F;
+					};
+				};
+			};
+			buildConfigurationList = 9D029EFE1778E52C004E533F /* Build configuration list for PBXProject "Detecting the Availability of a Gyroscope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D029EFA1778E52C004E533F;
+			productRefGroup = 9D029F041778E52C004E533F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D029F021778E52C004E533F /* Detecting the Availability of a Gyroscope */,
+				9D029F1D1778E52C004E533F /* Detecting the Availability of a GyroscopeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D029F011778E52C004E533F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D029F111778E52C004E533F /* InfoPlist.strings in Resources */,
+				9D029F191778E52C004E533F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D029F1C1778E52C004E533F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D029F2A1778E52C004E533F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D029EFF1778E52C004E533F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D029F171778E52C004E533F /* AppDelegate.m in Sources */,
+				9D029F131778E52C004E533F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D029F1A1778E52C004E533F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D029F2C1778E52C004E533F /* Detecting_the_Availability_of_a_GyroscopeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D029F241778E52C004E533F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D029F021778E52C004E533F /* Detecting the Availability of a Gyroscope */;
+			targetProxy = 9D029F231778E52C004E533F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D029F0F1778E52C004E533F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D029F101778E52C004E533F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D029F281778E52C004E533F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D029F291778E52C004E533F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D029F2D1778E52C004E533F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D029F2E1778E52C004E533F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D029F301778E52C004E533F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting the Availability of a Gyroscope/Detecting the Availability of a Gyroscope-Prefix.pch";
+				INFOPLIST_FILE = "Detecting the Availability of a Gyroscope/Detecting the Availability of a Gyroscope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D029F311778E52C004E533F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting the Availability of a Gyroscope/Detecting the Availability of a Gyroscope-Prefix.pch";
+				INFOPLIST_FILE = "Detecting the Availability of a Gyroscope/Detecting the Availability of a Gyroscope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D029F331778E52C004E533F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Detecting the Availability of a Gyroscope.app/Detecting the Availability of a Gyroscope";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting the Availability of a Gyroscope/Detecting the Availability of a Gyroscope-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Detecting the Availability of a GyroscopeTests/Detecting the Availability of a GyroscopeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9D029F341778E52C004E533F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Detecting the Availability of a Gyroscope.app/Detecting the Availability of a Gyroscope";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting the Availability of a Gyroscope/Detecting the Availability of a Gyroscope-Prefix.pch";
+				INFOPLIST_FILE = "Detecting the Availability of a GyroscopeTests/Detecting the Availability of a GyroscopeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D029EFE1778E52C004E533F /* Build configuration list for PBXProject "Detecting the Availability of a Gyroscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D029F2D1778E52C004E533F /* Debug */,
+				9D029F2E1778E52C004E533F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D029F2F1778E52C004E533F /* Build configuration list for PBXNativeTarget "Detecting the Availability of a Gyroscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D029F301778E52C004E533F /* Debug */,
+				9D029F311778E52C004E533F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D029F321778E52C004E533F /* Build configuration list for PBXNativeTarget "Detecting the Availability of a GyroscopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D029F331778E52C004E533F /* Debug */,
+				9D029F341778E52C004E533F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D029EFB1778E52C004E533F /* Project object */;
+}

@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D58FE24176C6632008AA21A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D58FE23176C6632008AA21A /* Foundation.framework */; };
+		9D58FE26176C6632008AA21A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D58FE25176C6632008AA21A /* CoreGraphics.framework */; };
+		9D58FE28176C6632008AA21A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D58FE27176C6632008AA21A /* UIKit.framework */; };
+		9D58FE2E176C6632008AA21A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D58FE2C176C6632008AA21A /* InfoPlist.strings */; };
+		9D58FE30176C6632008AA21A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D58FE2F176C6632008AA21A /* main.m */; };
+		9D58FE34176C6632008AA21A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D58FE33176C6632008AA21A /* AppDelegate.m */; };
+		9D58FE36176C6632008AA21A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D58FE35176C6632008AA21A /* Images.xcassets */; };
+		9D58FE3D176C6632008AA21A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D58FE3C176C6632008AA21A /* XCTest.framework */; };
+		9D58FE3E176C6632008AA21A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D58FE23176C6632008AA21A /* Foundation.framework */; };
+		9D58FE3F176C6632008AA21A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D58FE27176C6632008AA21A /* UIKit.framework */; };
+		9D58FE47176C6632008AA21A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D58FE45176C6632008AA21A /* InfoPlist.strings */; };
+		9D58FE49176C6632008AA21A /* Sharing_Keychain_Data_Between_Multiple_Apps___ReadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D58FE48176C6632008AA21A /* Sharing_Keychain_Data_Between_Multiple_Apps___ReadingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D58FE40176C6632008AA21A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D58FE18176C6632008AA21A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D58FE1F176C6632008AA21A;
+			remoteInfo = "Sharing Keychain Data Between Multiple Apps - Reading";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D58FE20176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - Reading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sharing Keychain Data Between Multiple Apps - Reading.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D58FE23176C6632008AA21A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D58FE25176C6632008AA21A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D58FE27176C6632008AA21A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D58FE2B176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - Reading-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sharing Keychain Data Between Multiple Apps - Reading-Info.plist"; sourceTree = "<group>"; };
+		9D58FE2D176C6632008AA21A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D58FE2F176C6632008AA21A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D58FE31176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - Reading-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sharing Keychain Data Between Multiple Apps - Reading-Prefix.pch"; sourceTree = "<group>"; };
+		9D58FE32176C6632008AA21A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D58FE33176C6632008AA21A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D58FE35176C6632008AA21A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D58FE3B176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - ReadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sharing Keychain Data Between Multiple Apps - ReadingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D58FE3C176C6632008AA21A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D58FE44176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - ReadingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sharing Keychain Data Between Multiple Apps - ReadingTests-Info.plist"; sourceTree = "<group>"; };
+		9D58FE46176C6632008AA21A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D58FE48176C6632008AA21A /* Sharing_Keychain_Data_Between_Multiple_Apps___ReadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Sharing_Keychain_Data_Between_Multiple_Apps___ReadingTests.m"; sourceTree = "<group>"; };
+		9D58FE52176C67DB008AA21A /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D58FE1D176C6632008AA21A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D58FE26176C6632008AA21A /* CoreGraphics.framework in Frameworks */,
+				9D58FE28176C6632008AA21A /* UIKit.framework in Frameworks */,
+				9D58FE24176C6632008AA21A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D58FE38176C6632008AA21A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D58FE3D176C6632008AA21A /* XCTest.framework in Frameworks */,
+				9D58FE3F176C6632008AA21A /* UIKit.framework in Frameworks */,
+				9D58FE3E176C6632008AA21A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D58FE17176C6632008AA21A = {
+			isa = PBXGroup;
+			children = (
+				9D58FE29176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - Reading */,
+				9D58FE42176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - ReadingTests */,
+				9D58FE22176C6632008AA21A /* Frameworks */,
+				9D58FE21176C6632008AA21A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D58FE21176C6632008AA21A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D58FE20176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - Reading.app */,
+				9D58FE3B176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - ReadingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D58FE22176C6632008AA21A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D58FE23176C6632008AA21A /* Foundation.framework */,
+				9D58FE25176C6632008AA21A /* CoreGraphics.framework */,
+				9D58FE27176C6632008AA21A /* UIKit.framework */,
+				9D58FE3C176C6632008AA21A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D58FE29176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - Reading */ = {
+			isa = PBXGroup;
+			children = (
+				9D58FE32176C6632008AA21A /* AppDelegate.h */,
+				9D58FE33176C6632008AA21A /* AppDelegate.m */,
+				9D58FE35176C6632008AA21A /* Images.xcassets */,
+				9D58FE2A176C6632008AA21A /* Supporting Files */,
+			);
+			path = "Sharing Keychain Data Between Multiple Apps - Reading";
+			sourceTree = "<group>";
+		};
+		9D58FE2A176C6632008AA21A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D58FE52176C67DB008AA21A /* Entitlements.plist */,
+				9D58FE2B176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - Reading-Info.plist */,
+				9D58FE2C176C6632008AA21A /* InfoPlist.strings */,
+				9D58FE2F176C6632008AA21A /* main.m */,
+				9D58FE31176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - Reading-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D58FE42176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - ReadingTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D58FE48176C6632008AA21A /* Sharing_Keychain_Data_Between_Multiple_Apps___ReadingTests.m */,
+				9D58FE43176C6632008AA21A /* Supporting Files */,
+			);
+			path = "Sharing Keychain Data Between Multiple Apps - ReadingTests";
+			sourceTree = "<group>";
+		};
+		9D58FE43176C6632008AA21A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D58FE44176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - ReadingTests-Info.plist */,
+				9D58FE45176C6632008AA21A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D58FE1F176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - Reading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D58FE4C176C6632008AA21A /* Build configuration list for PBXNativeTarget "Sharing Keychain Data Between Multiple Apps - Reading" */;
+			buildPhases = (
+				9D58FE1C176C6632008AA21A /* Sources */,
+				9D58FE1D176C6632008AA21A /* Frameworks */,
+				9D58FE1E176C6632008AA21A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sharing Keychain Data Between Multiple Apps - Reading";
+			productName = "Sharing Keychain Data Between Multiple Apps - Reading";
+			productReference = 9D58FE20176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - Reading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D58FE3A176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - ReadingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D58FE4F176C6632008AA21A /* Build configuration list for PBXNativeTarget "Sharing Keychain Data Between Multiple Apps - ReadingTests" */;
+			buildPhases = (
+				9D58FE37176C6632008AA21A /* Sources */,
+				9D58FE38176C6632008AA21A /* Frameworks */,
+				9D58FE39176C6632008AA21A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D58FE41176C6632008AA21A /* PBXTargetDependency */,
+			);
+			name = "Sharing Keychain Data Between Multiple Apps - ReadingTests";
+			productName = "Sharing Keychain Data Between Multiple Apps - ReadingTests";
+			productReference = 9D58FE3B176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - ReadingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D58FE18176C6632008AA21A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9D58FE3A176C6632008AA21A = {
+						TestTargetID = 9D58FE1F176C6632008AA21A;
+					};
+				};
+			};
+			buildConfigurationList = 9D58FE1B176C6632008AA21A /* Build configuration list for PBXProject "Sharing Keychain Data Between Multiple Apps - Reading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D58FE17176C6632008AA21A;
+			productRefGroup = 9D58FE21176C6632008AA21A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D58FE1F176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - Reading */,
+				9D58FE3A176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - ReadingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D58FE1E176C6632008AA21A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D58FE2E176C6632008AA21A /* InfoPlist.strings in Resources */,
+				9D58FE36176C6632008AA21A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D58FE39176C6632008AA21A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D58FE47176C6632008AA21A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D58FE1C176C6632008AA21A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D58FE34176C6632008AA21A /* AppDelegate.m in Sources */,
+				9D58FE30176C6632008AA21A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D58FE37176C6632008AA21A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D58FE49176C6632008AA21A /* Sharing_Keychain_Data_Between_Multiple_Apps___ReadingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D58FE41176C6632008AA21A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D58FE1F176C6632008AA21A /* Sharing Keychain Data Between Multiple Apps - Reading */;
+			targetProxy = 9D58FE40176C6632008AA21A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D58FE2C176C6632008AA21A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D58FE2D176C6632008AA21A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D58FE45176C6632008AA21A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D58FE46176C6632008AA21A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D58FE4A176C6632008AA21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D58FE4B176C6632008AA21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D58FE4D176C6632008AA21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "$(TARGET_NAME)/Entitlements.plist";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sharing Keychain Data Between Multiple Apps - Reading/Sharing Keychain Data Between Multiple Apps - Reading-Prefix.pch";
+				INFOPLIST_FILE = "Sharing Keychain Data Between Multiple Apps - Reading/Sharing Keychain Data Between Multiple Apps - Reading-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D58FE4E176C6632008AA21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "$(TARGET_NAME)/Entitlements.plist";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sharing Keychain Data Between Multiple Apps - Reading/Sharing Keychain Data Between Multiple Apps - Reading-Prefix.pch";
+				INFOPLIST_FILE = "Sharing Keychain Data Between Multiple Apps - Reading/Sharing Keychain Data Between Multiple Apps - Reading-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D58FE50176C6632008AA21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sharing Keychain Data Between Multiple Apps - Reading.app/Sharing Keychain Data Between Multiple Apps - Reading";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sharing Keychain Data Between Multiple Apps - Reading/Sharing Keychain Data Between Multiple Apps - Reading-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sharing Keychain Data Between Multiple Apps - ReadingTests/Sharing Keychain Data Between Multiple Apps - ReadingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9D58FE51176C6632008AA21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sharing Keychain Data Between Multiple Apps - Reading.app/Sharing Keychain Data Between Multiple Apps - Reading";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sharing Keychain Data Between Multiple Apps - Reading/Sharing Keychain Data Between Multiple Apps - Reading-Prefix.pch";
+				INFOPLIST_FILE = "Sharing Keychain Data Between Multiple Apps - ReadingTests/Sharing Keychain Data Between Multiple Apps - ReadingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D58FE1B176C6632008AA21A /* Build configuration list for PBXProject "Sharing Keychain Data Between Multiple Apps - Reading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D58FE4A176C6632008AA21A /* Debug */,
+				9D58FE4B176C6632008AA21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D58FE4C176C6632008AA21A /* Build configuration list for PBXNativeTarget "Sharing Keychain Data Between Multiple Apps - Reading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D58FE4D176C6632008AA21A /* Debug */,
+				9D58FE4E176C6632008AA21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D58FE4F176C6632008AA21A /* Build configuration list for PBXNativeTarget "Sharing Keychain Data Between Multiple Apps - ReadingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D58FE50176C6632008AA21A /* Debug */,
+				9D58FE51176C6632008AA21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D58FE18176C6632008AA21A /* Project object */;
+}

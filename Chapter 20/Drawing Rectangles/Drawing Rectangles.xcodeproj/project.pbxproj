@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DE7B2B31778BE4A0067E207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7B2B21778BE4A0067E207 /* Foundation.framework */; };
+		9DE7B2B51778BE4A0067E207 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7B2B41778BE4A0067E207 /* CoreGraphics.framework */; };
+		9DE7B2B71778BE4A0067E207 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7B2B61778BE4A0067E207 /* UIKit.framework */; };
+		9DE7B2BD1778BE4A0067E207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7B2BB1778BE4A0067E207 /* InfoPlist.strings */; };
+		9DE7B2BF1778BE4A0067E207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7B2BE1778BE4A0067E207 /* main.m */; };
+		9DE7B2C31778BE4A0067E207 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7B2C21778BE4A0067E207 /* AppDelegate.m */; };
+		9DE7B2C61778BE4A0067E207 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7B2C41778BE4A0067E207 /* Main_iPhone.storyboard */; };
+		9DE7B2C91778BE4A0067E207 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7B2C71778BE4A0067E207 /* Main_iPad.storyboard */; };
+		9DE7B2CC1778BE4A0067E207 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7B2CB1778BE4A0067E207 /* ViewController.m */; };
+		9DE7B2CE1778BE4A0067E207 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7B2CD1778BE4A0067E207 /* Images.xcassets */; };
+		9DE7B2D51778BE4A0067E207 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7B2D41778BE4A0067E207 /* XCTest.framework */; };
+		9DE7B2D61778BE4A0067E207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7B2B21778BE4A0067E207 /* Foundation.framework */; };
+		9DE7B2D71778BE4A0067E207 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7B2B61778BE4A0067E207 /* UIKit.framework */; };
+		9DE7B2DF1778BE4A0067E207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7B2DD1778BE4A0067E207 /* InfoPlist.strings */; };
+		9DE7B2E11778BE4A0067E207 /* Drawing_RectanglesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7B2E01778BE4A0067E207 /* Drawing_RectanglesTests.m */; };
+		9DE7B2EC1778BE530067E207 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7B2EB1778BE530067E207 /* View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DE7B2D81778BE4A0067E207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE7B2A71778BE4A0067E207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DE7B2AE1778BE4A0067E207;
+			remoteInfo = "Drawing Rectangles";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DE7B2AF1778BE4A0067E207 /* Drawing Rectangles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing Rectangles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE7B2B21778BE4A0067E207 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DE7B2B41778BE4A0067E207 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DE7B2B61778BE4A0067E207 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DE7B2BA1778BE4A0067E207 /* Drawing Rectangles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing Rectangles-Info.plist"; sourceTree = "<group>"; };
+		9DE7B2BC1778BE4A0067E207 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DE7B2BE1778BE4A0067E207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DE7B2C01778BE4A0067E207 /* Drawing Rectangles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drawing Rectangles-Prefix.pch"; sourceTree = "<group>"; };
+		9DE7B2C11778BE4A0067E207 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DE7B2C21778BE4A0067E207 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DE7B2C51778BE4A0067E207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9DE7B2C81778BE4A0067E207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9DE7B2CA1778BE4A0067E207 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9DE7B2CB1778BE4A0067E207 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DE7B2CD1778BE4A0067E207 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9DE7B2D31778BE4A0067E207 /* Drawing RectanglesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing RectanglesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE7B2D41778BE4A0067E207 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9DE7B2DC1778BE4A0067E207 /* Drawing RectanglesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing RectanglesTests-Info.plist"; sourceTree = "<group>"; };
+		9DE7B2DE1778BE4A0067E207 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DE7B2E01778BE4A0067E207 /* Drawing_RectanglesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_RectanglesTests.m; sourceTree = "<group>"; };
+		9DE7B2EA1778BE530067E207 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		9DE7B2EB1778BE530067E207 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DE7B2AC1778BE4A0067E207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7B2B51778BE4A0067E207 /* CoreGraphics.framework in Frameworks */,
+				9DE7B2B71778BE4A0067E207 /* UIKit.framework in Frameworks */,
+				9DE7B2B31778BE4A0067E207 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE7B2D01778BE4A0067E207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7B2D51778BE4A0067E207 /* XCTest.framework in Frameworks */,
+				9DE7B2D71778BE4A0067E207 /* UIKit.framework in Frameworks */,
+				9DE7B2D61778BE4A0067E207 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DE7B2A61778BE4A0067E207 = {
+			isa = PBXGroup;
+			children = (
+				9DE7B2B81778BE4A0067E207 /* Drawing Rectangles */,
+				9DE7B2DA1778BE4A0067E207 /* Drawing RectanglesTests */,
+				9DE7B2B11778BE4A0067E207 /* Frameworks */,
+				9DE7B2B01778BE4A0067E207 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DE7B2B01778BE4A0067E207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7B2AF1778BE4A0067E207 /* Drawing Rectangles.app */,
+				9DE7B2D31778BE4A0067E207 /* Drawing RectanglesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DE7B2B11778BE4A0067E207 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7B2B21778BE4A0067E207 /* Foundation.framework */,
+				9DE7B2B41778BE4A0067E207 /* CoreGraphics.framework */,
+				9DE7B2B61778BE4A0067E207 /* UIKit.framework */,
+				9DE7B2D41778BE4A0067E207 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DE7B2B81778BE4A0067E207 /* Drawing Rectangles */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7B2C11778BE4A0067E207 /* AppDelegate.h */,
+				9DE7B2C21778BE4A0067E207 /* AppDelegate.m */,
+				9DE7B2C41778BE4A0067E207 /* Main_iPhone.storyboard */,
+				9DE7B2C71778BE4A0067E207 /* Main_iPad.storyboard */,
+				9DE7B2CA1778BE4A0067E207 /* ViewController.h */,
+				9DE7B2CB1778BE4A0067E207 /* ViewController.m */,
+				9DE7B2EA1778BE530067E207 /* View.h */,
+				9DE7B2EB1778BE530067E207 /* View.m */,
+				9DE7B2CD1778BE4A0067E207 /* Images.xcassets */,
+				9DE7B2B91778BE4A0067E207 /* Supporting Files */,
+			);
+			path = "Drawing Rectangles";
+			sourceTree = "<group>";
+		};
+		9DE7B2B91778BE4A0067E207 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7B2BA1778BE4A0067E207 /* Drawing Rectangles-Info.plist */,
+				9DE7B2BB1778BE4A0067E207 /* InfoPlist.strings */,
+				9DE7B2BE1778BE4A0067E207 /* main.m */,
+				9DE7B2C01778BE4A0067E207 /* Drawing Rectangles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DE7B2DA1778BE4A0067E207 /* Drawing RectanglesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7B2E01778BE4A0067E207 /* Drawing_RectanglesTests.m */,
+				9DE7B2DB1778BE4A0067E207 /* Supporting Files */,
+			);
+			path = "Drawing RectanglesTests";
+			sourceTree = "<group>";
+		};
+		9DE7B2DB1778BE4A0067E207 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7B2DC1778BE4A0067E207 /* Drawing RectanglesTests-Info.plist */,
+				9DE7B2DD1778BE4A0067E207 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DE7B2AE1778BE4A0067E207 /* Drawing Rectangles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE7B2E41778BE4A0067E207 /* Build configuration list for PBXNativeTarget "Drawing Rectangles" */;
+			buildPhases = (
+				9DE7B2AB1778BE4A0067E207 /* Sources */,
+				9DE7B2AC1778BE4A0067E207 /* Frameworks */,
+				9DE7B2AD1778BE4A0067E207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drawing Rectangles";
+			productName = "Drawing Rectangles";
+			productReference = 9DE7B2AF1778BE4A0067E207 /* Drawing Rectangles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DE7B2D21778BE4A0067E207 /* Drawing RectanglesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE7B2E71778BE4A0067E207 /* Build configuration list for PBXNativeTarget "Drawing RectanglesTests" */;
+			buildPhases = (
+				9DE7B2CF1778BE4A0067E207 /* Sources */,
+				9DE7B2D01778BE4A0067E207 /* Frameworks */,
+				9DE7B2D11778BE4A0067E207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DE7B2D91778BE4A0067E207 /* PBXTargetDependency */,
+			);
+			name = "Drawing RectanglesTests";
+			productName = "Drawing RectanglesTests";
+			productReference = 9DE7B2D31778BE4A0067E207 /* Drawing RectanglesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DE7B2A71778BE4A0067E207 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9DE7B2D21778BE4A0067E207 = {
+						TestTargetID = 9DE7B2AE1778BE4A0067E207;
+					};
+				};
+			};
+			buildConfigurationList = 9DE7B2AA1778BE4A0067E207 /* Build configuration list for PBXProject "Drawing Rectangles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DE7B2A61778BE4A0067E207;
+			productRefGroup = 9DE7B2B01778BE4A0067E207 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DE7B2AE1778BE4A0067E207 /* Drawing Rectangles */,
+				9DE7B2D21778BE4A0067E207 /* Drawing RectanglesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DE7B2AD1778BE4A0067E207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7B2C91778BE4A0067E207 /* Main_iPad.storyboard in Resources */,
+				9DE7B2CE1778BE4A0067E207 /* Images.xcassets in Resources */,
+				9DE7B2C61778BE4A0067E207 /* Main_iPhone.storyboard in Resources */,
+				9DE7B2BD1778BE4A0067E207 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE7B2D11778BE4A0067E207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7B2DF1778BE4A0067E207 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DE7B2AB1778BE4A0067E207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7B2EC1778BE530067E207 /* View.m in Sources */,
+				9DE7B2CC1778BE4A0067E207 /* ViewController.m in Sources */,
+				9DE7B2C31778BE4A0067E207 /* AppDelegate.m in Sources */,
+				9DE7B2BF1778BE4A0067E207 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE7B2CF1778BE4A0067E207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7B2E11778BE4A0067E207 /* Drawing_RectanglesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DE7B2D91778BE4A0067E207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DE7B2AE1778BE4A0067E207 /* Drawing Rectangles */;
+			targetProxy = 9DE7B2D81778BE4A0067E207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DE7B2BB1778BE4A0067E207 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE7B2BC1778BE4A0067E207 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DE7B2C41778BE4A0067E207 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE7B2C51778BE4A0067E207 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9DE7B2C71778BE4A0067E207 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE7B2C81778BE4A0067E207 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9DE7B2DD1778BE4A0067E207 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE7B2DE1778BE4A0067E207 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DE7B2E21778BE4A0067E207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DE7B2E31778BE4A0067E207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DE7B2E51778BE4A0067E207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing Rectangles/Drawing Rectangles-Prefix.pch";
+				INFOPLIST_FILE = "Drawing Rectangles/Drawing Rectangles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DE7B2E61778BE4A0067E207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing Rectangles/Drawing Rectangles-Prefix.pch";
+				INFOPLIST_FILE = "Drawing Rectangles/Drawing Rectangles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9DE7B2E81778BE4A0067E207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Drawing Rectangles.app/Drawing Rectangles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing Rectangles/Drawing Rectangles-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Drawing RectanglesTests/Drawing RectanglesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9DE7B2E91778BE4A0067E207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Drawing Rectangles.app/Drawing Rectangles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing Rectangles/Drawing Rectangles-Prefix.pch";
+				INFOPLIST_FILE = "Drawing RectanglesTests/Drawing RectanglesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DE7B2AA1778BE4A0067E207 /* Build configuration list for PBXProject "Drawing Rectangles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE7B2E21778BE4A0067E207 /* Debug */,
+				9DE7B2E31778BE4A0067E207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DE7B2E41778BE4A0067E207 /* Build configuration list for PBXNativeTarget "Drawing Rectangles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE7B2E51778BE4A0067E207 /* Debug */,
+				9DE7B2E61778BE4A0067E207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DE7B2E71778BE4A0067E207 /* Build configuration list for PBXNativeTarget "Drawing RectanglesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE7B2E81778BE4A0067E207 /* Debug */,
+				9DE7B2E91778BE4A0067E207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DE7B2A71778BE4A0067E207 /* Project object */;
+}

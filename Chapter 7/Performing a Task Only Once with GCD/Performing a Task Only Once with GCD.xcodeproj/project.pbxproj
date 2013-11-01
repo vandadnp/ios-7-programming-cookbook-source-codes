@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DB7C8881778514B002EDF47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB7C8871778514B002EDF47 /* Foundation.framework */; };
+		9DB7C88A1778514B002EDF47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB7C8891778514B002EDF47 /* CoreGraphics.framework */; };
+		9DB7C88C1778514B002EDF47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB7C88B1778514B002EDF47 /* UIKit.framework */; };
+		9DB7C8921778514B002EDF47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7C8901778514B002EDF47 /* InfoPlist.strings */; };
+		9DB7C8941778514B002EDF47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7C8931778514B002EDF47 /* main.m */; };
+		9DB7C8981778514B002EDF47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7C8971778514B002EDF47 /* AppDelegate.m */; };
+		9DB7C89A1778514B002EDF47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7C8991778514B002EDF47 /* Images.xcassets */; };
+		9DB7C8A11778514B002EDF47 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB7C8A01778514B002EDF47 /* XCTest.framework */; };
+		9DB7C8A21778514B002EDF47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB7C8871778514B002EDF47 /* Foundation.framework */; };
+		9DB7C8A31778514B002EDF47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB7C88B1778514B002EDF47 /* UIKit.framework */; };
+		9DB7C8AB1778514B002EDF47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7C8A91778514B002EDF47 /* InfoPlist.strings */; };
+		9DB7C8AD1778514B002EDF47 /* Performing_a_Task_Only_Once_with_GCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7C8AC1778514B002EDF47 /* Performing_a_Task_Only_Once_with_GCDTests.m */; };
+		9DB7C8B817785158002EDF47 /* MySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7C8B717785158002EDF47 /* MySingleton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DB7C8A41778514B002EDF47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DB7C87C1778514B002EDF47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DB7C8831778514B002EDF47;
+			remoteInfo = "Performing a Task Only Once with GCD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DB7C8841778514B002EDF47 /* Performing a Task Only Once with GCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Performing a Task Only Once with GCD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB7C8871778514B002EDF47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DB7C8891778514B002EDF47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DB7C88B1778514B002EDF47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DB7C88F1778514B002EDF47 /* Performing a Task Only Once with GCD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Performing a Task Only Once with GCD-Info.plist"; sourceTree = "<group>"; };
+		9DB7C8911778514B002EDF47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DB7C8931778514B002EDF47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DB7C8951778514B002EDF47 /* Performing a Task Only Once with GCD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Performing a Task Only Once with GCD-Prefix.pch"; sourceTree = "<group>"; };
+		9DB7C8961778514B002EDF47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DB7C8971778514B002EDF47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DB7C8991778514B002EDF47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9DB7C89F1778514B002EDF47 /* Performing a Task Only Once with GCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Performing a Task Only Once with GCDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB7C8A01778514B002EDF47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9DB7C8A81778514B002EDF47 /* Performing a Task Only Once with GCDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Performing a Task Only Once with GCDTests-Info.plist"; sourceTree = "<group>"; };
+		9DB7C8AA1778514B002EDF47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DB7C8AC1778514B002EDF47 /* Performing_a_Task_Only_Once_with_GCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Performing_a_Task_Only_Once_with_GCDTests.m; sourceTree = "<group>"; };
+		9DB7C8B617785158002EDF47 /* MySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySingleton.h; sourceTree = "<group>"; };
+		9DB7C8B717785158002EDF47 /* MySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySingleton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DB7C8811778514B002EDF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB7C88A1778514B002EDF47 /* CoreGraphics.framework in Frameworks */,
+				9DB7C88C1778514B002EDF47 /* UIKit.framework in Frameworks */,
+				9DB7C8881778514B002EDF47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB7C89C1778514B002EDF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB7C8A11778514B002EDF47 /* XCTest.framework in Frameworks */,
+				9DB7C8A31778514B002EDF47 /* UIKit.framework in Frameworks */,
+				9DB7C8A21778514B002EDF47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DB7C87B1778514B002EDF47 = {
+			isa = PBXGroup;
+			children = (
+				9DB7C88D1778514B002EDF47 /* Performing a Task Only Once with GCD */,
+				9DB7C8A61778514B002EDF47 /* Performing a Task Only Once with GCDTests */,
+				9DB7C8861778514B002EDF47 /* Frameworks */,
+				9DB7C8851778514B002EDF47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DB7C8851778514B002EDF47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DB7C8841778514B002EDF47 /* Performing a Task Only Once with GCD.app */,
+				9DB7C89F1778514B002EDF47 /* Performing a Task Only Once with GCDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DB7C8861778514B002EDF47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DB7C8871778514B002EDF47 /* Foundation.framework */,
+				9DB7C8891778514B002EDF47 /* CoreGraphics.framework */,
+				9DB7C88B1778514B002EDF47 /* UIKit.framework */,
+				9DB7C8A01778514B002EDF47 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DB7C88D1778514B002EDF47 /* Performing a Task Only Once with GCD */ = {
+			isa = PBXGroup;
+			children = (
+				9DB7C8B617785158002EDF47 /* MySingleton.h */,
+				9DB7C8B717785158002EDF47 /* MySingleton.m */,
+				9DB7C8961778514B002EDF47 /* AppDelegate.h */,
+				9DB7C8971778514B002EDF47 /* AppDelegate.m */,
+				9DB7C8991778514B002EDF47 /* Images.xcassets */,
+				9DB7C88E1778514B002EDF47 /* Supporting Files */,
+			);
+			path = "Performing a Task Only Once with GCD";
+			sourceTree = "<group>";
+		};
+		9DB7C88E1778514B002EDF47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DB7C88F1778514B002EDF47 /* Performing a Task Only Once with GCD-Info.plist */,
+				9DB7C8901778514B002EDF47 /* InfoPlist.strings */,
+				9DB7C8931778514B002EDF47 /* main.m */,
+				9DB7C8951778514B002EDF47 /* Performing a Task Only Once with GCD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DB7C8A61778514B002EDF47 /* Performing a Task Only Once with GCDTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DB7C8AC1778514B002EDF47 /* Performing_a_Task_Only_Once_with_GCDTests.m */,
+				9DB7C8A71778514B002EDF47 /* Supporting Files */,
+			);
+			path = "Performing a Task Only Once with GCDTests";
+			sourceTree = "<group>";
+		};
+		9DB7C8A71778514B002EDF47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DB7C8A81778514B002EDF47 /* Performing a Task Only Once with GCDTests-Info.plist */,
+				9DB7C8A91778514B002EDF47 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DB7C8831778514B002EDF47 /* Performing a Task Only Once with GCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB7C8B01778514B002EDF47 /* Build configuration list for PBXNativeTarget "Performing a Task Only Once with GCD" */;
+			buildPhases = (
+				9DB7C8801778514B002EDF47 /* Sources */,
+				9DB7C8811778514B002EDF47 /* Frameworks */,
+				9DB7C8821778514B002EDF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Performing a Task Only Once with GCD";
+			productName = "Performing a Task Only Once with GCD";
+			productReference = 9DB7C8841778514B002EDF47 /* Performing a Task Only Once with GCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DB7C89E1778514B002EDF47 /* Performing a Task Only Once with GCDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB7C8B31778514B002EDF47 /* Build configuration list for PBXNativeTarget "Performing a Task Only Once with GCDTests" */;
+			buildPhases = (
+				9DB7C89B1778514B002EDF47 /* Sources */,
+				9DB7C89C1778514B002EDF47 /* Frameworks */,
+				9DB7C89D1778514B002EDF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DB7C8A51778514B002EDF47 /* PBXTargetDependency */,
+			);
+			name = "Performing a Task Only Once with GCDTests";
+			productName = "Performing a Task Only Once with GCDTests";
+			productReference = 9DB7C89F1778514B002EDF47 /* Performing a Task Only Once with GCDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DB7C87C1778514B002EDF47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9DB7C89E1778514B002EDF47 = {
+						TestTargetID = 9DB7C8831778514B002EDF47;
+					};
+				};
+			};
+			buildConfigurationList = 9DB7C87F1778514B002EDF47 /* Build configuration list for PBXProject "Performing a Task Only Once with GCD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DB7C87B1778514B002EDF47;
+			productRefGroup = 9DB7C8851778514B002EDF47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DB7C8831778514B002EDF47 /* Performing a Task Only Once with GCD */,
+				9DB7C89E1778514B002EDF47 /* Performing a Task Only Once with GCDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DB7C8821778514B002EDF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB7C8921778514B002EDF47 /* InfoPlist.strings in Resources */,
+				9DB7C89A1778514B002EDF47 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB7C89D1778514B002EDF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB7C8AB1778514B002EDF47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DB7C8801778514B002EDF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB7C8981778514B002EDF47 /* AppDelegate.m in Sources */,
+				9DB7C8B817785158002EDF47 /* MySingleton.m in Sources */,
+				9DB7C8941778514B002EDF47 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB7C89B1778514B002EDF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB7C8AD1778514B002EDF47 /* Performing_a_Task_Only_Once_with_GCDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DB7C8A51778514B002EDF47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DB7C8831778514B002EDF47 /* Performing a Task Only Once with GCD */;
+			targetProxy = 9DB7C8A41778514B002EDF47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DB7C8901778514B002EDF47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB7C8911778514B002EDF47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DB7C8A91778514B002EDF47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB7C8AA1778514B002EDF47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DB7C8AE1778514B002EDF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DB7C8AF1778514B002EDF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DB7C8B11778514B002EDF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Performing a Task Only Once with GCD/Performing a Task Only Once with GCD-Prefix.pch";
+				INFOPLIST_FILE = "Performing a Task Only Once with GCD/Performing a Task Only Once with GCD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DB7C8B21778514B002EDF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Performing a Task Only Once with GCD/Performing a Task Only Once with GCD-Prefix.pch";
+				INFOPLIST_FILE = "Performing a Task Only Once with GCD/Performing a Task Only Once with GCD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9DB7C8B41778514B002EDF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Performing a Task Only Once with GCD.app/Performing a Task Only Once with GCD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Performing a Task Only Once with GCD/Performing a Task Only Once with GCD-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Performing a Task Only Once with GCDTests/Performing a Task Only Once with GCDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9DB7C8B51778514B002EDF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Performing a Task Only Once with GCD.app/Performing a Task Only Once with GCD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Performing a Task Only Once with GCD/Performing a Task Only Once with GCD-Prefix.pch";
+				INFOPLIST_FILE = "Performing a Task Only Once with GCDTests/Performing a Task Only Once with GCDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DB7C87F1778514B002EDF47 /* Build configuration list for PBXProject "Performing a Task Only Once with GCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB7C8AE1778514B002EDF47 /* Debug */,
+				9DB7C8AF1778514B002EDF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DB7C8B01778514B002EDF47 /* Build configuration list for PBXNativeTarget "Performing a Task Only Once with GCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB7C8B11778514B002EDF47 /* Debug */,
+				9DB7C8B21778514B002EDF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DB7C8B31778514B002EDF47 /* Build configuration list for PBXNativeTarget "Performing a Task Only Once with GCDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB7C8B41778514B002EDF47 /* Debug */,
+				9DB7C8B51778514B002EDF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DB7C87C1778514B002EDF47 /* Project object */;
+}

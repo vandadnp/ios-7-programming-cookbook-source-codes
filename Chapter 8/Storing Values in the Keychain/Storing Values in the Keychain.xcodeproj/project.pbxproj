@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D813056176491F90048AE21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D813055176491F90048AE21 /* UIKit.framework */; };
+		9D813058176491F90048AE21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D813057176491F90048AE21 /* Foundation.framework */; };
+		9D81305A176491F90048AE21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D813059176491F90048AE21 /* CoreGraphics.framework */; };
+		9D813060176491F90048AE21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D81305E176491F90048AE21 /* InfoPlist.strings */; };
+		9D813062176491F90048AE21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D813061176491F90048AE21 /* main.m */; };
+		9D813066176491F90048AE21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D813065176491F90048AE21 /* AppDelegate.m */; };
+		9D813068176491F90048AE21 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D813067176491F90048AE21 /* Default.png */; };
+		9D81306A176491F90048AE21 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D813069176491F90048AE21 /* Default@2x.png */; };
+		9D81306C176491F90048AE21 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D81306B176491F90048AE21 /* Default-568h@2x.png */; };
+		9D813073176492200048AE21 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D813072176492200048AE21 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D813052176491F90048AE21 /* Storing Values in the Keychain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storing Values in the Keychain.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D813055176491F90048AE21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D813057176491F90048AE21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D813059176491F90048AE21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D81305D176491F90048AE21 /* Storing Values in the Keychain-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Storing Values in the Keychain-Info.plist"; sourceTree = "<group>"; };
+		9D81305F176491F90048AE21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D813061176491F90048AE21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D813063176491F90048AE21 /* Storing Values in the Keychain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Storing Values in the Keychain-Prefix.pch"; sourceTree = "<group>"; };
+		9D813064176491F90048AE21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D813065176491F90048AE21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D813067176491F90048AE21 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9D813069176491F90048AE21 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9D81306B176491F90048AE21 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9D813072176492200048AE21 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D81304F176491F90048AE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D813073176492200048AE21 /* Security.framework in Frameworks */,
+				9D813056176491F90048AE21 /* UIKit.framework in Frameworks */,
+				9D813058176491F90048AE21 /* Foundation.framework in Frameworks */,
+				9D81305A176491F90048AE21 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D813049176491F90048AE21 = {
+			isa = PBXGroup;
+			children = (
+				9D81305B176491F90048AE21 /* Storing Values in the Keychain */,
+				9D813054176491F90048AE21 /* Frameworks */,
+				9D813053176491F90048AE21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D813053176491F90048AE21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D813052176491F90048AE21 /* Storing Values in the Keychain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D813054176491F90048AE21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D813072176492200048AE21 /* Security.framework */,
+				9D813055176491F90048AE21 /* UIKit.framework */,
+				9D813057176491F90048AE21 /* Foundation.framework */,
+				9D813059176491F90048AE21 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D81305B176491F90048AE21 /* Storing Values in the Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				9D813064176491F90048AE21 /* AppDelegate.h */,
+				9D813065176491F90048AE21 /* AppDelegate.m */,
+				9D81305C176491F90048AE21 /* Supporting Files */,
+			);
+			path = "Storing Values in the Keychain";
+			sourceTree = "<group>";
+		};
+		9D81305C176491F90048AE21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D81305D176491F90048AE21 /* Storing Values in the Keychain-Info.plist */,
+				9D81305E176491F90048AE21 /* InfoPlist.strings */,
+				9D813061176491F90048AE21 /* main.m */,
+				9D813063176491F90048AE21 /* Storing Values in the Keychain-Prefix.pch */,
+				9D813067176491F90048AE21 /* Default.png */,
+				9D813069176491F90048AE21 /* Default@2x.png */,
+				9D81306B176491F90048AE21 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D813051176491F90048AE21 /* Storing Values in the Keychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D81306F176491F90048AE21 /* Build configuration list for PBXNativeTarget "Storing Values in the Keychain" */;
+			buildPhases = (
+				9D81304E176491F90048AE21 /* Sources */,
+				9D81304F176491F90048AE21 /* Frameworks */,
+				9D813050176491F90048AE21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Storing Values in the Keychain";
+			productName = "Storing Values in the Keychain";
+			productReference = 9D813052176491F90048AE21 /* Storing Values in the Keychain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D81304A176491F90048AE21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = 9D81304D176491F90048AE21 /* Build configuration list for PBXProject "Storing Values in the Keychain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D813049176491F90048AE21;
+			productRefGroup = 9D813053176491F90048AE21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D813051176491F90048AE21 /* Storing Values in the Keychain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D813050176491F90048AE21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D813060176491F90048AE21 /* InfoPlist.strings in Resources */,
+				9D813068176491F90048AE21 /* Default.png in Resources */,
+				9D81306A176491F90048AE21 /* Default@2x.png in Resources */,
+				9D81306C176491F90048AE21 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D81304E176491F90048AE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D813062176491F90048AE21 /* main.m in Sources */,
+				9D813066176491F90048AE21 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D81305E176491F90048AE21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D81305F176491F90048AE21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D81306D176491F90048AE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D81306E176491F90048AE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D813070176491F90048AE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vandad Nahavandipoor (J54K6K24Z3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vandad Nahavandipoor (J54K6K24Z3)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Storing Values in the Keychain/Storing Values in the Keychain-Prefix.pch";
+				INFOPLIST_FILE = "Storing Values in the Keychain/Storing Values in the Keychain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8A0606C4-96F6-4F91-B450-4745835E3756";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8A0606C4-96F6-4F91-B450-4745835E3756";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D813071176491F90048AE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Storing Values in the Keychain/Storing Values in the Keychain-Prefix.pch";
+				INFOPLIST_FILE = "Storing Values in the Keychain/Storing Values in the Keychain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D81304D176491F90048AE21 /* Build configuration list for PBXProject "Storing Values in the Keychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D81306D176491F90048AE21 /* Debug */,
+				9D81306E176491F90048AE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D81306F176491F90048AE21 /* Build configuration list for PBXNativeTarget "Storing Values in the Keychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D813070176491F90048AE21 /* Debug */,
+				9D813071176491F90048AE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D81304A176491F90048AE21 /* Project object */;
+}

@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D50752A1779DA08005BE21E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5075291779DA08005BE21E /* Foundation.framework */; };
+		9D50752C1779DA08005BE21E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D50752B1779DA08005BE21E /* CoreGraphics.framework */; };
+		9D50752E1779DA08005BE21E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D50752D1779DA08005BE21E /* UIKit.framework */; };
+		9D5075341779DA08005BE21E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D5075321779DA08005BE21E /* InfoPlist.strings */; };
+		9D5075361779DA08005BE21E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5075351779DA08005BE21E /* main.m */; };
+		9D50753A1779DA08005BE21E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5075391779DA08005BE21E /* AppDelegate.m */; };
+		9D50753D1779DA08005BE21E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D50753B1779DA08005BE21E /* Main_iPhone.storyboard */; };
+		9D5075401779DA08005BE21E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D50753E1779DA08005BE21E /* Main_iPad.storyboard */; };
+		9D5075431779DA08005BE21E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5075421779DA08005BE21E /* ViewController.m */; };
+		9D5075451779DA08005BE21E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D5075441779DA08005BE21E /* Images.xcassets */; };
+		9D50754C1779DA08005BE21E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D50754B1779DA08005BE21E /* XCTest.framework */; };
+		9D50754D1779DA08005BE21E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5075291779DA08005BE21E /* Foundation.framework */; };
+		9D50754E1779DA08005BE21E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D50752D1779DA08005BE21E /* UIKit.framework */; };
+		9D5075561779DA08005BE21E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D5075541779DA08005BE21E /* InfoPlist.strings */; };
+		9D5075581779DA08005BE21E /* Taking_Photos_with_the_CameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5075571779DA08005BE21E /* Taking_Photos_with_the_CameraTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D50754F1779DA08005BE21E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D50751E1779DA08005BE21E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D5075251779DA08005BE21E;
+			remoteInfo = "Taking Photos with the Camera";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D5075261779DA08005BE21E /* Taking Photos with the Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taking Photos with the Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5075291779DA08005BE21E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D50752B1779DA08005BE21E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D50752D1779DA08005BE21E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D5075311779DA08005BE21E /* Taking Photos with the Camera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Taking Photos with the Camera-Info.plist"; sourceTree = "<group>"; };
+		9D5075331779DA08005BE21E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D5075351779DA08005BE21E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D5075371779DA08005BE21E /* Taking Photos with the Camera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Taking Photos with the Camera-Prefix.pch"; sourceTree = "<group>"; };
+		9D5075381779DA08005BE21E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D5075391779DA08005BE21E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D50753C1779DA08005BE21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9D50753F1779DA08005BE21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9D5075411779DA08005BE21E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D5075421779DA08005BE21E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D5075441779DA08005BE21E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D50754A1779DA08005BE21E /* Taking Photos with the CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taking Photos with the CameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D50754B1779DA08005BE21E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D5075531779DA08005BE21E /* Taking Photos with the CameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Taking Photos with the CameraTests-Info.plist"; sourceTree = "<group>"; };
+		9D5075551779DA08005BE21E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D5075571779DA08005BE21E /* Taking_Photos_with_the_CameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Taking_Photos_with_the_CameraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D5075231779DA08005BE21E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D50752C1779DA08005BE21E /* CoreGraphics.framework in Frameworks */,
+				9D50752E1779DA08005BE21E /* UIKit.framework in Frameworks */,
+				9D50752A1779DA08005BE21E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5075471779DA08005BE21E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D50754C1779DA08005BE21E /* XCTest.framework in Frameworks */,
+				9D50754E1779DA08005BE21E /* UIKit.framework in Frameworks */,
+				9D50754D1779DA08005BE21E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D50751D1779DA08005BE21E = {
+			isa = PBXGroup;
+			children = (
+				9D50752F1779DA08005BE21E /* Taking Photos with the Camera */,
+				9D5075511779DA08005BE21E /* Taking Photos with the CameraTests */,
+				9D5075281779DA08005BE21E /* Frameworks */,
+				9D5075271779DA08005BE21E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D5075271779DA08005BE21E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D5075261779DA08005BE21E /* Taking Photos with the Camera.app */,
+				9D50754A1779DA08005BE21E /* Taking Photos with the CameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D5075281779DA08005BE21E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D5075291779DA08005BE21E /* Foundation.framework */,
+				9D50752B1779DA08005BE21E /* CoreGraphics.framework */,
+				9D50752D1779DA08005BE21E /* UIKit.framework */,
+				9D50754B1779DA08005BE21E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D50752F1779DA08005BE21E /* Taking Photos with the Camera */ = {
+			isa = PBXGroup;
+			children = (
+				9D5075381779DA08005BE21E /* AppDelegate.h */,
+				9D5075391779DA08005BE21E /* AppDelegate.m */,
+				9D50753B1779DA08005BE21E /* Main_iPhone.storyboard */,
+				9D50753E1779DA08005BE21E /* Main_iPad.storyboard */,
+				9D5075411779DA08005BE21E /* ViewController.h */,
+				9D5075421779DA08005BE21E /* ViewController.m */,
+				9D5075441779DA08005BE21E /* Images.xcassets */,
+				9D5075301779DA08005BE21E /* Supporting Files */,
+			);
+			path = "Taking Photos with the Camera";
+			sourceTree = "<group>";
+		};
+		9D5075301779DA08005BE21E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D5075311779DA08005BE21E /* Taking Photos with the Camera-Info.plist */,
+				9D5075321779DA08005BE21E /* InfoPlist.strings */,
+				9D5075351779DA08005BE21E /* main.m */,
+				9D5075371779DA08005BE21E /* Taking Photos with the Camera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D5075511779DA08005BE21E /* Taking Photos with the CameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D5075571779DA08005BE21E /* Taking_Photos_with_the_CameraTests.m */,
+				9D5075521779DA08005BE21E /* Supporting Files */,
+			);
+			path = "Taking Photos with the CameraTests";
+			sourceTree = "<group>";
+		};
+		9D5075521779DA08005BE21E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D5075531779DA08005BE21E /* Taking Photos with the CameraTests-Info.plist */,
+				9D5075541779DA08005BE21E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D5075251779DA08005BE21E /* Taking Photos with the Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D50755B1779DA08005BE21E /* Build configuration list for PBXNativeTarget "Taking Photos with the Camera" */;
+			buildPhases = (
+				9D5075221779DA08005BE21E /* Sources */,
+				9D5075231779DA08005BE21E /* Frameworks */,
+				9D5075241779DA08005BE21E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taking Photos with the Camera";
+			productName = "Taking Photos with the Camera";
+			productReference = 9D5075261779DA08005BE21E /* Taking Photos with the Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D5075491779DA08005BE21E /* Taking Photos with the CameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D50755E1779DA08005BE21E /* Build configuration list for PBXNativeTarget "Taking Photos with the CameraTests" */;
+			buildPhases = (
+				9D5075461779DA08005BE21E /* Sources */,
+				9D5075471779DA08005BE21E /* Frameworks */,
+				9D5075481779DA08005BE21E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D5075501779DA08005BE21E /* PBXTargetDependency */,
+			);
+			name = "Taking Photos with the CameraTests";
+			productName = "Taking Photos with the CameraTests";
+			productReference = 9D50754A1779DA08005BE21E /* Taking Photos with the CameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D50751E1779DA08005BE21E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9D5075491779DA08005BE21E = {
+						TestTargetID = 9D5075251779DA08005BE21E;
+					};
+				};
+			};
+			buildConfigurationList = 9D5075211779DA08005BE21E /* Build configuration list for PBXProject "Taking Photos with the Camera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D50751D1779DA08005BE21E;
+			productRefGroup = 9D5075271779DA08005BE21E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D5075251779DA08005BE21E /* Taking Photos with the Camera */,
+				9D5075491779DA08005BE21E /* Taking Photos with the CameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D5075241779DA08005BE21E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5075401779DA08005BE21E /* Main_iPad.storyboard in Resources */,
+				9D5075451779DA08005BE21E /* Images.xcassets in Resources */,
+				9D50753D1779DA08005BE21E /* Main_iPhone.storyboard in Resources */,
+				9D5075341779DA08005BE21E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5075481779DA08005BE21E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5075561779DA08005BE21E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D5075221779DA08005BE21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5075431779DA08005BE21E /* ViewController.m in Sources */,
+				9D50753A1779DA08005BE21E /* AppDelegate.m in Sources */,
+				9D5075361779DA08005BE21E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5075461779DA08005BE21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5075581779DA08005BE21E /* Taking_Photos_with_the_CameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D5075501779DA08005BE21E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D5075251779DA08005BE21E /* Taking Photos with the Camera */;
+			targetProxy = 9D50754F1779DA08005BE21E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D5075321779DA08005BE21E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D5075331779DA08005BE21E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D50753B1779DA08005BE21E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D50753C1779DA08005BE21E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9D50753E1779DA08005BE21E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D50753F1779DA08005BE21E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9D5075541779DA08005BE21E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D5075551779DA08005BE21E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D5075591779DA08005BE21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D50755A1779DA08005BE21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D50755C1779DA08005BE21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taking Photos with the Camera/Taking Photos with the Camera-Prefix.pch";
+				INFOPLIST_FILE = "Taking Photos with the Camera/Taking Photos with the Camera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D50755D1779DA08005BE21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taking Photos with the Camera/Taking Photos with the Camera-Prefix.pch";
+				INFOPLIST_FILE = "Taking Photos with the Camera/Taking Photos with the Camera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D50755F1779DA08005BE21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Taking Photos with the Camera.app/Taking Photos with the Camera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taking Photos with the Camera/Taking Photos with the Camera-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Taking Photos with the CameraTests/Taking Photos with the CameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9D5075601779DA08005BE21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Taking Photos with the Camera.app/Taking Photos with the Camera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taking Photos with the Camera/Taking Photos with the Camera-Prefix.pch";
+				INFOPLIST_FILE = "Taking Photos with the CameraTests/Taking Photos with the CameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D5075211779DA08005BE21E /* Build configuration list for PBXProject "Taking Photos with the Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5075591779DA08005BE21E /* Debug */,
+				9D50755A1779DA08005BE21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D50755B1779DA08005BE21E /* Build configuration list for PBXNativeTarget "Taking Photos with the Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D50755C1779DA08005BE21E /* Debug */,
+				9D50755D1779DA08005BE21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D50755E1779DA08005BE21E /* Build configuration list for PBXNativeTarget "Taking Photos with the CameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D50755F1779DA08005BE21E /* Debug */,
+				9D5075601779DA08005BE21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D50751E1779DA08005BE21E /* Project object */;
+}

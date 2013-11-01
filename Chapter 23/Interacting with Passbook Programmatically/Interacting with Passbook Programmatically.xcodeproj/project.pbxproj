@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DE661A81779CB920003927C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE661A71779CB920003927C /* Foundation.framework */; };
+		9DE661AA1779CB920003927C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE661A91779CB920003927C /* CoreGraphics.framework */; };
+		9DE661AC1779CB920003927C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE661AB1779CB920003927C /* UIKit.framework */; };
+		9DE661B21779CB920003927C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DE661B01779CB920003927C /* InfoPlist.strings */; };
+		9DE661B41779CB920003927C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE661B31779CB920003927C /* main.m */; };
+		9DE661B81779CB920003927C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE661B71779CB920003927C /* AppDelegate.m */; };
+		9DE661BA1779CB920003927C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE661B91779CB920003927C /* Images.xcassets */; };
+		9DE661C11779CB920003927C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE661C01779CB920003927C /* XCTest.framework */; };
+		9DE661C21779CB920003927C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE661A71779CB920003927C /* Foundation.framework */; };
+		9DE661C31779CB920003927C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE661AB1779CB920003927C /* UIKit.framework */; };
+		9DE661CB1779CB920003927C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DE661C91779CB920003927C /* InfoPlist.strings */; };
+		9DE661CD1779CB920003927C /* Interacting_with_Passbook_ProgrammaticallyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE661CC1779CB920003927C /* Interacting_with_Passbook_ProgrammaticallyTests.m */; };
+		9DE661D81779CBFE0003927C /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE661D71779CBFE0003927C /* PassKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DE661C41779CB920003927C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE6619C1779CB920003927C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DE661A31779CB920003927C;
+			remoteInfo = "Interacting with Passbook Programmatically";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DE661A41779CB920003927C /* Interacting with Passbook Programmatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interacting with Passbook Programmatically.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE661A71779CB920003927C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DE661A91779CB920003927C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DE661AB1779CB920003927C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DE661AF1779CB920003927C /* Interacting with Passbook Programmatically-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Interacting with Passbook Programmatically-Info.plist"; sourceTree = "<group>"; };
+		9DE661B11779CB920003927C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DE661B31779CB920003927C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DE661B51779CB920003927C /* Interacting with Passbook Programmatically-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Interacting with Passbook Programmatically-Prefix.pch"; sourceTree = "<group>"; };
+		9DE661B61779CB920003927C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DE661B71779CB920003927C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DE661B91779CB920003927C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9DE661BF1779CB920003927C /* Interacting with Passbook ProgrammaticallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interacting with Passbook ProgrammaticallyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE661C01779CB920003927C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9DE661C81779CB920003927C /* Interacting with Passbook ProgrammaticallyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Interacting with Passbook ProgrammaticallyTests-Info.plist"; sourceTree = "<group>"; };
+		9DE661CA1779CB920003927C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DE661CC1779CB920003927C /* Interacting_with_Passbook_ProgrammaticallyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interacting_with_Passbook_ProgrammaticallyTests.m; sourceTree = "<group>"; };
+		9DE661D71779CBFE0003927C /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		9DE661D91779CC220003927C /* Interacting with Passbook Programmatically.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Interacting with Passbook Programmatically.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DE661A11779CB920003927C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE661D81779CBFE0003927C /* PassKit.framework in Frameworks */,
+				9DE661AA1779CB920003927C /* CoreGraphics.framework in Frameworks */,
+				9DE661AC1779CB920003927C /* UIKit.framework in Frameworks */,
+				9DE661A81779CB920003927C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE661BC1779CB920003927C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE661C11779CB920003927C /* XCTest.framework in Frameworks */,
+				9DE661C31779CB920003927C /* UIKit.framework in Frameworks */,
+				9DE661C21779CB920003927C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DE6619B1779CB920003927C = {
+			isa = PBXGroup;
+			children = (
+				9DE661AD1779CB920003927C /* Interacting with Passbook Programmatically */,
+				9DE661C61779CB920003927C /* Interacting with Passbook ProgrammaticallyTests */,
+				9DE661A61779CB920003927C /* Frameworks */,
+				9DE661A51779CB920003927C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DE661A51779CB920003927C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DE661A41779CB920003927C /* Interacting with Passbook Programmatically.app */,
+				9DE661BF1779CB920003927C /* Interacting with Passbook ProgrammaticallyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DE661A61779CB920003927C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DE661D71779CBFE0003927C /* PassKit.framework */,
+				9DE661A71779CB920003927C /* Foundation.framework */,
+				9DE661A91779CB920003927C /* CoreGraphics.framework */,
+				9DE661AB1779CB920003927C /* UIKit.framework */,
+				9DE661C01779CB920003927C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DE661AD1779CB920003927C /* Interacting with Passbook Programmatically */ = {
+			isa = PBXGroup;
+			children = (
+				9DE661D91779CC220003927C /* Interacting with Passbook Programmatically.entitlements */,
+				9DE661B61779CB920003927C /* AppDelegate.h */,
+				9DE661B71779CB920003927C /* AppDelegate.m */,
+				9DE661B91779CB920003927C /* Images.xcassets */,
+				9DE661AE1779CB920003927C /* Supporting Files */,
+			);
+			path = "Interacting with Passbook Programmatically";
+			sourceTree = "<group>";
+		};
+		9DE661AE1779CB920003927C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DE661AF1779CB920003927C /* Interacting with Passbook Programmatically-Info.plist */,
+				9DE661B01779CB920003927C /* InfoPlist.strings */,
+				9DE661B31779CB920003927C /* main.m */,
+				9DE661B51779CB920003927C /* Interacting with Passbook Programmatically-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DE661C61779CB920003927C /* Interacting with Passbook ProgrammaticallyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DE661CC1779CB920003927C /* Interacting_with_Passbook_ProgrammaticallyTests.m */,
+				9DE661C71779CB920003927C /* Supporting Files */,
+			);
+			path = "Interacting with Passbook ProgrammaticallyTests";
+			sourceTree = "<group>";
+		};
+		9DE661C71779CB920003927C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DE661C81779CB920003927C /* Interacting with Passbook ProgrammaticallyTests-Info.plist */,
+				9DE661C91779CB920003927C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DE661A31779CB920003927C /* Interacting with Passbook Programmatically */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE661D01779CB920003927C /* Build configuration list for PBXNativeTarget "Interacting with Passbook Programmatically" */;
+			buildPhases = (
+				9DE661A01779CB920003927C /* Sources */,
+				9DE661A11779CB920003927C /* Frameworks */,
+				9DE661A21779CB920003927C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interacting with Passbook Programmatically";
+			productName = "Interacting with Passbook Programmatically";
+			productReference = 9DE661A41779CB920003927C /* Interacting with Passbook Programmatically.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DE661BE1779CB920003927C /* Interacting with Passbook ProgrammaticallyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE661D31779CB920003927C /* Build configuration list for PBXNativeTarget "Interacting with Passbook ProgrammaticallyTests" */;
+			buildPhases = (
+				9DE661BB1779CB920003927C /* Sources */,
+				9DE661BC1779CB920003927C /* Frameworks */,
+				9DE661BD1779CB920003927C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DE661C51779CB920003927C /* PBXTargetDependency */,
+			);
+			name = "Interacting with Passbook ProgrammaticallyTests";
+			productName = "Interacting with Passbook ProgrammaticallyTests";
+			productReference = 9DE661BF1779CB920003927C /* Interacting with Passbook ProgrammaticallyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DE6619C1779CB920003927C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9DE661A31779CB920003927C = {
+						DevelopmentTeam = F3FU372W5M;
+						SystemCapabilities = {
+							com.apple.Passbook = {
+								enabled = 1;
+							};
+						};
+					};
+					9DE661BE1779CB920003927C = {
+						TestTargetID = 9DE661A31779CB920003927C;
+					};
+				};
+			};
+			buildConfigurationList = 9DE6619F1779CB920003927C /* Build configuration list for PBXProject "Interacting with Passbook Programmatically" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DE6619B1779CB920003927C;
+			productRefGroup = 9DE661A51779CB920003927C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DE661A31779CB920003927C /* Interacting with Passbook Programmatically */,
+				9DE661BE1779CB920003927C /* Interacting with Passbook ProgrammaticallyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DE661A21779CB920003927C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE661B21779CB920003927C /* InfoPlist.strings in Resources */,
+				9DE661BA1779CB920003927C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE661BD1779CB920003927C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE661CB1779CB920003927C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DE661A01779CB920003927C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE661B81779CB920003927C /* AppDelegate.m in Sources */,
+				9DE661B41779CB920003927C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE661BB1779CB920003927C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE661CD1779CB920003927C /* Interacting_with_Passbook_ProgrammaticallyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DE661C51779CB920003927C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DE661A31779CB920003927C /* Interacting with Passbook Programmatically */;
+			targetProxy = 9DE661C41779CB920003927C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DE661B01779CB920003927C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE661B11779CB920003927C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DE661C91779CB920003927C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE661CA1779CB920003927C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DE661CE1779CB920003927C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DE661CF1779CB920003927C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DE661D11779CB920003927C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Interacting with Passbook Programmatically/Interacting with Passbook Programmatically.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Interacting with Passbook Programmatically/Interacting with Passbook Programmatically-Prefix.pch";
+				INFOPLIST_FILE = "Interacting with Passbook Programmatically/Interacting with Passbook Programmatically-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B2BC248F-8896-406E-89BF-790448342BF2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DE661D21779CB920003927C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Interacting with Passbook Programmatically/Interacting with Passbook Programmatically.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Interacting with Passbook Programmatically/Interacting with Passbook Programmatically-Prefix.pch";
+				INFOPLIST_FILE = "Interacting with Passbook Programmatically/Interacting with Passbook Programmatically-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B2BC248F-8896-406E-89BF-790448342BF2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9DE661D41779CB920003927C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Interacting with Passbook Programmatically.app/Interacting with Passbook Programmatically";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Interacting with Passbook Programmatically/Interacting with Passbook Programmatically-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Interacting with Passbook ProgrammaticallyTests/Interacting with Passbook ProgrammaticallyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9DE661D51779CB920003927C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Interacting with Passbook Programmatically.app/Interacting with Passbook Programmatically";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Interacting with Passbook Programmatically/Interacting with Passbook Programmatically-Prefix.pch";
+				INFOPLIST_FILE = "Interacting with Passbook ProgrammaticallyTests/Interacting with Passbook ProgrammaticallyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DE6619F1779CB920003927C /* Build configuration list for PBXProject "Interacting with Passbook Programmatically" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE661CE1779CB920003927C /* Debug */,
+				9DE661CF1779CB920003927C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DE661D01779CB920003927C /* Build configuration list for PBXNativeTarget "Interacting with Passbook Programmatically" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE661D11779CB920003927C /* Debug */,
+				9DE661D21779CB920003927C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DE661D31779CB920003927C /* Build configuration list for PBXNativeTarget "Interacting with Passbook ProgrammaticallyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE661D41779CB920003927C /* Debug */,
+				9DE661D51779CB920003927C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DE6619C1779CB920003927C /* Project object */;
+}

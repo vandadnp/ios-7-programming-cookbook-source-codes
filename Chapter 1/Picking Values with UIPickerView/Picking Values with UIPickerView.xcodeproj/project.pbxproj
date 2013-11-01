@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D175F5A17762421000664B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D175F5917762421000664B2 /* Foundation.framework */; };
+		9D175F5C17762421000664B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D175F5B17762421000664B2 /* CoreGraphics.framework */; };
+		9D175F5E17762421000664B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D175F5D17762421000664B2 /* UIKit.framework */; };
+		9D175F6417762421000664B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D175F6217762421000664B2 /* InfoPlist.strings */; };
+		9D175F6617762421000664B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D175F6517762421000664B2 /* main.m */; };
+		9D175F6A17762421000664B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D175F6917762421000664B2 /* AppDelegate.m */; };
+		9D175F6D17762421000664B2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D175F6B17762421000664B2 /* Main_iPhone.storyboard */; };
+		9D175F7017762421000664B2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D175F6E17762421000664B2 /* Main_iPad.storyboard */; };
+		9D175F7317762421000664B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D175F7217762421000664B2 /* ViewController.m */; };
+		9D175F7517762421000664B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D175F7417762421000664B2 /* Images.xcassets */; };
+		9D175F7C17762421000664B2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D175F7B17762421000664B2 /* XCTest.framework */; };
+		9D175F7D17762421000664B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D175F5917762421000664B2 /* Foundation.framework */; };
+		9D175F7E17762421000664B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D175F5D17762421000664B2 /* UIKit.framework */; };
+		9D175F8617762421000664B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D175F8417762421000664B2 /* InfoPlist.strings */; };
+		9D175F8817762421000664B2 /* Picking_Values_with_UIPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D175F8717762421000664B2 /* Picking_Values_with_UIPickerViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D175F7F17762421000664B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D175F4E17762421000664B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D175F5517762421000664B2;
+			remoteInfo = "Picking Values with UIPickerView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D175F5617762421000664B2 /* Picking Values with UIPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picking Values with UIPickerView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D175F5917762421000664B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D175F5B17762421000664B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D175F5D17762421000664B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D175F6117762421000664B2 /* Picking Values with UIPickerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Picking Values with UIPickerView-Info.plist"; sourceTree = "<group>"; };
+		9D175F6317762421000664B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D175F6517762421000664B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D175F6717762421000664B2 /* Picking Values with UIPickerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Picking Values with UIPickerView-Prefix.pch"; sourceTree = "<group>"; };
+		9D175F6817762421000664B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D175F6917762421000664B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D175F6C17762421000664B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9D175F6F17762421000664B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9D175F7117762421000664B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D175F7217762421000664B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D175F7417762421000664B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D175F7A17762421000664B2 /* Picking Values with UIPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Picking Values with UIPickerViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D175F7B17762421000664B2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D175F8317762421000664B2 /* Picking Values with UIPickerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Picking Values with UIPickerViewTests-Info.plist"; sourceTree = "<group>"; };
+		9D175F8517762421000664B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D175F8717762421000664B2 /* Picking_Values_with_UIPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Picking_Values_with_UIPickerViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D175F5317762421000664B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D175F5C17762421000664B2 /* CoreGraphics.framework in Frameworks */,
+				9D175F5E17762421000664B2 /* UIKit.framework in Frameworks */,
+				9D175F5A17762421000664B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D175F7717762421000664B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D175F7C17762421000664B2 /* XCTest.framework in Frameworks */,
+				9D175F7E17762421000664B2 /* UIKit.framework in Frameworks */,
+				9D175F7D17762421000664B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D175F4D17762421000664B2 = {
+			isa = PBXGroup;
+			children = (
+				9D175F5F17762421000664B2 /* Picking Values with UIPickerView */,
+				9D175F8117762421000664B2 /* Picking Values with UIPickerViewTests */,
+				9D175F5817762421000664B2 /* Frameworks */,
+				9D175F5717762421000664B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D175F5717762421000664B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D175F5617762421000664B2 /* Picking Values with UIPickerView.app */,
+				9D175F7A17762421000664B2 /* Picking Values with UIPickerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D175F5817762421000664B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D175F5917762421000664B2 /* Foundation.framework */,
+				9D175F5B17762421000664B2 /* CoreGraphics.framework */,
+				9D175F5D17762421000664B2 /* UIKit.framework */,
+				9D175F7B17762421000664B2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D175F5F17762421000664B2 /* Picking Values with UIPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				9D175F6817762421000664B2 /* AppDelegate.h */,
+				9D175F6917762421000664B2 /* AppDelegate.m */,
+				9D175F6B17762421000664B2 /* Main_iPhone.storyboard */,
+				9D175F6E17762421000664B2 /* Main_iPad.storyboard */,
+				9D175F7117762421000664B2 /* ViewController.h */,
+				9D175F7217762421000664B2 /* ViewController.m */,
+				9D175F7417762421000664B2 /* Images.xcassets */,
+				9D175F6017762421000664B2 /* Supporting Files */,
+			);
+			path = "Picking Values with UIPickerView";
+			sourceTree = "<group>";
+		};
+		9D175F6017762421000664B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D175F6117762421000664B2 /* Picking Values with UIPickerView-Info.plist */,
+				9D175F6217762421000664B2 /* InfoPlist.strings */,
+				9D175F6517762421000664B2 /* main.m */,
+				9D175F6717762421000664B2 /* Picking Values with UIPickerView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D175F8117762421000664B2 /* Picking Values with UIPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D175F8717762421000664B2 /* Picking_Values_with_UIPickerViewTests.m */,
+				9D175F8217762421000664B2 /* Supporting Files */,
+			);
+			path = "Picking Values with UIPickerViewTests";
+			sourceTree = "<group>";
+		};
+		9D175F8217762421000664B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D175F8317762421000664B2 /* Picking Values with UIPickerViewTests-Info.plist */,
+				9D175F8417762421000664B2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D175F5517762421000664B2 /* Picking Values with UIPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D175F8B17762421000664B2 /* Build configuration list for PBXNativeTarget "Picking Values with UIPickerView" */;
+			buildPhases = (
+				9D175F5217762421000664B2 /* Sources */,
+				9D175F5317762421000664B2 /* Frameworks */,
+				9D175F5417762421000664B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Picking Values with UIPickerView";
+			productName = "Picking Values with UIPickerView";
+			productReference = 9D175F5617762421000664B2 /* Picking Values with UIPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D175F7917762421000664B2 /* Picking Values with UIPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D175F8E17762421000664B2 /* Build configuration list for PBXNativeTarget "Picking Values with UIPickerViewTests" */;
+			buildPhases = (
+				9D175F7617762421000664B2 /* Sources */,
+				9D175F7717762421000664B2 /* Frameworks */,
+				9D175F7817762421000664B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D175F8017762421000664B2 /* PBXTargetDependency */,
+			);
+			name = "Picking Values with UIPickerViewTests";
+			productName = "Picking Values with UIPickerViewTests";
+			productReference = 9D175F7A17762421000664B2 /* Picking Values with UIPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D175F4E17762421000664B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9D175F7917762421000664B2 = {
+						TestTargetID = 9D175F5517762421000664B2;
+					};
+				};
+			};
+			buildConfigurationList = 9D175F5117762421000664B2 /* Build configuration list for PBXProject "Picking Values with UIPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D175F4D17762421000664B2;
+			productRefGroup = 9D175F5717762421000664B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D175F5517762421000664B2 /* Picking Values with UIPickerView */,
+				9D175F7917762421000664B2 /* Picking Values with UIPickerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D175F5417762421000664B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D175F7017762421000664B2 /* Main_iPad.storyboard in Resources */,
+				9D175F7517762421000664B2 /* Images.xcassets in Resources */,
+				9D175F6D17762421000664B2 /* Main_iPhone.storyboard in Resources */,
+				9D175F6417762421000664B2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D175F7817762421000664B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D175F8617762421000664B2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D175F5217762421000664B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D175F7317762421000664B2 /* ViewController.m in Sources */,
+				9D175F6A17762421000664B2 /* AppDelegate.m in Sources */,
+				9D175F6617762421000664B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D175F7617762421000664B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D175F8817762421000664B2 /* Picking_Values_with_UIPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D175F8017762421000664B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D175F5517762421000664B2 /* Picking Values with UIPickerView */;
+			targetProxy = 9D175F7F17762421000664B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D175F6217762421000664B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D175F6317762421000664B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D175F6B17762421000664B2 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D175F6C17762421000664B2 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9D175F6E17762421000664B2 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D175F6F17762421000664B2 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9D175F8417762421000664B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D175F8517762421000664B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D175F8917762421000664B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D175F8A17762421000664B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D175F8C17762421000664B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picking Values with UIPickerView/Picking Values with UIPickerView-Prefix.pch";
+				INFOPLIST_FILE = "Picking Values with UIPickerView/Picking Values with UIPickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D175F8D17762421000664B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picking Values with UIPickerView/Picking Values with UIPickerView-Prefix.pch";
+				INFOPLIST_FILE = "Picking Values with UIPickerView/Picking Values with UIPickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D175F8F17762421000664B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Picking Values with UIPickerView.app/Picking Values with UIPickerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picking Values with UIPickerView/Picking Values with UIPickerView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Picking Values with UIPickerViewTests/Picking Values with UIPickerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9D175F9017762421000664B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Picking Values with UIPickerView.app/Picking Values with UIPickerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picking Values with UIPickerView/Picking Values with UIPickerView-Prefix.pch";
+				INFOPLIST_FILE = "Picking Values with UIPickerViewTests/Picking Values with UIPickerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D175F5117762421000664B2 /* Build configuration list for PBXProject "Picking Values with UIPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D175F8917762421000664B2 /* Debug */,
+				9D175F8A17762421000664B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D175F8B17762421000664B2 /* Build configuration list for PBXNativeTarget "Picking Values with UIPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D175F8C17762421000664B2 /* Debug */,
+				9D175F8D17762421000664B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D175F8E17762421000664B2 /* Build configuration list for PBXNativeTarget "Picking Values with UIPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D175F8F17762421000664B2 /* Debug */,
+				9D175F9017762421000664B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D175F4E17762421000664B2 /* Project object */;
+}

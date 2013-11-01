@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D82AE08177F1F0A0076C4C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D82AE07177F1F0A0076C4C1 /* Foundation.framework */; };
+		9D82AE0A177F1F0A0076C4C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D82AE09177F1F0A0076C4C1 /* CoreGraphics.framework */; };
+		9D82AE0C177F1F0A0076C4C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D82AE0B177F1F0A0076C4C1 /* UIKit.framework */; };
+		9D82AE12177F1F0A0076C4C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D82AE10177F1F0A0076C4C1 /* InfoPlist.strings */; };
+		9D82AE14177F1F0A0076C4C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D82AE13177F1F0A0076C4C1 /* main.m */; };
+		9D82AE18177F1F0A0076C4C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D82AE17177F1F0A0076C4C1 /* AppDelegate.m */; };
+		9D82AE1B177F1F0A0076C4C1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D82AE19177F1F0A0076C4C1 /* Main_iPhone.storyboard */; };
+		9D82AE1E177F1F0A0076C4C1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D82AE1C177F1F0A0076C4C1 /* Main_iPad.storyboard */; };
+		9D82AE21177F1F0A0076C4C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D82AE20177F1F0A0076C4C1 /* ViewController.m */; };
+		9D82AE23177F1F0A0076C4C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D82AE22177F1F0A0076C4C1 /* Images.xcassets */; };
+		9D82AE2A177F1F0B0076C4C1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D82AE29177F1F0B0076C4C1 /* XCTest.framework */; };
+		9D82AE2B177F1F0B0076C4C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D82AE07177F1F0A0076C4C1 /* Foundation.framework */; };
+		9D82AE2C177F1F0B0076C4C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D82AE0B177F1F0A0076C4C1 /* UIKit.framework */; };
+		9D82AE34177F1F0B0076C4C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D82AE32177F1F0B0076C4C1 /* InfoPlist.strings */; };
+		9D82AE36177F1F0B0076C4C1 /* Passing_Data_From_One_Screen_to_AnotherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D82AE35177F1F0B0076C4C1 /* Passing_Data_From_One_Screen_to_AnotherTests.m */; };
+		9D82AE41177F1F2F0076C4C1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D82AE40177F1F2F0076C4C1 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D82AE2D177F1F0B0076C4C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D82ADFC177F1F0A0076C4C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D82AE03177F1F0A0076C4C1;
+			remoteInfo = "Passing Data From One Screen to Another";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D82AE04177F1F0A0076C4C1 /* Passing Data From One Screen to Another.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passing Data From One Screen to Another.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D82AE07177F1F0A0076C4C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D82AE09177F1F0A0076C4C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D82AE0B177F1F0A0076C4C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D82AE0F177F1F0A0076C4C1 /* Passing Data From One Screen to Another-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data From One Screen to Another-Info.plist"; sourceTree = "<group>"; };
+		9D82AE11177F1F0A0076C4C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D82AE13177F1F0A0076C4C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D82AE15177F1F0A0076C4C1 /* Passing Data From One Screen to Another-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Passing Data From One Screen to Another-Prefix.pch"; sourceTree = "<group>"; };
+		9D82AE16177F1F0A0076C4C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D82AE17177F1F0A0076C4C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D82AE1A177F1F0A0076C4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9D82AE1D177F1F0A0076C4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9D82AE1F177F1F0A0076C4C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D82AE20177F1F0A0076C4C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D82AE22177F1F0A0076C4C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D82AE28177F1F0B0076C4C1 /* Passing Data From One Screen to AnotherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passing Data From One Screen to AnotherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D82AE29177F1F0B0076C4C1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D82AE31177F1F0B0076C4C1 /* Passing Data From One Screen to AnotherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data From One Screen to AnotherTests-Info.plist"; sourceTree = "<group>"; };
+		9D82AE33177F1F0B0076C4C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D82AE35177F1F0B0076C4C1 /* Passing_Data_From_One_Screen_to_AnotherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_From_One_Screen_to_AnotherTests.m; sourceTree = "<group>"; };
+		9D82AE3F177F1F2F0076C4C1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9D82AE40177F1F2F0076C4C1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D82AE01177F1F0A0076C4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D82AE0A177F1F0A0076C4C1 /* CoreGraphics.framework in Frameworks */,
+				9D82AE0C177F1F0A0076C4C1 /* UIKit.framework in Frameworks */,
+				9D82AE08177F1F0A0076C4C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D82AE25177F1F0B0076C4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D82AE2A177F1F0B0076C4C1 /* XCTest.framework in Frameworks */,
+				9D82AE2C177F1F0B0076C4C1 /* UIKit.framework in Frameworks */,
+				9D82AE2B177F1F0B0076C4C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D82ADFB177F1F0A0076C4C1 = {
+			isa = PBXGroup;
+			children = (
+				9D82AE0D177F1F0A0076C4C1 /* Passing Data From One Screen to Another */,
+				9D82AE2F177F1F0B0076C4C1 /* Passing Data From One Screen to AnotherTests */,
+				9D82AE06177F1F0A0076C4C1 /* Frameworks */,
+				9D82AE05177F1F0A0076C4C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D82AE05177F1F0A0076C4C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D82AE04177F1F0A0076C4C1 /* Passing Data From One Screen to Another.app */,
+				9D82AE28177F1F0B0076C4C1 /* Passing Data From One Screen to AnotherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D82AE06177F1F0A0076C4C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D82AE07177F1F0A0076C4C1 /* Foundation.framework */,
+				9D82AE09177F1F0A0076C4C1 /* CoreGraphics.framework */,
+				9D82AE0B177F1F0A0076C4C1 /* UIKit.framework */,
+				9D82AE29177F1F0B0076C4C1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D82AE0D177F1F0A0076C4C1 /* Passing Data From One Screen to Another */ = {
+			isa = PBXGroup;
+			children = (
+				9D82AE16177F1F0A0076C4C1 /* AppDelegate.h */,
+				9D82AE17177F1F0A0076C4C1 /* AppDelegate.m */,
+				9D82AE19177F1F0A0076C4C1 /* Main_iPhone.storyboard */,
+				9D82AE1C177F1F0A0076C4C1 /* Main_iPad.storyboard */,
+				9D82AE1F177F1F0A0076C4C1 /* ViewController.h */,
+				9D82AE20177F1F0A0076C4C1 /* ViewController.m */,
+				9D82AE22177F1F0A0076C4C1 /* Images.xcassets */,
+				9D82AE0E177F1F0A0076C4C1 /* Supporting Files */,
+				9D82AE3F177F1F2F0076C4C1 /* SecondViewController.h */,
+				9D82AE40177F1F2F0076C4C1 /* SecondViewController.m */,
+			);
+			path = "Passing Data From One Screen to Another";
+			sourceTree = "<group>";
+		};
+		9D82AE0E177F1F0A0076C4C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D82AE0F177F1F0A0076C4C1 /* Passing Data From One Screen to Another-Info.plist */,
+				9D82AE10177F1F0A0076C4C1 /* InfoPlist.strings */,
+				9D82AE13177F1F0A0076C4C1 /* main.m */,
+				9D82AE15177F1F0A0076C4C1 /* Passing Data From One Screen to Another-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D82AE2F177F1F0B0076C4C1 /* Passing Data From One Screen to AnotherTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D82AE35177F1F0B0076C4C1 /* Passing_Data_From_One_Screen_to_AnotherTests.m */,
+				9D82AE30177F1F0B0076C4C1 /* Supporting Files */,
+			);
+			path = "Passing Data From One Screen to AnotherTests";
+			sourceTree = "<group>";
+		};
+		9D82AE30177F1F0B0076C4C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D82AE31177F1F0B0076C4C1 /* Passing Data From One Screen to AnotherTests-Info.plist */,
+				9D82AE32177F1F0B0076C4C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D82AE03177F1F0A0076C4C1 /* Passing Data From One Screen to Another */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D82AE39177F1F0B0076C4C1 /* Build configuration list for PBXNativeTarget "Passing Data From One Screen to Another" */;
+			buildPhases = (
+				9D82AE00177F1F0A0076C4C1 /* Sources */,
+				9D82AE01177F1F0A0076C4C1 /* Frameworks */,
+				9D82AE02177F1F0A0076C4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Passing Data From One Screen to Another";
+			productName = "Passing Data From One Screen to Another";
+			productReference = 9D82AE04177F1F0A0076C4C1 /* Passing Data From One Screen to Another.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D82AE27177F1F0B0076C4C1 /* Passing Data From One Screen to AnotherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D82AE3C177F1F0B0076C4C1 /* Build configuration list for PBXNativeTarget "Passing Data From One Screen to AnotherTests" */;
+			buildPhases = (
+				9D82AE24177F1F0B0076C4C1 /* Sources */,
+				9D82AE25177F1F0B0076C4C1 /* Frameworks */,
+				9D82AE26177F1F0B0076C4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D82AE2E177F1F0B0076C4C1 /* PBXTargetDependency */,
+			);
+			name = "Passing Data From One Screen to AnotherTests";
+			productName = "Passing Data From One Screen to AnotherTests";
+			productReference = 9D82AE28177F1F0B0076C4C1 /* Passing Data From One Screen to AnotherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D82ADFC177F1F0A0076C4C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9D82AE27177F1F0B0076C4C1 = {
+						TestTargetID = 9D82AE03177F1F0A0076C4C1;
+					};
+				};
+			};
+			buildConfigurationList = 9D82ADFF177F1F0A0076C4C1 /* Build configuration list for PBXProject "Passing Data From One Screen to Another" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D82ADFB177F1F0A0076C4C1;
+			productRefGroup = 9D82AE05177F1F0A0076C4C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D82AE03177F1F0A0076C4C1 /* Passing Data From One Screen to Another */,
+				9D82AE27177F1F0B0076C4C1 /* Passing Data From One Screen to AnotherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D82AE02177F1F0A0076C4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D82AE1E177F1F0A0076C4C1 /* Main_iPad.storyboard in Resources */,
+				9D82AE23177F1F0A0076C4C1 /* Images.xcassets in Resources */,
+				9D82AE1B177F1F0A0076C4C1 /* Main_iPhone.storyboard in Resources */,
+				9D82AE12177F1F0A0076C4C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D82AE26177F1F0B0076C4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D82AE34177F1F0B0076C4C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D82AE00177F1F0A0076C4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D82AE41177F1F2F0076C4C1 /* SecondViewController.m in Sources */,
+				9D82AE21177F1F0A0076C4C1 /* ViewController.m in Sources */,
+				9D82AE18177F1F0A0076C4C1 /* AppDelegate.m in Sources */,
+				9D82AE14177F1F0A0076C4C1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D82AE24177F1F0B0076C4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D82AE36177F1F0B0076C4C1 /* Passing_Data_From_One_Screen_to_AnotherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D82AE2E177F1F0B0076C4C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D82AE03177F1F0A0076C4C1 /* Passing Data From One Screen to Another */;
+			targetProxy = 9D82AE2D177F1F0B0076C4C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D82AE10177F1F0A0076C4C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D82AE11177F1F0A0076C4C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D82AE19177F1F0A0076C4C1 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D82AE1A177F1F0A0076C4C1 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9D82AE1C177F1F0A0076C4C1 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D82AE1D177F1F0A0076C4C1 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9D82AE32177F1F0B0076C4C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D82AE33177F1F0B0076C4C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D82AE37177F1F0B0076C4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D82AE38177F1F0B0076C4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D82AE3A177F1F0B0076C4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passing Data From One Screen to Another/Passing Data From One Screen to Another-Prefix.pch";
+				INFOPLIST_FILE = "Passing Data From One Screen to Another/Passing Data From One Screen to Another-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D82AE3B177F1F0B0076C4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passing Data From One Screen to Another/Passing Data From One Screen to Another-Prefix.pch";
+				INFOPLIST_FILE = "Passing Data From One Screen to Another/Passing Data From One Screen to Another-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D82AE3D177F1F0B0076C4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Passing Data From One Screen to Another.app/Passing Data From One Screen to Another";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passing Data From One Screen to Another/Passing Data From One Screen to Another-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Passing Data From One Screen to AnotherTests/Passing Data From One Screen to AnotherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9D82AE3E177F1F0B0076C4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Passing Data From One Screen to Another.app/Passing Data From One Screen to Another";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passing Data From One Screen to Another/Passing Data From One Screen to Another-Prefix.pch";
+				INFOPLIST_FILE = "Passing Data From One Screen to AnotherTests/Passing Data From One Screen to AnotherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D82ADFF177F1F0A0076C4C1 /* Build configuration list for PBXProject "Passing Data From One Screen to Another" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D82AE37177F1F0B0076C4C1 /* Debug */,
+				9D82AE38177F1F0B0076C4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D82AE39177F1F0B0076C4C1 /* Build configuration list for PBXNativeTarget "Passing Data From One Screen to Another" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D82AE3A177F1F0B0076C4C1 /* Debug */,
+				9D82AE3B177F1F0B0076C4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D82AE3C177F1F0B0076C4C1 /* Build configuration list for PBXNativeTarget "Passing Data From One Screen to AnotherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D82AE3D177F1F0B0076C4C1 /* Debug */,
+				9D82AE3E177F1F0B0076C4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D82ADFC177F1F0A0076C4C1 /* Project object */;
+}

@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DFB3B0117805FB600754697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFB3B0017805FB600754697 /* Foundation.framework */; };
+		9DFB3B0317805FB600754697 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFB3B0217805FB600754697 /* CoreGraphics.framework */; };
+		9DFB3B0517805FB600754697 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFB3B0417805FB600754697 /* UIKit.framework */; };
+		9DFB3B0B17805FB600754697 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB3B0917805FB600754697 /* InfoPlist.strings */; };
+		9DFB3B0D17805FB600754697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB3B0C17805FB600754697 /* main.m */; };
+		9DFB3B1117805FB600754697 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB3B1017805FB600754697 /* AppDelegate.m */; };
+		9DFB3B1317805FB600754697 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB3B1217805FB600754697 /* Images.xcassets */; };
+		9DFB3B1A17805FB600754697 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFB3B1917805FB600754697 /* XCTest.framework */; };
+		9DFB3B1B17805FB600754697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFB3B0017805FB600754697 /* Foundation.framework */; };
+		9DFB3B1C17805FB600754697 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFB3B0417805FB600754697 /* UIKit.framework */; };
+		9DFB3B2417805FB600754697 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB3B2217805FB600754697 /* InfoPlist.strings */; };
+		9DFB3B2617805FB600754697 /* Adding_Background_Fetch_Capabilities_to_Your_AppsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB3B2517805FB600754697 /* Adding_Background_Fetch_Capabilities_to_Your_AppsTests.m */; };
+		9DFB3B301780623800754697 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB3B2F1780623800754697 /* Main_iPhone.storyboard */; };
+		9DFB3B321780624C00754697 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB3B311780624C00754697 /* Main_iPad.storyboard */; };
+		9DFB3B351780626A00754697 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB3B341780626A00754697 /* TableViewController.m */; };
+		9DFB3B38178062C700754697 /* NewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB3B37178062C700754697 /* NewsItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DFB3B1D17805FB600754697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DFB3AF517805FB600754697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DFB3AFC17805FB600754697;
+			remoteInfo = "Adding Background Fetch Capabilities to Your Apps";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DFB3AFD17805FB600754697 /* Adding Background Fetch Capabilities to Your Apps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adding Background Fetch Capabilities to Your Apps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFB3B0017805FB600754697 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DFB3B0217805FB600754697 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DFB3B0417805FB600754697 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DFB3B0817805FB600754697 /* Adding Background Fetch Capabilities to Your Apps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adding Background Fetch Capabilities to Your Apps-Info.plist"; sourceTree = "<group>"; };
+		9DFB3B0A17805FB600754697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DFB3B0C17805FB600754697 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DFB3B0E17805FB600754697 /* Adding Background Fetch Capabilities to Your Apps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adding Background Fetch Capabilities to Your Apps-Prefix.pch"; sourceTree = "<group>"; };
+		9DFB3B0F17805FB600754697 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DFB3B1017805FB600754697 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DFB3B1217805FB600754697 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9DFB3B1817805FB600754697 /* Adding Background Fetch Capabilities to Your AppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adding Background Fetch Capabilities to Your AppsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFB3B1917805FB600754697 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9DFB3B2117805FB600754697 /* Adding Background Fetch Capabilities to Your AppsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adding Background Fetch Capabilities to Your AppsTests-Info.plist"; sourceTree = "<group>"; };
+		9DFB3B2317805FB600754697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DFB3B2517805FB600754697 /* Adding_Background_Fetch_Capabilities_to_Your_AppsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adding_Background_Fetch_Capabilities_to_Your_AppsTests.m; sourceTree = "<group>"; };
+		9DFB3B2F1780623800754697 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9DFB3B311780624C00754697 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		9DFB3B331780626A00754697 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		9DFB3B341780626A00754697 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		9DFB3B36178062C700754697 /* NewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsItem.h; sourceTree = "<group>"; };
+		9DFB3B37178062C700754697 /* NewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DFB3AFA17805FB600754697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFB3B0317805FB600754697 /* CoreGraphics.framework in Frameworks */,
+				9DFB3B0517805FB600754697 /* UIKit.framework in Frameworks */,
+				9DFB3B0117805FB600754697 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFB3B1517805FB600754697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFB3B1A17805FB600754697 /* XCTest.framework in Frameworks */,
+				9DFB3B1C17805FB600754697 /* UIKit.framework in Frameworks */,
+				9DFB3B1B17805FB600754697 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DFB3AF417805FB600754697 = {
+			isa = PBXGroup;
+			children = (
+				9DFB3B0617805FB600754697 /* Adding Background Fetch Capabilities to Your Apps */,
+				9DFB3B1F17805FB600754697 /* Adding Background Fetch Capabilities to Your AppsTests */,
+				9DFB3AFF17805FB600754697 /* Frameworks */,
+				9DFB3AFE17805FB600754697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DFB3AFE17805FB600754697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB3AFD17805FB600754697 /* Adding Background Fetch Capabilities to Your Apps.app */,
+				9DFB3B1817805FB600754697 /* Adding Background Fetch Capabilities to Your AppsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DFB3AFF17805FB600754697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB3B0017805FB600754697 /* Foundation.framework */,
+				9DFB3B0217805FB600754697 /* CoreGraphics.framework */,
+				9DFB3B0417805FB600754697 /* UIKit.framework */,
+				9DFB3B1917805FB600754697 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DFB3B0617805FB600754697 /* Adding Background Fetch Capabilities to Your Apps */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB3B0F17805FB600754697 /* AppDelegate.h */,
+				9DFB3B1017805FB600754697 /* AppDelegate.m */,
+				9DFB3B1217805FB600754697 /* Images.xcassets */,
+				9DFB3B0717805FB600754697 /* Supporting Files */,
+				9DFB3B2F1780623800754697 /* Main_iPhone.storyboard */,
+				9DFB3B311780624C00754697 /* Main_iPad.storyboard */,
+				9DFB3B331780626A00754697 /* TableViewController.h */,
+				9DFB3B341780626A00754697 /* TableViewController.m */,
+				9DFB3B36178062C700754697 /* NewsItem.h */,
+				9DFB3B37178062C700754697 /* NewsItem.m */,
+			);
+			path = "Adding Background Fetch Capabilities to Your Apps";
+			sourceTree = "<group>";
+		};
+		9DFB3B0717805FB600754697 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB3B0817805FB600754697 /* Adding Background Fetch Capabilities to Your Apps-Info.plist */,
+				9DFB3B0917805FB600754697 /* InfoPlist.strings */,
+				9DFB3B0C17805FB600754697 /* main.m */,
+				9DFB3B0E17805FB600754697 /* Adding Background Fetch Capabilities to Your Apps-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DFB3B1F17805FB600754697 /* Adding Background Fetch Capabilities to Your AppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB3B2517805FB600754697 /* Adding_Background_Fetch_Capabilities_to_Your_AppsTests.m */,
+				9DFB3B2017805FB600754697 /* Supporting Files */,
+			);
+			path = "Adding Background Fetch Capabilities to Your AppsTests";
+			sourceTree = "<group>";
+		};
+		9DFB3B2017805FB600754697 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB3B2117805FB600754697 /* Adding Background Fetch Capabilities to Your AppsTests-Info.plist */,
+				9DFB3B2217805FB600754697 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DFB3AFC17805FB600754697 /* Adding Background Fetch Capabilities to Your Apps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFB3B2917805FB600754697 /* Build configuration list for PBXNativeTarget "Adding Background Fetch Capabilities to Your Apps" */;
+			buildPhases = (
+				9DFB3AF917805FB600754697 /* Sources */,
+				9DFB3AFA17805FB600754697 /* Frameworks */,
+				9DFB3AFB17805FB600754697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adding Background Fetch Capabilities to Your Apps";
+			productName = "Adding Background Fetch Capabilities to Your Apps";
+			productReference = 9DFB3AFD17805FB600754697 /* Adding Background Fetch Capabilities to Your Apps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DFB3B1717805FB600754697 /* Adding Background Fetch Capabilities to Your AppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFB3B2C17805FB600754697 /* Build configuration list for PBXNativeTarget "Adding Background Fetch Capabilities to Your AppsTests" */;
+			buildPhases = (
+				9DFB3B1417805FB600754697 /* Sources */,
+				9DFB3B1517805FB600754697 /* Frameworks */,
+				9DFB3B1617805FB600754697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DFB3B1E17805FB600754697 /* PBXTargetDependency */,
+			);
+			name = "Adding Background Fetch Capabilities to Your AppsTests";
+			productName = "Adding Background Fetch Capabilities to Your AppsTests";
+			productReference = 9DFB3B1817805FB600754697 /* Adding Background Fetch Capabilities to Your AppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DFB3AF517805FB600754697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9DFB3AFC17805FB600754697 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					9DFB3B1717805FB600754697 = {
+						TestTargetID = 9DFB3AFC17805FB600754697;
+					};
+				};
+			};
+			buildConfigurationList = 9DFB3AF817805FB600754697 /* Build configuration list for PBXProject "Adding Background Fetch Capabilities to Your Apps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DFB3AF417805FB600754697;
+			productRefGroup = 9DFB3AFE17805FB600754697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DFB3AFC17805FB600754697 /* Adding Background Fetch Capabilities to Your Apps */,
+				9DFB3B1717805FB600754697 /* Adding Background Fetch Capabilities to Your AppsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DFB3AFB17805FB600754697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFB3B0B17805FB600754697 /* InfoPlist.strings in Resources */,
+				9DFB3B321780624C00754697 /* Main_iPad.storyboard in Resources */,
+				9DFB3B1317805FB600754697 /* Images.xcassets in Resources */,
+				9DFB3B301780623800754697 /* Main_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFB3B1617805FB600754697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFB3B2417805FB600754697 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DFB3AF917805FB600754697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFB3B1117805FB600754697 /* AppDelegate.m in Sources */,
+				9DFB3B38178062C700754697 /* NewsItem.m in Sources */,
+				9DFB3B351780626A00754697 /* TableViewController.m in Sources */,
+				9DFB3B0D17805FB600754697 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFB3B1417805FB600754697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFB3B2617805FB600754697 /* Adding_Background_Fetch_Capabilities_to_Your_AppsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DFB3B1E17805FB600754697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DFB3AFC17805FB600754697 /* Adding Background Fetch Capabilities to Your Apps */;
+			targetProxy = 9DFB3B1D17805FB600754697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DFB3B0917805FB600754697 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFB3B0A17805FB600754697 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DFB3B2217805FB600754697 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFB3B2317805FB600754697 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DFB3B2717805FB600754697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DFB3B2817805FB600754697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DFB3B2A17805FB600754697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Background Fetch Capabilities to Your Apps/Adding Background Fetch Capabilities to Your Apps-Prefix.pch";
+				INFOPLIST_FILE = "Adding Background Fetch Capabilities to Your Apps/Adding Background Fetch Capabilities to Your Apps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DFB3B2B17805FB600754697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Background Fetch Capabilities to Your Apps/Adding Background Fetch Capabilities to Your Apps-Prefix.pch";
+				INFOPLIST_FILE = "Adding Background Fetch Capabilities to Your Apps/Adding Background Fetch Capabilities to Your Apps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9DFB3B2D17805FB600754697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Adding Background Fetch Capabilities to Your Apps.app/Adding Background Fetch Capabilities to Your Apps";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Background Fetch Capabilities to Your Apps/Adding Background Fetch Capabilities to Your Apps-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Adding Background Fetch Capabilities to Your AppsTests/Adding Background Fetch Capabilities to Your AppsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9DFB3B2E17805FB600754697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Adding Background Fetch Capabilities to Your Apps.app/Adding Background Fetch Capabilities to Your Apps";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Background Fetch Capabilities to Your Apps/Adding Background Fetch Capabilities to Your Apps-Prefix.pch";
+				INFOPLIST_FILE = "Adding Background Fetch Capabilities to Your AppsTests/Adding Background Fetch Capabilities to Your AppsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DFB3AF817805FB600754697 /* Build configuration list for PBXProject "Adding Background Fetch Capabilities to Your Apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFB3B2717805FB600754697 /* Debug */,
+				9DFB3B2817805FB600754697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFB3B2917805FB600754697 /* Build configuration list for PBXNativeTarget "Adding Background Fetch Capabilities to Your Apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFB3B2A17805FB600754697 /* Debug */,
+				9DFB3B2B17805FB600754697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DFB3B2C17805FB600754697 /* Build configuration list for PBXNativeTarget "Adding Background Fetch Capabilities to Your AppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFB3B2D17805FB600754697 /* Debug */,
+				9DFB3B2E17805FB600754697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DFB3AF517805FB600754697 /* Project object */;
+}

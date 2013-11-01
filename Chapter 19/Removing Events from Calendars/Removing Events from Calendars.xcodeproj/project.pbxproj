@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DC4A4B6177CD5730061E815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC4A4B5177CD5730061E815 /* Foundation.framework */; };
+		9DC4A4B8177CD5730061E815 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC4A4B7177CD5730061E815 /* CoreGraphics.framework */; };
+		9DC4A4BA177CD5730061E815 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC4A4B9177CD5730061E815 /* UIKit.framework */; };
+		9DC4A4C0177CD5730061E815 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DC4A4BE177CD5730061E815 /* InfoPlist.strings */; };
+		9DC4A4C2177CD5730061E815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC4A4C1177CD5730061E815 /* main.m */; };
+		9DC4A4C6177CD5730061E815 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC4A4C5177CD5730061E815 /* AppDelegate.m */; };
+		9DC4A4C8177CD5730061E815 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC4A4C7177CD5730061E815 /* Images.xcassets */; };
+		9DC4A4CF177CD5730061E815 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC4A4CE177CD5730061E815 /* XCTest.framework */; };
+		9DC4A4D0177CD5730061E815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC4A4B5177CD5730061E815 /* Foundation.framework */; };
+		9DC4A4D1177CD5730061E815 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC4A4B9177CD5730061E815 /* UIKit.framework */; };
+		9DC4A4D9177CD5730061E815 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DC4A4D7177CD5730061E815 /* InfoPlist.strings */; };
+		9DC4A4DB177CD5730061E815 /* Removing_Events_from_CalendarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC4A4DA177CD5730061E815 /* Removing_Events_from_CalendarsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DC4A4D2177CD5730061E815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DC4A4AA177CD5730061E815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC4A4B1177CD5730061E815;
+			remoteInfo = "Removing Events from Calendars";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DC4A4B2177CD5730061E815 /* Removing Events from Calendars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Removing Events from Calendars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC4A4B5177CD5730061E815 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DC4A4B7177CD5730061E815 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DC4A4B9177CD5730061E815 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DC4A4BD177CD5730061E815 /* Removing Events from Calendars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Removing Events from Calendars-Info.plist"; sourceTree = "<group>"; };
+		9DC4A4BF177CD5730061E815 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DC4A4C1177CD5730061E815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DC4A4C3177CD5730061E815 /* Removing Events from Calendars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Removing Events from Calendars-Prefix.pch"; sourceTree = "<group>"; };
+		9DC4A4C4177CD5730061E815 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DC4A4C5177CD5730061E815 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DC4A4C7177CD5730061E815 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9DC4A4CD177CD5730061E815 /* Removing Events from CalendarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Removing Events from CalendarsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC4A4CE177CD5730061E815 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9DC4A4D6177CD5730061E815 /* Removing Events from CalendarsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Removing Events from CalendarsTests-Info.plist"; sourceTree = "<group>"; };
+		9DC4A4D8177CD5730061E815 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DC4A4DA177CD5730061E815 /* Removing_Events_from_CalendarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Removing_Events_from_CalendarsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC4A4AF177CD5730061E815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC4A4B8177CD5730061E815 /* CoreGraphics.framework in Frameworks */,
+				9DC4A4BA177CD5730061E815 /* UIKit.framework in Frameworks */,
+				9DC4A4B6177CD5730061E815 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC4A4CA177CD5730061E815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC4A4CF177CD5730061E815 /* XCTest.framework in Frameworks */,
+				9DC4A4D1177CD5730061E815 /* UIKit.framework in Frameworks */,
+				9DC4A4D0177CD5730061E815 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DC4A4A9177CD5730061E815 = {
+			isa = PBXGroup;
+			children = (
+				9DC4A4BB177CD5730061E815 /* Removing Events from Calendars */,
+				9DC4A4D4177CD5730061E815 /* Removing Events from CalendarsTests */,
+				9DC4A4B4177CD5730061E815 /* Frameworks */,
+				9DC4A4B3177CD5730061E815 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DC4A4B3177CD5730061E815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC4A4B2177CD5730061E815 /* Removing Events from Calendars.app */,
+				9DC4A4CD177CD5730061E815 /* Removing Events from CalendarsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC4A4B4177CD5730061E815 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DC4A4B5177CD5730061E815 /* Foundation.framework */,
+				9DC4A4B7177CD5730061E815 /* CoreGraphics.framework */,
+				9DC4A4B9177CD5730061E815 /* UIKit.framework */,
+				9DC4A4CE177CD5730061E815 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DC4A4BB177CD5730061E815 /* Removing Events from Calendars */ = {
+			isa = PBXGroup;
+			children = (
+				9DC4A4C4177CD5730061E815 /* AppDelegate.h */,
+				9DC4A4C5177CD5730061E815 /* AppDelegate.m */,
+				9DC4A4C7177CD5730061E815 /* Images.xcassets */,
+				9DC4A4BC177CD5730061E815 /* Supporting Files */,
+			);
+			path = "Removing Events from Calendars";
+			sourceTree = "<group>";
+		};
+		9DC4A4BC177CD5730061E815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DC4A4BD177CD5730061E815 /* Removing Events from Calendars-Info.plist */,
+				9DC4A4BE177CD5730061E815 /* InfoPlist.strings */,
+				9DC4A4C1177CD5730061E815 /* main.m */,
+				9DC4A4C3177CD5730061E815 /* Removing Events from Calendars-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DC4A4D4177CD5730061E815 /* Removing Events from CalendarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DC4A4DA177CD5730061E815 /* Removing_Events_from_CalendarsTests.m */,
+				9DC4A4D5177CD5730061E815 /* Supporting Files */,
+			);
+			path = "Removing Events from CalendarsTests";
+			sourceTree = "<group>";
+		};
+		9DC4A4D5177CD5730061E815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DC4A4D6177CD5730061E815 /* Removing Events from CalendarsTests-Info.plist */,
+				9DC4A4D7177CD5730061E815 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DC4A4B1177CD5730061E815 /* Removing Events from Calendars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC4A4DE177CD5730061E815 /* Build configuration list for PBXNativeTarget "Removing Events from Calendars" */;
+			buildPhases = (
+				9DC4A4AE177CD5730061E815 /* Sources */,
+				9DC4A4AF177CD5730061E815 /* Frameworks */,
+				9DC4A4B0177CD5730061E815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Removing Events from Calendars";
+			productName = "Removing Events from Calendars";
+			productReference = 9DC4A4B2177CD5730061E815 /* Removing Events from Calendars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DC4A4CC177CD5730061E815 /* Removing Events from CalendarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC4A4E1177CD5730061E815 /* Build configuration list for PBXNativeTarget "Removing Events from CalendarsTests" */;
+			buildPhases = (
+				9DC4A4C9177CD5730061E815 /* Sources */,
+				9DC4A4CA177CD5730061E815 /* Frameworks */,
+				9DC4A4CB177CD5730061E815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DC4A4D3177CD5730061E815 /* PBXTargetDependency */,
+			);
+			name = "Removing Events from CalendarsTests";
+			productName = "Removing Events from CalendarsTests";
+			productReference = 9DC4A4CD177CD5730061E815 /* Removing Events from CalendarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DC4A4AA177CD5730061E815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9DC4A4CC177CD5730061E815 = {
+						TestTargetID = 9DC4A4B1177CD5730061E815;
+					};
+				};
+			};
+			buildConfigurationList = 9DC4A4AD177CD5730061E815 /* Build configuration list for PBXProject "Removing Events from Calendars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DC4A4A9177CD5730061E815;
+			productRefGroup = 9DC4A4B3177CD5730061E815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DC4A4B1177CD5730061E815 /* Removing Events from Calendars */,
+				9DC4A4CC177CD5730061E815 /* Removing Events from CalendarsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DC4A4B0177CD5730061E815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC4A4C0177CD5730061E815 /* InfoPlist.strings in Resources */,
+				9DC4A4C8177CD5730061E815 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC4A4CB177CD5730061E815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC4A4D9177CD5730061E815 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DC4A4AE177CD5730061E815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC4A4C6177CD5730061E815 /* AppDelegate.m in Sources */,
+				9DC4A4C2177CD5730061E815 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC4A4C9177CD5730061E815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC4A4DB177CD5730061E815 /* Removing_Events_from_CalendarsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DC4A4D3177CD5730061E815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DC4A4B1177CD5730061E815 /* Removing Events from Calendars */;
+			targetProxy = 9DC4A4D2177CD5730061E815 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DC4A4BE177CD5730061E815 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC4A4BF177CD5730061E815 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DC4A4D7177CD5730061E815 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC4A4D8177CD5730061E815 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DC4A4DC177CD5730061E815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DC4A4DD177CD5730061E815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DC4A4DF177CD5730061E815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Removing Events from Calendars/Removing Events from Calendars-Prefix.pch";
+				INFOPLIST_FILE = "Removing Events from Calendars/Removing Events from Calendars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DC4A4E0177CD5730061E815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Removing Events from Calendars/Removing Events from Calendars-Prefix.pch";
+				INFOPLIST_FILE = "Removing Events from Calendars/Removing Events from Calendars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9DC4A4E2177CD5730061E815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Removing Events from Calendars.app/Removing Events from Calendars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Removing Events from Calendars/Removing Events from Calendars-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Removing Events from CalendarsTests/Removing Events from CalendarsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9DC4A4E3177CD5730061E815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Removing Events from Calendars.app/Removing Events from Calendars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Removing Events from Calendars/Removing Events from Calendars-Prefix.pch";
+				INFOPLIST_FILE = "Removing Events from CalendarsTests/Removing Events from CalendarsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DC4A4AD177CD5730061E815 /* Build configuration list for PBXProject "Removing Events from Calendars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC4A4DC177CD5730061E815 /* Debug */,
+				9DC4A4DD177CD5730061E815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC4A4DE177CD5730061E815 /* Build configuration list for PBXNativeTarget "Removing Events from Calendars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC4A4DF177CD5730061E815 /* Debug */,
+				9DC4A4E0177CD5730061E815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DC4A4E1177CD5730061E815 /* Build configuration list for PBXNativeTarget "Removing Events from CalendarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC4A4E2177CD5730061E815 /* Debug */,
+				9DC4A4E3177CD5730061E815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DC4A4AA177CD5730061E815 /* Project object */;
+}

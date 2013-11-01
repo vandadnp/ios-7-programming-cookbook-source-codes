@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D66F6451787F98300CF295C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D66F6441787F98300CF295C /* Foundation.framework */; };
+		9D66F6471787F98300CF295C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D66F6461787F98300CF295C /* CoreGraphics.framework */; };
+		9D66F6491787F98300CF295C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D66F6481787F98300CF295C /* UIKit.framework */; };
+		9D66F64F1787F98300CF295C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D66F64D1787F98300CF295C /* InfoPlist.strings */; };
+		9D66F6511787F98300CF295C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D66F6501787F98300CF295C /* main.m */; };
+		9D66F6551787F98300CF295C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D66F6541787F98300CF295C /* AppDelegate.m */; };
+		9D66F6581787F98300CF295C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D66F6561787F98300CF295C /* Main_iPhone.storyboard */; };
+		9D66F65B1787F98300CF295C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D66F6591787F98300CF295C /* Main_iPad.storyboard */; };
+		9D66F65E1787F98300CF295C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D66F65D1787F98300CF295C /* ViewController.m */; };
+		9D66F6601787F98400CF295C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D66F65F1787F98400CF295C /* Images.xcassets */; };
+		9D66F6671787F98400CF295C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D66F6661787F98400CF295C /* XCTest.framework */; };
+		9D66F6681787F98400CF295C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D66F6441787F98300CF295C /* Foundation.framework */; };
+		9D66F6691787F98400CF295C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D66F6481787F98300CF295C /* UIKit.framework */; };
+		9D66F6711787F98400CF295C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D66F66F1787F98400CF295C /* InfoPlist.strings */; };
+		9D66F6731787F98400CF295C /* Animating_Your_UI_Components_With_a_PushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D66F6721787F98400CF295C /* Animating_Your_UI_Components_With_a_PushTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D66F66A1787F98400CF295C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D66F6391787F98300CF295C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D66F6401787F98300CF295C;
+			remoteInfo = "Animating Your UI Components With a Push";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D66F6411787F98300CF295C /* Animating Your UI Components With a Push.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animating Your UI Components With a Push.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D66F6441787F98300CF295C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D66F6461787F98300CF295C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D66F6481787F98300CF295C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D66F64C1787F98300CF295C /* Animating Your UI Components With a Push-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animating Your UI Components With a Push-Info.plist"; sourceTree = "<group>"; };
+		9D66F64E1787F98300CF295C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D66F6501787F98300CF295C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D66F6521787F98300CF295C /* Animating Your UI Components With a Push-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animating Your UI Components With a Push-Prefix.pch"; sourceTree = "<group>"; };
+		9D66F6531787F98300CF295C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D66F6541787F98300CF295C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D66F6571787F98300CF295C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9D66F65A1787F98300CF295C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9D66F65C1787F98300CF295C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D66F65D1787F98300CF295C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		9D66F65F1787F98400CF295C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D66F6651787F98400CF295C /* Animating Your UI Components With a PushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animating Your UI Components With a PushTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D66F6661787F98400CF295C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D66F66E1787F98400CF295C /* Animating Your UI Components With a PushTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animating Your UI Components With a PushTests-Info.plist"; sourceTree = "<group>"; };
+		9D66F6701787F98400CF295C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D66F6721787F98400CF295C /* Animating_Your_UI_Components_With_a_PushTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animating_Your_UI_Components_With_a_PushTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D66F63E1787F98300CF295C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D66F6471787F98300CF295C /* CoreGraphics.framework in Frameworks */,
+				9D66F6491787F98300CF295C /* UIKit.framework in Frameworks */,
+				9D66F6451787F98300CF295C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D66F6621787F98400CF295C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D66F6671787F98400CF295C /* XCTest.framework in Frameworks */,
+				9D66F6691787F98400CF295C /* UIKit.framework in Frameworks */,
+				9D66F6681787F98400CF295C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D66F6381787F98300CF295C = {
+			isa = PBXGroup;
+			children = (
+				9D66F64A1787F98300CF295C /* Animating Your UI Components With a Push */,
+				9D66F66C1787F98400CF295C /* Animating Your UI Components With a PushTests */,
+				9D66F6431787F98300CF295C /* Frameworks */,
+				9D66F6421787F98300CF295C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D66F6421787F98300CF295C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D66F6411787F98300CF295C /* Animating Your UI Components With a Push.app */,
+				9D66F6651787F98400CF295C /* Animating Your UI Components With a PushTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D66F6431787F98300CF295C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D66F6441787F98300CF295C /* Foundation.framework */,
+				9D66F6461787F98300CF295C /* CoreGraphics.framework */,
+				9D66F6481787F98300CF295C /* UIKit.framework */,
+				9D66F6661787F98400CF295C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D66F64A1787F98300CF295C /* Animating Your UI Components With a Push */ = {
+			isa = PBXGroup;
+			children = (
+				9D66F6531787F98300CF295C /* AppDelegate.h */,
+				9D66F6541787F98300CF295C /* AppDelegate.m */,
+				9D66F6561787F98300CF295C /* Main_iPhone.storyboard */,
+				9D66F6591787F98300CF295C /* Main_iPad.storyboard */,
+				9D66F65C1787F98300CF295C /* ViewController.h */,
+				9D66F65D1787F98300CF295C /* ViewController.m */,
+				9D66F65F1787F98400CF295C /* Images.xcassets */,
+				9D66F64B1787F98300CF295C /* Supporting Files */,
+			);
+			path = "Animating Your UI Components With a Push";
+			sourceTree = "<group>";
+		};
+		9D66F64B1787F98300CF295C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D66F64C1787F98300CF295C /* Animating Your UI Components With a Push-Info.plist */,
+				9D66F64D1787F98300CF295C /* InfoPlist.strings */,
+				9D66F6501787F98300CF295C /* main.m */,
+				9D66F6521787F98300CF295C /* Animating Your UI Components With a Push-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D66F66C1787F98400CF295C /* Animating Your UI Components With a PushTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D66F6721787F98400CF295C /* Animating_Your_UI_Components_With_a_PushTests.m */,
+				9D66F66D1787F98400CF295C /* Supporting Files */,
+			);
+			path = "Animating Your UI Components With a PushTests";
+			sourceTree = "<group>";
+		};
+		9D66F66D1787F98400CF295C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D66F66E1787F98400CF295C /* Animating Your UI Components With a PushTests-Info.plist */,
+				9D66F66F1787F98400CF295C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D66F6401787F98300CF295C /* Animating Your UI Components With a Push */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D66F6761787F98400CF295C /* Build configuration list for PBXNativeTarget "Animating Your UI Components With a Push" */;
+			buildPhases = (
+				9D66F63D1787F98300CF295C /* Sources */,
+				9D66F63E1787F98300CF295C /* Frameworks */,
+				9D66F63F1787F98300CF295C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animating Your UI Components With a Push";
+			productName = "Animating Your UI Components With a Push";
+			productReference = 9D66F6411787F98300CF295C /* Animating Your UI Components With a Push.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D66F6641787F98400CF295C /* Animating Your UI Components With a PushTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D66F6791787F98400CF295C /* Build configuration list for PBXNativeTarget "Animating Your UI Components With a PushTests" */;
+			buildPhases = (
+				9D66F6611787F98400CF295C /* Sources */,
+				9D66F6621787F98400CF295C /* Frameworks */,
+				9D66F6631787F98400CF295C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D66F66B1787F98400CF295C /* PBXTargetDependency */,
+			);
+			name = "Animating Your UI Components With a PushTests";
+			productName = "Animating Your UI Components With a PushTests";
+			productReference = 9D66F6651787F98400CF295C /* Animating Your UI Components With a PushTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D66F6391787F98300CF295C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+				TargetAttributes = {
+					9D66F6641787F98400CF295C = {
+						TestTargetID = 9D66F6401787F98300CF295C;
+					};
+				};
+			};
+			buildConfigurationList = 9D66F63C1787F98300CF295C /* Build configuration list for PBXProject "Animating Your UI Components With a Push" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D66F6381787F98300CF295C;
+			productRefGroup = 9D66F6421787F98300CF295C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D66F6401787F98300CF295C /* Animating Your UI Components With a Push */,
+				9D66F6641787F98400CF295C /* Animating Your UI Components With a PushTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D66F63F1787F98300CF295C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D66F65B1787F98300CF295C /* Main_iPad.storyboard in Resources */,
+				9D66F6601787F98400CF295C /* Images.xcassets in Resources */,
+				9D66F6581787F98300CF295C /* Main_iPhone.storyboard in Resources */,
+				9D66F64F1787F98300CF295C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D66F6631787F98400CF295C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D66F6711787F98400CF295C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D66F63D1787F98300CF295C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D66F65E1787F98300CF295C /* ViewController.m in Sources */,
+				9D66F6551787F98300CF295C /* AppDelegate.m in Sources */,
+				9D66F6511787F98300CF295C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D66F6611787F98400CF295C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D66F6731787F98400CF295C /* Animating_Your_UI_Components_With_a_PushTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D66F66B1787F98400CF295C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D66F6401787F98300CF295C /* Animating Your UI Components With a Push */;
+			targetProxy = 9D66F66A1787F98400CF295C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D66F64D1787F98300CF295C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D66F64E1787F98300CF295C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D66F6561787F98300CF295C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D66F6571787F98300CF295C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9D66F6591787F98300CF295C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D66F65A1787F98300CF295C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9D66F66F1787F98400CF295C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D66F6701787F98400CF295C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D66F6741787F98400CF295C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D66F6751787F98400CF295C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D66F6771787F98400CF295C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animating Your UI Components With a Push/Animating Your UI Components With a Push-Prefix.pch";
+				INFOPLIST_FILE = "Animating Your UI Components With a Push/Animating Your UI Components With a Push-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D66F6781787F98400CF295C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animating Your UI Components With a Push/Animating Your UI Components With a Push-Prefix.pch";
+				INFOPLIST_FILE = "Animating Your UI Components With a Push/Animating Your UI Components With a Push-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D66F67A1787F98400CF295C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animating Your UI Components With a Push.app/Animating Your UI Components With a Push";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animating Your UI Components With a Push/Animating Your UI Components With a Push-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Animating Your UI Components With a PushTests/Animating Your UI Components With a PushTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9D66F67B1787F98400CF295C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animating Your UI Components With a Push.app/Animating Your UI Components With a Push";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animating Your UI Components With a Push/Animating Your UI Components With a Push-Prefix.pch";
+				INFOPLIST_FILE = "Animating Your UI Components With a PushTests/Animating Your UI Components With a PushTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D66F63C1787F98300CF295C /* Build configuration list for PBXProject "Animating Your UI Components With a Push" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D66F6741787F98400CF295C /* Debug */,
+				9D66F6751787F98400CF295C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D66F6761787F98400CF295C /* Build configuration list for PBXNativeTarget "Animating Your UI Components With a Push" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D66F6771787F98400CF295C /* Debug */,
+				9D66F6781787F98400CF295C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D66F6791787F98400CF295C /* Build configuration list for PBXNativeTarget "Animating Your UI Components With a PushTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D66F67A1787F98400CF295C /* Debug */,
+				9D66F67B1787F98400CF295C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D66F6391787F98300CF295C /* Project object */;
+}
