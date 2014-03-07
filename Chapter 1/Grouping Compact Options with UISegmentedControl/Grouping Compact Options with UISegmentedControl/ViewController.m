@@ -109,10 +109,18 @@
 /* 5 */
 - (void)viewDidLoad{
     [super viewDidLoad];
-	self.view.backgroundColor = [UIColor whiteColor];
+
+    /*
+     The new UISegmented control in iOS 7 uses the tint color to tint the images using the template mode. 
+     You will need to render these images as original and not templates.
+     */
+    UIImage *iPadImage = [UIImage imageNamed:@"iPad"];
+    iPadImage = [iPadImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
     NSArray *segments = [[NSArray alloc] initWithObjects:
                          @"iPhone",
-                         [UIImage imageNamed:@"iPad.png"],
+                         iPadImage,
                          @"iPod",
                          @"iMac", nil];
 
